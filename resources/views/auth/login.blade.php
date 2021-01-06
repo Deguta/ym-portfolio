@@ -5,7 +5,9 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('ログイン画面') }}</div>
+
+                <div class="card-header">{{ __('ログインはこちら') }}</div>
+
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('login') }}">
@@ -45,7 +47,7 @@
                                     <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
 
                                     <label class="form-check-label" for="remember">
-                                        {{ __('ログイン状態を維持する') }}
+                                        {{ __('ログイン状態を維持') }}
                                     </label>
                                 </div>
                             </div>
