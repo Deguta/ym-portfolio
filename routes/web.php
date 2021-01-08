@@ -20,6 +20,21 @@ Route::get('/', function () {
    // Route::get('index','ContactFormController@index');
   //});
 
+
+  // お問い合わせ入力ページ
+Route::get('/', 'ContactController@index')->name('contact');
+
+// 確認ページ
+Route::post('/confirm', 'ContactController@confirm')->name('confirm');
+
+// DB挿入、メール送信
+Route::post('/process', 'ContactController@process')->name('process');
+
+// 完了ページ
+Route::get('/complete', 'ContactController@complete')->name('complete');
+
+
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
