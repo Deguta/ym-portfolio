@@ -15,26 +15,18 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+/*
 //ログイン認証後 投稿ができるようになっています
-//Route::group(['prefix' => 'contact','middleware' => 'auth'], function(){
-   // Route::get('index','ContactFormController@index');
-  //});
-
-
-  // お問い合わせ入力ページ
-Route::get('/', 'ContactController@index')->name('contact');
-
-// 確認ページ
-Route::post('/confirm', 'ContactController@confirm')->name('confirm');
-
-// DB挿入、メール送信
-Route::post('/process', 'ContactController@process')->name('process');
-
-// 完了ページ
-Route::get('/complete', 'ContactController@complete')->name('complete');
-
-
+Route::group(['prefix' => 'contact','middleware' => 'auth'], function(){
+    Route::get('index','ContactFormController@index');
+  });
+*/
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+//送信メールのルーティング
+Route::get('/contact/index', 'ContactController@index')->name('contact.index');
+Route::post('/contact/confirm', 'ContactController@confirm')->name('contact.confirm');
+Route::post('/contact/complete', 'ContactController@send')->name('contact.send');
