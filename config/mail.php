@@ -57,7 +57,7 @@ return [
 
     'from' => [
         'address' => env('MAIL_FROM_ADDRESS', 'tech.ym1110@gmail.com'),
-        'name' => env('MAIL_FROM_NAME', 'Test Name'),
+        'name' => env('MAIL_FROM_NAME', 'test mail'),
     ],
 
     /*
@@ -86,7 +86,7 @@ return [
 
     'username' => env('MAIL_USERNAME','tech.ym1110@gmail.com'),
 
-    'password' => env('MAIL_PASSWORD','pipaiknpiyvcgbfy'),
+    'password' => env('MAIL_PASSWORD','gwfpmfrtldrbeqkf'),
 
     /*
     |--------------------------------------------------------------------------

@@ -20,25 +20,7 @@
                 margin: 0;
             }
 
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
+            
 
             .content {
                 text-align: center;
@@ -64,9 +46,9 @@
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
+        <div class="header">
             @if (Route::has('login'))
-                <div class="top-right links">
+                <div class="login">
                     @auth
                         <a href="{{ url('/home') }}">Home</a>
                     @else
@@ -81,18 +63,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                YM-portfolio
-                </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="{{ url('/contact/index') }}">YM-portfolio</a>
                 </div>
             </div>
         </div>
