@@ -3,10 +3,11 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Mail\ContactSendmail;
 
 class ContactController extends Controller
 {
-     public function index()
+    public function index()
     {
         //フォーム入力画ページのviewを表示
         return view('contact.index');
@@ -18,7 +19,7 @@ class ContactController extends Controller
         $request->validate([
             'email' => 'required|email',
             'title' => 'required',
-            'body'  => 'required|max:1000',
+            'body'  => 'required',
         ]);
         
         //フォームから受け取ったすべてのinputの値を取得
@@ -36,7 +37,7 @@ class ContactController extends Controller
         $request->validate([
             'email' => 'required|email',
             'title' => 'required',
-            'body'  => 'required|max:1000'
+            'body'  => 'required'
         ]);
 
         //フォームから受け取ったactionの値を取得

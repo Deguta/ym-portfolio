@@ -1,5 +1,4 @@
 <?php
-
 namespace App\Mail;
 
 use Illuminate\Bus\Queueable;
@@ -35,7 +34,7 @@ class ContactSendmail extends Mailable
     public function build()
     {
         return $this
-            ->from('tech.ym1110@gmail.com')
+            ->from('example@gmail.com')
             ->subject('自動送信メール')
             ->view('contact.mail')
             ->with([
