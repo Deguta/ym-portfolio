@@ -9,7 +9,7 @@
         name="email"
         value="{{ old('email') }}"
         type="text">
-    @if ($errors->has('email'))
+    @if ($errors->has('email')) //hasは入力値の存在チェック
         <p class="error-message">{{ $errors->first('email') }}</p>
     @endif
 
@@ -18,7 +18,7 @@
         name="title"
         value="{{ old('title') }}"
         type="text">
-    @if ($errors->has('title'))
+    @if ($errors->has('title')) //入力値の存在チェック
         <p class="error-message">{{ $errors->first('title') }}</p>
     @endif
 
