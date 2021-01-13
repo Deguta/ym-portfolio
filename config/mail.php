@@ -57,7 +57,7 @@ return [
 
     'from' => [
         'address' => env('MAIL_FROM_ADDRESS', 'tech.ym1110@gmail.com'),
-        'name' => env('MAIL_FROM_NAME', 'test mail'),
+        'name' => env('MAIL_FROM_NAME', null),
     ],
 
     /*
@@ -86,7 +86,7 @@ return [
 
     'username' => env('MAIL_USERNAME','tech.ym1110@gmail.com'),
 
-    'password' => env('MAIL_PASSWORD','gwfpmfrtldrbeqkf'),
+    'password' => env('MAIL_PASSWORD','zckgitizfsnzyxnx'),
 
     /*
     |--------------------------------------------------------------------------
@@ -134,3 +134,4 @@ return [
     'log_channel' => env('MAIL_LOG_CHANNEL'),
 
 ];
+
