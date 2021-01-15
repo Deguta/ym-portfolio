@@ -10,9 +10,8 @@
         <div class="wrapper">
 
             <header>
-              <div class="top-page"> 
-                <img src="{{ asset("../images/3405998_m.jpg") }}" alt="トップページ" class="top-page-image">
-              </div>        
+                <img src="{{ asset("../images/2816548_s.jpg") }}" alt="トップページ" class="top-page-image">  
+                <p>YM-PortFolio</p>
             </header>
 
 

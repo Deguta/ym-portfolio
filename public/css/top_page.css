@@ -20,16 +20,27 @@ body {
 
 /* headerのcss */
 header {
-  height: 535px;
-  border: solid;
-  border-color: lightgreen;
   margin: auto;
-  margin-bottom:300px;
+  margin-bottom:100px;
+  position: relative;/*相対配置*/
 }
 
+header p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+  font-size:100px;
+  color:#ffffff;
+}
 .top-page-image {
+  display:block;
   width: 100%;
-  height: auto;
+  height: 850px;
   border: solid;
   border-color: orange;
 }
