@@ -26,7 +26,10 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-//送信メールのルーティング
+//お問い合わせの送信メールのルーティング
+//　'/contact/index' URLに表示される部分
+// 'ContactController@index' コントローラー名 @はcontactフォルダにあるファイル名を指定
+//  ->name('contact.index'); ->nameを付けることによりルーティングに名前をつけて尚且つ分かりやすくするため
 Route::get('/contact/index', 'ContactController@index')->name('contact.index');
 Route::post('/contact/confirm', 'ContactController@confirm')->name('contact.confirm');
 Route::post('/contact/complete', 'ContactController@send')->name('contact.send');

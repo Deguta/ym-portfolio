@@ -1,15 +1,15 @@
 @extends('layouts.app')
 
 @section('content')
-<form method="POST" action="{{ route('contact.send') }}">
+<form method="POST" action="{{ route('contact.send') }}"> //入力に問題が無かったら次のコントローラーに送る際のルーティングを設定
     @csrf
 
     <label>メールアドレス</label>
-    {{ $inputs['email'] }}
+    {{ $inputs['email'] }} //index.blade.phpにある。'email'を関数化して橋渡ししたもの.また、csrf対策もしている
     <input
         name="email"
         value="{{ $inputs['email'] }}"
-        type="hidden">
+        type="hidden">　//ソースコードでは表示されるが入力された項目を隠すため?
 
     <label>タイトル</label>
     {{ $inputs['title'] }}
@@ -20,7 +20,7 @@
 
 
     <label>お問い合わせ内容</label>
-    {!! nl2br(e($inputs['body'])) !!}
+    {!! nl2br(e($inputs['body'])) !!} 
     <input
         name="body"
         value="{{ $inputs['body'] }}"
