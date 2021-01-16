@@ -3,8 +3,9 @@
 <head>
     <meta charset="utf-8">
     <title>YM-PortFolio</title>
-    <link rel="stylesheet" href="{{ asset('css/top_page.css') }}">
-    
+    <link rel="stylesheet" href="{{ asset('css/welcome.css') }}">
+    <link href="{{asset('/assets/css/style.css')}}" rel="stylesheet">
+
 </head>
     <body>
         <div class="wrapper">
@@ -30,7 +31,7 @@
                     <img src="{{ asset("../images/2816548_s.jpg") }}" alt="portfolio-works" class="portfolio-image">
                     <div class="portfolio-text">
                         <div class="portfolio-text-box">
-                            <a href="{{ url('/contact/index') }}">製作物はこちら</a>
+                            <a href="{{ url('/bulletin_board/index') }}">製作物はこちら</a>
                         </div>
                     </div>
                 </div>
