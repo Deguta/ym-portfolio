@@ -27,7 +27,7 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 // About Meによる自己紹介文のルーティング
-Route::get('/about/index', 'AboutController@index')->name('about.index');
+Route::get('/about_me/index', 'AboutMeController@index')->name('about.index');
 
 
 //お問い合わせの送信メールのルーティング
