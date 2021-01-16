@@ -26,6 +26,10 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+// About Meによる自己紹介文のルーティング
+Route::get('/about/index', 'AboutController@index')->name('about.index');
+
+
 //お問い合わせの送信メールのルーティング
 //　'/contact/index' URLに表示される部分
 // 'ContactController@index' コントローラー名 @はcontactフォルダにあるファイル名を指定
