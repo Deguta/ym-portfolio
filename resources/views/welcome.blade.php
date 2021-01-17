@@ -18,7 +18,7 @@
                     <img src="{{ asset("../images/1647568_s.jpg") }}" alt="about-me" class="about-image">
                     <div class="about-text">
                         <div class="about-text-box">
-                            <a href="{{ url('/contact/index') }}">About Me</a>
+                            <a href="{{ url('/about_me/index') }}">About Me</a>
                         </div>
                     </div>
                 </div>

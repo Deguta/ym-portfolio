@@ -29,6 +29,7 @@ class ContactController extends Controller
         return view('contact.confirm', [
             'inputs' => $inputs,
         ]);
+        // dd($inputs);
     }
 
     public function send(Request $request)
