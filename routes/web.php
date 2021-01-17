@@ -27,11 +27,19 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 
-// About Meによる自己紹介文のルーティング
+// aboutのルーティング
 Route::get('/about_me/index', 'AboutMeController@index')->name('about_me.index');
 
-//製作物によるルーティング
+// skillのルーティング
+Route::get('/skill/index', 'SkillController@index')->name('skill.index');
+
+
+//portfolioのルーティング
 Route::get('/bulletin_board/index', 'BulletinBoardController@index')->name('bulletin_board.index');
+
+//storyのルーティング
+Route::get('/story/index', 'StoryController@index')->name('story.index');
+
 
 //お問い合わせの送信メールのルーティング
 Route::get('/contact/index', 'ContactController@index')->name('contact.index');
