@@ -13,9 +13,6 @@
                 <img src="{{ asset("../images/2816548_s.jpg") }}" alt="トップページ" class="top-page-image">  
                 <p>YM-PortFolio</p>
             </header>
-
-
-
             <div class="main">
                 <div class=about>
                     <img src="{{ asset("../images/1647568_s.jpg") }}" alt="about-me" class="about-image">
