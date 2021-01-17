@@ -9,7 +9,7 @@ class AboutMeController extends Controller
     public function index()
     {
         
-        //viewを表示
+        //フォーム入力画ページのviewを表示
         return view('about_me.index');
     }
 }
