@@ -32,4 +32,4 @@
     </body>
 </html>
 
-<h1>Bulletin-Board.index</h1>
+<h1>OnlineReviews.index</h1>
