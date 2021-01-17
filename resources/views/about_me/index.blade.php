@@ -5,13 +5,13 @@
     <title>YM-PortFolio-About-Me</title>
     
     <link rel="stylesheet" href="{{ asset('css/about_me.css') }}">
-    <link href="{{asset('/assets/css/style.css')}}" rel="stylesheet">
+    <link href="{{asset('/assets/css/reset.css')}}" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Caveat rel="stylesheet">
     <link href="https://fonts.googleapis.com/earlyaccess/kokoro.css" rel="stylesheet">
     <!-- httpsの場合 <link href="{{secure_asset('/assets/css/reset.css')}}" rel="stylesheet"> -->
 </head>
 <body>
-    <div class="wrapper">
+    {{--  <div class="wrapper">
     <div id="main" class="inner">
 		
 		<!-- about -->
@@ -39,7 +39,7 @@
 		<p class="toTop"><a href="#top"><img src="https://u-d-l.jp/wp-content/themes/underline/common/icon_totop.gif" alt="" width="22" height="14"></a></p>
 		
 	</div>
-    </div>
+    </div>  --}}
 
     
 </body>

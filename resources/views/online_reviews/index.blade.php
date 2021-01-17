@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8">
     <title>YM-PortFolio</title>
-    <link rel="stylesheet" href="{{ asset('css/bulletin_board.css') }}">
-    <link href="{{asset('/assets/css/style.css')}}" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('css/online_reviews.css') }}">
+    <link href="{{asset('/assets/css/reset.css')}}" rel="stylesheet">
 </head>
     <body>
         <div class="wrapper">
