@@ -1,0 +1,222 @@
+body {
+  width: 100%;
+  height:100vh;
+  /* 画像指定、imagesというフォルダ(ＣＳＳと同じ位置に作ったフォルダ)に入っている
+  background-image: url(../images/4317917_m.jpg);  
+  /* 画像を常に上下左右の中央に配置させる 
+  background-position: center center; 
+  /* 画像を繰り返し表示しない 
+  background-repeat: no-repeat;  
+  /* ページなどのコンテンツの高さが画像の高さより大きい時動に固定する
+  background-attachment: fixed; 
+  /* 画面、ブラウザのサイズに基づいて、背景画像を調整
+  /* background-size: cover;  */
+ }
+
+.wrapper {
+  border: solid;
+  border-color: red
+}
+
+/* headerのcss */
+header {
+  margin: auto;
+  margin-bottom:100px;
+  position: relative;/*相対配置*/
+}
+
+header p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+  font-size:100px;
+  color:#ffffff;
+}
+.top-page-image {
+  display:block;
+  width: 100%;
+  height: 850px;
+  border: solid;
+  border-color: orange;
+}
+
+
+/* mainのcss */
+
+.main{
+  border: solid;
+  border-color: blue;
+  width: 1300px;
+  height: 1000px;
+  margin: auto;
+}
+
+/* About Meのcss */
+.about {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 200px;
+  border: solid;
+  border-color: rgb(17, 241, 17);
+  
+}
+.about-text {
+  display:flex;
+  width: 50%;
+  height: auto;
+  border: solid;
+  border-color: red;  
+}
+
+.about-text-box {
+  border: solid;
+  border-color: black; 
+  margin:auto;
+  font-size:30px;
+}
+.about-text-box a{
+  text-decoration: none;
+}
+
+.about-image {
+  width: 50%;
+  height: auto;
+  border: solid;
+  border-color: orange;
+}
+
+
+/* portfolioのcss */
+.portfolio {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 200px;
+  border: solid;
+  border-color: rgb(17, 241, 17);
+  
+}
+.portfolio-text {
+  display:flex;
+  width: 50%;
+  height: auto;
+  border: solid;
+  border-color: yellow;  
+}
+
+.portfolio-text-box {
+  border: solid;
+  border-color: black; 
+  margin:auto;
+  font-size:30px;
+}
+.portfolio-text-box a{
+  text-decoration: none;
+}
+
+.portfolio-image {
+  width: 50%;
+  height: auto;
+  border: solid;
+  border-color: orange;
+}
+
+
+/* contactのcss */
+.contact {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 200px;
+  border: solid;
+  border-color: rgb(17, 241, 17);
+  
+}
+.contact-text {
+  display:flex;
+  width: 50%;
+  height: auto;
+  border: solid;
+  border-color: yellow;  
+}
+
+.contact-text-box {
+  border: solid;
+  border-color: black; 
+  margin:auto;
+  font-size:30px;
+}
+.contact-text-box a{
+  text-decoration: none;
+}
+
+.contact-image {
+  width: 50%;
+  height: auto;
+  border: solid;
+  border-color: orange;
+}
+
+
+/* ログイン機能headerのcss 
+header {
+  width: 1017px;
+  height: 68px;
+  display: flex;
+  justify-content: space-between;
+  border: solid;
+  border-color: rgb(17, 241, 17);
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom:20px;
+}
+
+.header-left {
+  font-size: 16px;
+  text-decoration: none;
+
+}
+
+.header-right {
+  display: flex;
+  font-size: 16px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.login {
+  text-align: center;
+  border: solid;
+  background-color: #ea352d;
+  border-color:yellow;
+  border-radius: 4px;
+  margin: auto;
+  margin-right: 10px;
+  padding: 5px 5px 5px 5px;
+
+}
+.login a{
+  text-decoration: none;
+}
+
+.register {
+  text-align: center;
+  border: solid;
+  background-color: #0099e8;
+  border-color:yellow;
+  border-radius: 4px;
+  margin: auto;
+  margin-right: 10px;
+  padding: 5px 5px 5px 5px;
+}
+
+.register a{
+  text-decoration: none;
+}
+*/
