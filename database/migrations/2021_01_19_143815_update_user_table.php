@@ -14,7 +14,14 @@ class UpdateUserTable extends Migration
     public function up()
     {
         Schema::table('users', function (Blueprint $table) {
-            //
+            $table->string('full_name'); //氏名
+            $table->string('name_kana'); //氏名 カナ
+            $table->boolean('gender'); // 性別
+            $table->tinyInteger('age');//年齢
+            $table->integer('birthday');//誕生日
+            $table->integer('postal_code');//郵便番号
+            $table->string('address');//住所
+            $table->integer('phone');//電話番号
         });
     }
 
@@ -26,16 +33,7 @@ class UpdateUserTable extends Migration
     public function down()
     {
         Schema::table('users', function (Blueprint $table) {
-            $table->string('full_name'); //氏名
-            $table->string('name_kana'); //氏名 カナ
-            $table->boolean('gender'); // 性別
-            $table->tinyInteger('age');//年齢
-            $table->integer('birthday');//誕生日
-            $table->integer('postal_code');//郵便番号
-            $table->string('address');//住所
-            $table->integer('phone');//電話番号
-            $table->DATETIME('created_at');//作成日 
-            $table->DATETIME('updated_at');//更新日
+            
         });
     }
 }
