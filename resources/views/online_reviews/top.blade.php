@@ -30,7 +30,7 @@
             </header>
 
             <div class="main">mainページ
-                <a href="{{ url('/about_me/index') }}">病院一覧</a>
+                <a href="{{ url('/online_reviews/hospital') }}">病院一覧</a>
             </div>
         </div>
     </body>

@@ -11,12 +11,12 @@
                         @csrf
 
                         <div class="form-group row">
-                            <label for="full_name" class="col-md-4 col-form-label text-md-right">{{ __('氏名') }}</label>
+                            <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('氏名') }}</label>
 
                             <div class="col-md-6">
-                                <input id="full_name" type="text" class="form-control @error('full_name') is-invalid @enderror" name="full_name" value="{{ old('full_name') }}" required autocomplete="full_name" autofocus>
+                                <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
 
-                                @error('full_name')
+                                @error('name')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
                                     </span>
@@ -43,12 +43,8 @@
 
                             <div class="col-md-6">
                                 
-                                <input id="gender" type="text" class="form-control @error('gender') is-invalid @enderror" name="men" value="{{ old('gender') }}" required autocomplete="gender">男性
-                                @error('gender')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
+                                <input type="radio" name="gender" value="0">男性
+                                <input type="radio" name="gender" value="1">女性
                             </div>
                         </div>
 
@@ -123,7 +119,7 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="phone" class="col-md-4 col-form-label text-md-right">電話番号</label>
+                            <label for="phone" class="col-md-4 col-form-label text-md-right">{{ __('電話番号')}}</label>
 
                             <div class="col-md-6">
                                 <input id="phone" type="text" class="form-control @error('phone') is-invalid @enderror" name="phone" value="{{ old('phone') }}" required>
@@ -165,6 +161,15 @@
                                 </button>
                             </div>
                         </div>
+                        @if (count($errors) > 0)
+                            <div class="alert alert-danger">
+                                <ul>
+                                    @foreach ($errors->all() as $error)
+                                        <li>{{ $error }}</li>
+                                    @endforeach
+        </ul>
+    </div>
+@endif
                     </form>
                 </div>
             </div>

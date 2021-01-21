@@ -34,13 +34,10 @@ Route::get('/about_me/index', 'AboutMeController@index')->name('about_me.index')
 Route::get('/skill/index', 'SkillController@index')->name('skill.index');
 
 
+
 //portfolioのルーティング
-Route::get('/online_reviews/index', 'OnlineReviewsController@index')->name('online_reviews.index');
-
-// クチコミのルーティング
-Route::get('/post/index', 'PostsController@index')->name('post.index');
-
-
+Route::get('/online_reviews/top', 'OnlineReviewsController@index')->name('top.index');
+Route::get('/online_reviews/hospital', 'OnlineReviewsController@index')->name('hospital.index');
 
 //storyのルーティング
 Route::get('/story/index', 'StoryController@index')->name('story.index');

@@ -37,7 +37,7 @@
                     <img src="{{ asset("../images/2816548_s.jpg") }}" alt="portfolio-works" class="portfolio-image">
                     <div class="portfolio-text">
                         <div class="portfolio-text-box">
-                            <a href="{{ url('/online_reviews/index') }}">My PortFolio</a>
+                            <a href="{{ url('/online_reviews/top') }}">My PortFolio</a>
                         </div>
                     </div>
                 </div>
