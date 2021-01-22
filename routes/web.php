@@ -36,8 +36,8 @@ Route::get('/skill/index', 'SkillController@index')->name('skill.index');
 
 
 //portfolioのルーティング
-Route::get('/online_reviews/top', 'OnlineReviewsController@index')->name('top.index');
-Route::get('/online_reviews/hospital', 'OnlineReviewsController@index')->name('hospital.index');
+Route::get('/portfolio/top', 'PortfolioController@index')->name('portfolio.index'); //portfolioのトップページ
+Route::get('/online_reviews/hospital','OnlineReviewsController@index')->name('hospital.index'); // hospitalの一覧表
 
 //storyのルーティング
 Route::get('/story/index', 'StoryController@index')->name('story.index');

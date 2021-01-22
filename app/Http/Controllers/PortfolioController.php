@@ -4,12 +4,10 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class OnlineReviewsController extends Controller
+class PortfolioController extends Controller
 {
-    
     public function index()
     {
-        return view('online_reviews.hospital');
+        return view('portfolio.top');
     }
 }
-
