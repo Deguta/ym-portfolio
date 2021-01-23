@@ -12,7 +12,6 @@
                 <div class="card-body">
                     <form method="POST" action="{{ route('login') }}">
                         @csrf
-                        {{-- 
                         <div class="form-group row">
                             <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('メールアドレス') }}</label>
 
@@ -26,9 +25,8 @@
                                 @enderror
                             </div>
                         </div>
-                           --}}
                         
-                        <div class="form-group row">
+                        {{--  <div class="form-group row">  
                             <label for="name" class="col-md-4 col-form-label text-md-right">ユーザーID</label>
  
                             <div class="col-md-6">
@@ -40,7 +38,7 @@
                                     </span>
                                 @enderror
                             </div>
-                        </div>
+                        </div>--}}
 
                         <div class="form-group row">
                             <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('パスワード') }}</label>

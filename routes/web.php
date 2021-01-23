@@ -15,16 +15,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-/*
-//ログイン認証後 投稿ができるようになっています
-Route::group(['prefix' => 'contact','middleware' => 'auth'], function(){
-    Route::get('index','ContactFormController@index');
-  });
-*/
 
 //ログイン機能
 Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
+
+
 
 
 // aboutのルーティング
@@ -37,7 +33,13 @@ Route::get('/skill/index', 'SkillController@index')->name('skill.index');
 
 //portfolioのルーティング
 Route::get('/portfolio/top', 'PortfolioController@index')->name('portfolio.index'); //portfolioのトップページ
-Route::get('/online_reviews/hospital','OnlineReviewsController@index')->name('hospital.index'); // hospitalの一覧表
+
+//OnlineReviewsのルーティングとログインしないとページに遷移できないようにmiddlewareを記述
+Route::group(['prefix' => 'online_reviews','middleware' => 'auth'], function(){
+  Route::get('hospital','OnlineReviewsController@index')->name('online_reviews.index'); // hospitalの一覧表
+  Route::get('create','OnlineReviewsController@create')->name('online_reviews.create');
+});
+
 
 //storyのルーティング
 Route::get('/story/index', 'StoryController@index')->name('story.index');

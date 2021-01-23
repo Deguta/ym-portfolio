@@ -1,2 +1,2 @@
-<p>hospital.blade.php</p>
-<p>hospital.blade.php</p>
+
+<a href="{{ route('online_reviews.create') }}">A病院の投稿ページはこちら</a>
