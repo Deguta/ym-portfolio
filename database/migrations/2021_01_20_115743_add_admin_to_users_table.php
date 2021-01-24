@@ -21,7 +21,7 @@ class AddAdminToUsersTable extends Migration
             $table->integer('birthday')->after('age');//誕生日
             $table->integer('postal_code')->after('birthday');//郵便番号
             $table->string('address')->after('postal_code');//住所
-            $table->integer('phone')->after('address');//電話番号
+            $table->unsignedBigInteger('phone')->after('address');//電話番号
         });
     }
 
