@@ -15,7 +15,8 @@ class CreateOnlineReviewsTable extends Migration
     {
         Schema::create('online_reviews', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->char('review',70); //クチコミ 70文字に制限
+            $table->char('title',50);//タイトル
+            $table->char('text',70); //クチコミ 70文字に制限
             $table->unsignedBigInteger('user_id'); //user_idの外部キー
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');//user_idの外部キーの制約
             $table->timestamps();

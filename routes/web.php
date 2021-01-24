@@ -38,6 +38,8 @@ Route::get('/portfolio/top', 'PortfolioController@index')->name('portfolio.index
 Route::group(['prefix' => 'online_reviews','middleware' => 'auth'], function(){
   Route::get('hospital','OnlineReviewsController@index')->name('online_reviews.index'); // hospitalの一覧表
   Route::get('create','OnlineReviewsController@create')->name('online_reviews.create');
+  Route::post('store','OnlineReviewsController@store')->name('online_reviews.store');
+
 });
 
 

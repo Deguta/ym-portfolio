@@ -18,8 +18,13 @@ class User extends Authenticatable
     protected $fillable = [
         'name','name_kana','email','password',
         'gender','age','birthday','postal_code','address','phone',
-        'created_at','updated_at'
+        'created_at','updated_at','title','text',
     ];
+
+    public function reviews()
+    {
+        return $this->hasMany('App\Models\OnlineReviews');
+    }
 
     /**
      * The attributes that should be hidden for arrays.
