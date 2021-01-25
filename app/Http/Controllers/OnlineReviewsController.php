@@ -16,9 +16,8 @@ class OnlineReviewsController extends Controller
     public function index()
     {
         {
-        $reviews = DB::table('users')
-        ->select('user_id')
-        ->get();
+
+
 
 
         return view('online_reviews.hospital');

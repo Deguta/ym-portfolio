@@ -51,11 +51,16 @@
 											<a class="btn btn-secondary" href="{{ route('online_reviews.create') }}">
 													キャンセル
 											</a>
+											
+                      <a href="{{ route('online_reviews.index') }}">
+													トップページに戻る
+											</a>
 
 											<button type="submit" class="btn btn-primary">
 													投稿する
 											</button>
 									</div>
+									
 							</fieldset>
             </form>
         </div>
