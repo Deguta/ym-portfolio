@@ -10,7 +10,7 @@
         <div class="wrapper">
             <header>
             @if (Route::has('login'))
-                <div class="header-left">ロゴ作成予定</div>
+                <div class="header-left">ロゴ</div>
 
                 <div class="header-right">
                     @auth
