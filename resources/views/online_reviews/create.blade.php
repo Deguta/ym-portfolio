@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="utf-8">
-<title>口コミ掲示板</title>
-<style>
-
-
-</style>
+    <meta charset="utf-8">
+    <title>YM-PortFolio</title>
+    <link rel="stylesheet" href="{{ asset('css/online_reviews/hospital') }}">
+    <link href="{{asset('/assets/css/reset.css')}}" rel="stylesheet">
 </head>
     <div class="container mt-4">
         <div class="border p-4">

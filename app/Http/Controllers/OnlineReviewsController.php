@@ -16,11 +16,17 @@ class OnlineReviewsController extends Controller
     public function index()
     {
         {
+        $reviews =DB::table('online_reviews')
+        ->select('title','text')
+        ->get();
 
+        $names =DB::table('users')
+        ->select('name')
+        ->get();
+        
+        // dd($review);
 
-
-
-        return view('online_reviews.hospital');
+        return view('online_reviews.hospital_list',compact('reviews','names'));
 
         }
     }
