@@ -39,6 +39,8 @@ Route::group(['prefix' => 'online_reviews','middleware' => 'auth'], function(){
   Route::get('hospital_list','OnlineReviewsController@index')->name('online_reviews.index'); // 病院一覧表
   Route::get('create','OnlineReviewsController@create')->name('online_reviews.create');//投稿ページの表示
   Route::post('store','OnlineReviewsController@store')->name('online_reviews.store');//投稿を保存するルーティング
+  Route::get('show/{id}','OnlineReviewsController@store')->name('online_reviews.store');//投稿を保存するルーティング
+
 
 });
 

@@ -11,7 +11,7 @@
         <div class="wrapper">
 
             <header>
-                <img src="{{ asset("../images/4284040_m.jpg") }}" alt="top-page" class="top-page-image">  
+                <img src="{{ asset("../images/4284040_m.jpg") }}" alt="top-page" class="top-page-image">
                 <p class="title">YM-PortFolio</p>
             </header>
             <div class="main">

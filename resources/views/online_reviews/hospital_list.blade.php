@@ -7,38 +7,41 @@
     <link href="{{asset('/assets/css/reset.css')}}" rel="stylesheet">
 </head>
     <body>
-        <div class="wrapper">
+        <divclass="wrapper">
+          {{--  検索機能  --}}
           <header>
-            <a href="{{ route('online_reviews.create') }}">投稿ページはこちら</a>
+            <div class="col-sm-4" style="padding:20px 0; padding-left:0px;">
+              <form class="form-inline" action="{{url('/crud')}}">
+                <div class="form-group">
+                <input type="text" name="keyword"  class="form-control" placeholder="病院名を検索して下さい">
+                </div>
+                <input type="submit" value="検索" class="btn btn-info">
+              </form>
+            </div>
           </header>
-
-          <div class="main">
-            <div class="post-name">
-              @if($names)
-
-                @foreach ($names as $name)
-                  {{ $name->name}}
-                @endforeach
-              @endunless
- 
-
-              <div class="form-text">
-                @foreach ($reviews as $review)
-                <p class="title-form">本文
-                  <p class="title">
+          {{--  検索機能以上  --}}
+          <div class="main">病院一覧 (??件)</div>
+            <div class="content">
+              <a href="{{ route('online_reviews.create') }}">A病院の詳細とコメント投稿はこちら</a>
+              @foreach ($reviews as $review)
+                <p class="title-form">
+                  <p class="title">タイトル
                     {{ $review->title}}
                   <p/>
                 </p>
-                  
-                <p class="text">投稿内容{{ $review->text}}</p>
-                @endforeach
-              </div>
+                <p class="title-form">
+                  <p class="title">投稿内容
+                    {{ $review->text}}
+                  <p/>
+                </p>
+              @endforeach 
             </div>
-          </div>
-            </body>
         </div>
     </body>
 </html>
 
 
 
+ {{--  <div class="form-text">
+                
+               --}}

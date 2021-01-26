@@ -16,4 +16,11 @@ class OnlineReviews extends Model
         
 
     }
+
+    public function Hospital()
+    {
+        return $this->belongsTo('App\|Models\Hospital');
+        
+
+    }
 }
