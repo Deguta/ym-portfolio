@@ -30,7 +30,7 @@
             </header>
 
             <div class="main">mainページ
-                <a href="{{ route('online_reviews.index') }}">病院一覧</a>
+                <a href="{{ route('online_reviews.hospital_list') }}">病院一覧</a>
             </div>
         </div>
     </body>

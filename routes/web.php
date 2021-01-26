@@ -36,10 +36,10 @@ Route::get('/portfolio/top', 'PortfolioController@index')->name('portfolio.index
 
 //OnlineReviewsのルーティングとログインしないとページに遷移できないようにmiddlewareを記述
 Route::group(['prefix' => 'online_reviews','middleware' => 'auth'], function(){
-  Route::get('hospital_list','OnlineReviewsController@index')->name('online_reviews.index'); // 病院一覧表
+  Route::get('hospital_list/index','OnlineReviewsController@index')->name('online_reviews.hospital_list'); // 病院一覧表
   Route::get('create','OnlineReviewsController@create')->name('online_reviews.create');//投稿ページの表示
   Route::post('store','OnlineReviewsController@store')->name('online_reviews.store');//投稿を保存するルーティング
-  Route::get('show/{id}','OnlineReviewsController@store')->name('online_reviews.store');//投稿を保存するルーティング
+  Route::get('show/{id}','OnlineReviewsController@show')->name('online_reviews.show');//投稿の詳細を確認するルーティング
 
 
 });

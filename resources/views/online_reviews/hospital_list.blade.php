@@ -7,7 +7,7 @@
     <link href="{{asset('/assets/css/reset.css')}}" rel="stylesheet">
 </head>
     <body>
-        <divclass="wrapper">
+        <div class="wrapper">
           {{--  検索機能  --}}
           <header>
             <div class="col-sm-4" style="padding:20px 0; padding-left:0px;">
@@ -20,28 +20,11 @@
             </div>
           </header>
           {{--  検索機能以上  --}}
+
           <div class="main">病院一覧 (??件)</div>
             <div class="content">
               <a href="{{ route('online_reviews.create') }}">A病院の詳細とコメント投稿はこちら</a>
-              @foreach ($reviews as $review)
-                <p class="title-form">
-                  <p class="title">タイトル
-                    {{ $review->title}}
-                  <p/>
-                </p>
-                <p class="title-form">
-                  <p class="title">投稿内容
-                    {{ $review->text}}
-                  <p/>
-                </p>
-              @endforeach 
             </div>
         </div>
     </body>
 </html>
-
-
-
- {{--  <div class="form-text">
-                
-               --}}

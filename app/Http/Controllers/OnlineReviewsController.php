@@ -16,13 +16,7 @@ class OnlineReviewsController extends Controller
     public function index()
     {
         {
-        $reviews =DB::table('online_reviews')
-        ->select('title','text')
-        ->get();
-        // dd($review);
-
-        return view('online_reviews.hospital_list',compact('reviews'));
-
+        return view('online_reviews.hospital_list');
         }
     }
 
@@ -32,8 +26,10 @@ class OnlineReviewsController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function create()
-    {
-        return view('online_reviews.create');
+    {    $reviews =DB::table('online_reviews')
+        ->select('title','text')
+        ->get();
+        return view('online_reviews.create',compact('reviews'));
     }
 
     /**
@@ -63,7 +59,8 @@ class OnlineReviewsController extends Controller
      */
     public function show($id)
     {
-        //
+        $review=OnlineReviews::find($id);
+        return view('online_reviews.show',compact('review'));
     }
 
     /**
