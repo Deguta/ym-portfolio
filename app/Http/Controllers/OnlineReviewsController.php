@@ -26,10 +26,15 @@ class OnlineReviewsController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function create()
-    {    $reviews =DB::table('online_reviews')
+    { 
+        $names = DB::table('users')
+        ->select('name')
+        ->get();
+
+        $reviews =DB::table('online_reviews')
         ->select('title','text')
         ->get();
-        return view('online_reviews.create',compact('reviews'));
+        return view('online_reviews.create',compact('reviews','names'));
     }
 
     /**

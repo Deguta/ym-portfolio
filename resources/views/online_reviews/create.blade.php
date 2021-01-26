@@ -9,16 +9,24 @@
 <body>
 <header>A病院の詳細</header>
     <div class="wrapper">
+        @foreach ($names as $name)
+            <p class="title-form">
+                <p class="title">投稿者
+                {{ $name->name}}
+                </p>
+            </p>
+        @endforeach
+
         @foreach ($reviews as $review)
             <p class="title-form">
                 <p class="title">タイトル
                 {{ $review->title}}
-                <p/>
+                </p>
             </p>
             <p class="title-form">
                 <p class="title">投稿内容
                 {{ $review->text}}
-                <p/>
+                </p>
             </p>
         @endforeach
 
@@ -40,7 +48,8 @@
                     @endif
                 <div class="form-btn">
                     <a class="btn btn-secondary" href="{{ route('online_reviews.create') }}">キャンセル</a>
-                    <a href="{{ route('online_reviews.hospital_list') }}">トップページに戻る</a>
+                    <a href="{{ route('online_reviews.hospital_list') }}">病院一覧に戻る</a>
+                    <a href="{{ route('portfolio.index') }}">トップページに戻る</a>
                     <button type="submit" class="btn btn-primary">投稿する</button>
                 </div>
         </form>
