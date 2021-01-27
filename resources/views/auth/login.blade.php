@@ -25,20 +25,6 @@
                                 @enderror
                             </div>
                         </div>
-                        
-                        {{--  <div class="form-group row">  
-                            <label for="name" class="col-md-4 col-form-label text-md-right">ユーザーID</label>
- 
-                            <div class="col-md-6">
-                                <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
- 
-                                @error('name')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                            </div>
-                        </div>--}}
 
                         <div class="form-group row">
                             <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('パスワード') }}</label>
@@ -76,6 +62,16 @@
                                     <a class="btn btn-link" href="{{ route('password.request') }}">
                                         {{ __('パスワードを忘れた方はこちら') }}
                                     </a>
+                                @endif
+
+                                @if (count($errors) > 0)
+                                    <div class="alert alert-danger">
+                                        <ul>
+                                            @foreach ($errors->all() as $error)
+                                                <li>{{ $error }}</li>
+                                            @endforeach
+                                        </ul>
+                                    </div>
                                 @endif
                             </div>
                         </div>

@@ -9,13 +9,8 @@
 <body>
 <header>A病院の詳細</header>
     <div class="wrapper">
-        @foreach ($names as $name)
-            <p class="title-form">
-                <p class="title">投稿者
-                {{ $name->name}}
-                </p>
-            </p>
-        @endforeach
+        
+        
 
         @foreach ($reviews as $review)
             <p class="title-form">
@@ -28,8 +23,21 @@
                 {{ $review->text}}
                 </p>
             </p>
+            <td><a href="{{ route('online_reviews.show',['id'=> $review->id]) }}">詳細を見る</a></td>
+
         @endforeach
 
+        @if($reviews===true){
+          @foreach ($names as $name)
+              <p class="title-form">
+                  <p class="title">投稿者
+                  {{ $name->name}}
+                  </p>
+              </p>
+          @endforeach}
+        @else
+            
+        @endif
         <form method="POST" action="{{ route('online_reviews.store')}}">
             @csrf
             <label for="title">タイトル</label>
@@ -59,7 +67,11 @@
 
 
 
-
+{{--  変数確認用 @if(isset($message))
+    <p>$message</p>
+@else
+    <p>メッセージは存在しません。</p>
+@endif  --}}
 
 
 

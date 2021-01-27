@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\OnlineReviews;
+use App\User;
 use Illuminate\Support\Facades\DB;//クエリビルダでDBに保存されているものを表示させる。また、ファサードでvendorフォルダ laravel framerowk illuminateの中に格納しているクラスを呼び出している。
 
 class OnlineReviewsController extends Controller
@@ -26,11 +27,10 @@ class OnlineReviewsController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function create()
-    { 
+    {    
         $names = DB::table('users')
         ->select('name')
         ->get();
-
         $reviews =DB::table('online_reviews')
         ->select('title','text')
         ->get();
@@ -53,7 +53,8 @@ class OnlineReviewsController extends Controller
         // dd($title,$text);
 
         $review->save();
-        return redirect()->route('online_reviews.create');
+        return redirect()->route('online_reviews.create')
+;
     }
 
     /**
@@ -64,7 +65,7 @@ class OnlineReviewsController extends Controller
      */
     public function show($id)
     {
-        $review=OnlineReviews::find($id);
+        $review = OnlineReviews::find($id);
         return view('online_reviews.show',compact('review'));
     }
 
