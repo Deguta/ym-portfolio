@@ -15,16 +15,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-/*
-//ログイン認証後 投稿ができるようになっています
-Route::group(['prefix' => 'contact','middleware' => 'auth'], function(){
-    Route::get('index','ContactFormController@index');
-  });
-*/
 
 //ログイン機能
 Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
+
+
 
 
 // aboutのルーティング
@@ -34,8 +30,25 @@ Route::get('/about_me/index', 'AboutMeController@index')->name('about_me.index')
 Route::get('/skill/index', 'SkillController@index')->name('skill.index');
 
 
+
 //portfolioのルーティング
-Route::get('/online_reviews/index', 'OnlineReviewsController@index')->name('bulletin_board.index');
+Route::get('/portfolio/top', 'PortfolioController@index')->name('portfolio.index'); //portfolioのトップページ
+
+// hospitalのルーティング
+Route::group(['prefix' => 'hospital'],function(){
+  Route::get('/hospitals/index','HospitalController@index')->name('hospital.list');
+});
+
+//OnlineReviewsのルーティングとログインしないとページに遷移できないようにmiddlewareを記述
+Route::group(['prefix' => 'online_reviews','middleware' => 'auth'], function(){
+  Route::get('hospital_list/index','OnlineReviewsController@index')->name('online_reviews.hospital_list'); // 病院一覧表
+  Route::get('create','OnlineReviewsController@create')->name('online_reviews.create');//投稿ページの表示
+  Route::post('store','OnlineReviewsController@store')->name('online_reviews.store');//投稿を保存するルーティング
+  Route::get('show/{id}','OnlineReviewsController@show')->name('online_reviews.show');//投稿の詳細を確認するルーティング
+
+
+});
+
 
 //storyのルーティング
 Route::get('/story/index', 'StoryController@index')->name('story.index');

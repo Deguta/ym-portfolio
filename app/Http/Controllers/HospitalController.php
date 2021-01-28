@@ -3,11 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\OnlineReviews;
-use App\User;
-use Illuminate\Support\Facades\DB;//クエリビルダでDBに保存されているものを表示させる。また、ファサードでvendorフォルダ laravel framerowk illuminateの中に格納しているクラスを呼び出している。
 
-class OnlineReviewsController extends Controller
+class HospitalController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,9 +13,7 @@ class OnlineReviewsController extends Controller
      */
     public function index()
     {
-        {
-        return view('online_reviews.hospital_list');
-        }
+        return view('hospital.hospital_list');
     }
 
     /**
@@ -27,14 +22,8 @@ class OnlineReviewsController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function create()
-    {    
-        $names = DB::table('users')
-        ->select('name')
-        ->get();
-        $reviews =DB::table('online_reviews')
-        ->select('title','text')
-        ->get();
-        return view('online_reviews.create',compact('reviews','names'));
+    {
+        //
     }
 
     /**
@@ -45,16 +34,7 @@ class OnlineReviewsController extends Controller
      */
     public function store(Request $request)
     {
-        $review = new OnlineReviews;
-        $review->user_id = $request->user()->id;
-        $review->title = $request->input('title');
-        $review->text = $request->input('text');
-
-        // dd($title,$text);
-
-        $review->save();
-        return redirect()->route('online_reviews.create')
-;
+        //
     }
 
     /**
@@ -65,8 +45,7 @@ class OnlineReviewsController extends Controller
      */
     public function show($id)
     {
-        $review = OnlineReviews::find($id);
-        return view('online_reviews.show',compact('review'));
+        //
     }
 
     /**
@@ -84,7 +63,7 @@ class OnlineReviewsController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-       * @param  int  $id
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, $id)

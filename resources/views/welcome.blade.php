@@ -4,14 +4,14 @@
     <meta charset="utf-8">
     <title>YM-PortFolio</title>
     <link rel="stylesheet" href="{{ asset('css/welcome.css') }}">
-    <link href="{{asset('/assets/css/style.css')}}" rel="stylesheet">
+    <link href="{{asset('/assets/css/reset.css')}}" rel="stylesheet">
 
 </head>
     <body>
         <div class="wrapper">
 
             <header>
-                <img src="{{ asset("../images/4284040_m.jpg") }}" alt="top-page" class="top-page-image">  
+                <img src="{{ asset("../images/4284040_m.jpg") }}" alt="top-page" class="top-page-image">
                 <p class="title">YM-PortFolio</p>
             </header>
             <div class="main">
@@ -37,7 +37,7 @@
                     <img src="{{ asset("../images/2816548_s.jpg") }}" alt="portfolio-works" class="portfolio-image">
                     <div class="portfolio-text">
                         <div class="portfolio-text-box">
-                            <a href="{{ url('/online_reviews/index') }}">My PortFolio</a>
+                            <a href="{{ url('/portfolio/top') }}">My PortFolio</a>
                         </div>
                     </div>
                 </div>
@@ -67,24 +67,3 @@
         </div>
     </body>
 </html>
-
-
-
-{{--  @if (Route::has('login'))
-                <div class="header-left">ロゴ作成予定</div>
-
-                <div class="header-right">
-                        @auth
-                            <a href="{{ url('/home') }}">ログアウトはこちら</a>
-                        @else
-                            <div class=login>
-                                <a href="{{ route('login') }}">ログイン</a>
-                            </div>
-                            <div class=register>
-                            @if (Route::has('register'))
-                                <a href="{{ route('register') }}">新規会員はこちら</a>
-                            @endif
-                            </div>
-                        @endauth
-                    </div>
-                @endif  --}}
