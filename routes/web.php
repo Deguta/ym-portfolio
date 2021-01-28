@@ -34,6 +34,11 @@ Route::get('/skill/index', 'SkillController@index')->name('skill.index');
 //portfolioのルーティング
 Route::get('/portfolio/top', 'PortfolioController@index')->name('portfolio.index'); //portfolioのトップページ
 
+// hospitalのルーティング
+Route::group(['prefix' => 'hospital'],function(){
+  Route::get('/hospitals/index','HospitalController@index')->name('hospital.list');
+});
+
 //OnlineReviewsのルーティングとログインしないとページに遷移できないようにmiddlewareを記述
 Route::group(['prefix' => 'online_reviews','middleware' => 'auth'], function(){
   Route::get('hospital_list/index','OnlineReviewsController@index')->name('online_reviews.hospital_list'); // 病院一覧表

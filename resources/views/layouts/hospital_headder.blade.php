@@ -28,10 +28,6 @@
                 </div>
                 @endif
             </header>
-
-            <div class="main">mainページ
-                <a href="{{ route('hospital.list') }}">病院一覧</a>
-            </div>
         </div>
     </body>
 </html>
