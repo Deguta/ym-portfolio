@@ -23,7 +23,7 @@
       <div class="row no-gutters">
         <div class="card mt-5 mx-auto  col-md-6 col-md-offset-6">
           <div class="h2 card-header text-left back-color-gradient">
-            <a id="about-me">自己紹介</a>
+            <section id="about-me">自己紹介</section>
           </div>
 
           <img class="img-thumbnail col-md-8 col-md-offset-2 d-block mt-4 mx-auto" src="images/4317917_m.jpg" alt="自己紹介写真">
@@ -42,7 +42,7 @@
       <div class="row no-gutters">
         <div class="card mt-5 mx-auto  col-md-6 col-md-offset-6">
           <div class="h2 card-header text-left back-color-gradient">
-            <a id="about-me">経歴</a>
+            <a id="career">経歴</a>
         </div>
 
         <div class="card-text text-left mt-3 ml-5">
@@ -52,12 +52,12 @@
               <dd>2006年4月〜2010年3月 近畿大学 経営学部 経営学科 ITビジネスコース</dd>
             </dt>
             <div class="hidden_box">
-              <label id="label">クリックして表示</label>
+              <label for="label1">学歴の詳細はこちら</label>
               <input type="checkbox" id="label1"/>
               <div class="hidden_show">
-                っこここここここ
+                aaaaaaaaa
               </div>
-          </div>
+            </div>
           </dl>
 
           <dl>
@@ -65,17 +65,38 @@
               <dd>2010年4月〜2015年9月 株式会社近商ストア</dd>
             </dt>
             <div class="hidden_box">
-              <label id="label2">クリックして表示</label>
+              <label for="label2">職歴1の詳細はこちら</label>
               <input type="checkbox" id="label2"/>
               <div class="hidden_show">
-                ああああああああああ
+                [主な担当]
+                近鉄沿線の街の活性化し豊かな暮らしを支えるための食品を中心とした商品を販売。食品の加工・販売・接客を主とした仕事。
+
+                [成果]
+                2014年度 売上3億7800万円 予算達成率 105%　粗利 1800万
+                食卓を豊かにできるように旬の食材を提供したり、他部門と協力しメミュー提案をすることによって売場に工夫をした。その結果、前年の売上に対して5%程売上アップ。また、お客様が焼いてすぐに食べられるように工夫をして前年比10%アップ。企業内によるお造りコンテストで優勝。
+
               </div>
-          </div>
+            </div>
 
           <dl>
             <dt><h3>【職歴2】</h3>
               <dd>20015年10月〜2020年12月 株式会社サカノシタ</dd>
             </dt>
+            <div class="hidden_box">
+              <label for="label3">職歴2の詳細はこちら</label>
+              <input type="checkbox" id="label3"/>
+              <div class="hidden_show">
+                主な担当
+                機械工具のルート営業
+
+                【成果】
+                2019年度 売上1億4000万円 粗利2100万円 
+                モノづくりのサポートをモットーに機械工具の販売、提案。
+                昨年の12月には大型機械の受注を頂き１億円の売上達成。
+                また、弊社の当月売上ランキング1位獲得。
+
+              </div>
+            </div>
           </dl>
 
 

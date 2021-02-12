@@ -71,8 +71,8 @@ nav ul li.current a{
 }
 
 /*ボタン装飾*/
-#hidden_box label {
-  padding: 15px;
+.hidden_box label[for=label1] {
+  padding: 5px;
   font-weight: bold;
   border: solid 2px red;
   cursor :pointer;
@@ -114,10 +114,51 @@ nav ul li.current a{
 }
 
 /*ボタン装飾*/
-#label2 {
+.hidden_box label[for=label2] {
   padding: 5px;
   font-weight: bold;
-  border: solid 2px red;
+  border: solid 2px blue;
+  cursor :pointer;
+}
+
+/*ボタンホバー時*/
+.hidden_box label:hover {
+  background: #efefef;
+}
+
+/*チェックは見えなくする*/
+.hidden_box input {
+  display: none;
+}
+
+/*中身を非表示にしておく*/
+.hidden_box .hidden_show {
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+/*クリックで中身表示*/
+.hidden_box input:checked ~ .hidden_show {
+  padding: 10px 0;
+  height: auto;
+  opacity: 1;
+}
+
+
+/*職歴2 全体*/
+.hidden_box {
+  margin: 1em 0;/*前後の余白*/
+  padding: 0;
+}
+
+/*ボタン装飾*/
+.hidden_box label[for=label3] {
+  padding: 5px;
+  font-weight: bold;
+  border: solid 2px yellow;
   cursor :pointer;
 }
 
