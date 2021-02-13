@@ -55,7 +55,11 @@
               <label for="label1">学歴の詳細はこちら</label>
               <input type="checkbox" id="label1"/>
               <div class="hidden_show">
-                aaaaaaaaa
+                新聞会部と大学祭実行委員会に入部していました。芸能人やスポーツ選手が多く訪ねて くるのでそれのアポ取りや記事チェック等々の社会人に必要な基礎を学んでいました。
+                また、学祭の運営も行っていました。 アルバイトは蕎麦菓子と料亭で働いていました。そこで技術を身につけお客様に認めても らえる様になった。 大学ではITビジネスコースに入学しましたので基本的なマークアップ言語は勉強しまし
+                た。当時はIT関係に入社する意欲はありませんでした。なぜ、入学したかというとTV ゲームが大好きでゲーム機本体をプログラム改造するのが好きでした。自分で必要な知識
+                をインターネットで検索しをそれを形にできるから達成感を味わうことが面白かったから
+                です。
               </div>
             </div>
           </dl>
@@ -114,12 +118,11 @@
   </body>
 </html>
 
-                <div class="contact">
+                <!-- <div class="contact">
                     <img src="{{ url("../images/4358663_s.jpg") }}" alt="お問い合わせ" class="contact-image">
                     <div class="contact-text">
                         <div class="contact-text-box">
                             <a href="{{ url('/contact/index') }}">Contact</a>
                         </div>
                     </div>
-                </div>
-  --}}
+                </div> -->
