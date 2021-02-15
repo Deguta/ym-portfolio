@@ -187,3 +187,12 @@ nav ul li.current a{
   height: auto;
   opacity: 1;
 }
+
+/* 保有資格と特技 */
+#ul-requirement {
+  list-style: none;
+}
+
+#ul-skill {
+  list-style: none;
+}
