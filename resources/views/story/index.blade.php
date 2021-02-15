@@ -1,1 +1,0 @@
-<p>storyのindexです</p>

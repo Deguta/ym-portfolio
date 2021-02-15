@@ -23,13 +23,6 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 
 
-// aboutのルーティング
-Route::get('/about_me/index', 'AboutMeController@index')->name('about_me.index');
-
-// skillのルーティング
-Route::get('/skill/index', 'SkillController@index')->name('skill.index');
-
-
 
 //portfolioのルーティング
 Route::get('/portfolio/top', 'PortfolioController@index')->name('portfolio.index'); //portfolioのトップページ
@@ -50,8 +43,6 @@ Route::group(['prefix' => 'online_reviews','middleware' => 'auth'], function(){
 });
 
 
-//storyのルーティング
-Route::get('/story/index', 'StoryController@index')->name('story.index');
 
 
 //お問い合わせの送信メールのルーティング

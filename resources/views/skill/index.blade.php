@@ -1,1 +1,0 @@
-<p>skill,indexのページ</p>

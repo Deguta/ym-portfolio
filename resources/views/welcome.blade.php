@@ -10,13 +10,15 @@
     <div class="container">
       <!-- ナビゲーションバー -->
       <nav>
-        <ul >
+        <ul>
           <li><a href=”#about-me”>自己紹介</a></li>
           <li><a href=”#career”>経歴</a></li>
           <li><a href="#products">製作物</a></li>
           <li><a href=”#skill”>スキルや学習</a></li>
-          <li><a href=”#dream”>エニジニアを目指す理由</a></li>
-          <li><a href=”#pr”>自己PR</a></li>
+          <li><a href=”#pr”></a>自己PR</li>
+          <li><a href=”#dream”>エニジニアを<br>目指す理由</a></li>
+          <li><a href=”#last”>最後に</a></li>
+          <li><a href=”#contact”>お問い合わせ</a></li>
         </ul>
       </nav>
 
@@ -43,7 +45,7 @@
       <div class="row no-gutters">
         <div class="card mt-5 mx-auto  col-md-9 col-md-offset-3">
           <div class="h2 card-header text-left back-color-gradient">
-            <section id="about-me">経歴</section>
+            <section id="career">経歴</section>
           </div>
 
           <div class="card-body mt-1">
@@ -55,6 +57,10 @@
               <label for="label1">学歴の詳細はこちら</label>
               <input type="checkbox" id="label1">
               <div class="hidden_show">
+                <div class="col-12 d-flex justify-content-center">
+                  <img class="img-thumbnail col-md-6 d-block mt-1 mx-auto" src="images/4317917_m.jpg" alt="自己紹介写真">
+                  <img class="img-thumbnail col-md-6 d-block mt-1 mx-auto" src="images/4317917_m.jpg" alt="自己紹介写真">
+                </div>
                 新聞会部と大学祭実行委員会に入部していました。芸能人やスポーツ選手が多く訪ねて くるのでそれのアポ取りや記事チェック等々の社会人に必要な基礎を学んでいました。
                 また、学祭の運営も行っていました。 アルバイトは蕎麦菓子と料亭で働いていました。そこで技術を身につけお客様に認めても らえる様になった。 大学ではITビジネスコースに入学しましたので基本的なマークアップ言語は勉強しまし
                 た。当時はIT関係に入社する意欲はありませんでした。なぜ、入学したかというとTV ゲームが大好きでゲーム機本体をプログラム改造するのが好きでした。自分で必要な知識
@@ -68,6 +74,10 @@
                 <label for="label2">職歴1の詳細はこちら</label>
                 <input type="checkbox" id="label2"/>
                 <div class="hidden_show">
+                  <div class="col-12 d-flex justify-content-center">
+                    <img class="img-thumbnail col-md-6 d-block mt-1 mx-auto" src="images/4317917_m.jpg" alt="自己紹介写真">
+                    <img class="img-thumbnail col-md-6 d-block mt-1 mx-auto" src="images/4317917_m.jpg" alt="自己紹介写真">
+                  </div>  
                   [主な担当]
                   近鉄沿線の街の活性化し豊かな暮らしを支えるための食品を中心とした商品を販売。食品の加工・販売・接客を主とした仕事。
                   [成果]
@@ -82,6 +92,11 @@
                 <label for="label3">職歴2の詳細はこちら</label>
                 <input type="checkbox" id="label3"/>
                 <div class="hidden_show">
+                  <div class="col-12 d-flex justify-content-center">
+                    <img class="img-thumbnail col-md-6 d-block mt-1 mx-auto" src="images/4317917_m.jpg" alt="自己紹介写真">
+                    <img class="img-thumbnail col-md-6 d-block mt-1 mx-auto" src="images/4317917_m.jpg" alt="自己紹介写真">
+                  </div>
+  
                   主な担当
                   機械工具のルート営業
                   【成果】
@@ -98,8 +113,8 @@
 
       <div class="row no-gutters">
         <div class="card mt-5 mx-auto  col-md-12">
-          <div class="h2 card-header text-left back-color-gradient">
-            <section id="about-me">制作物</section>
+          <div class="h2 card-header text-center back-color-gradient">
+            <section id="products">制作物</section>
           </div>
         </div>
       </div>
@@ -134,7 +149,7 @@
       <div class="row no-gutters">
         <div class="card mt-5 mx-auto  col-md-9 col-md-offset-3">
           <div class="h2 card-header text-left back-color-gradient">
-            <section id="about-me">保有資格 特技</section>
+            <section id="skill">保有資格 特技</section>
           </div>
           <div class="card-body ">
             <p class="card-text left">
@@ -150,7 +165,7 @@
               <h3>特技一覧</h3>
               <li>ピアノ</li>
               <li>合気道</li>
-              <li>魚料理</li>
+              <li>魚裁き&魚料理</li>
             </ul>    
             </p>
           </div>
@@ -160,7 +175,7 @@
       <div class="row no-gutters">
         <div class="card mt-5 mx-auto  col-md-9 col-md-offset-3">
           <div class="h2 card-header text-left back-color-gradient">
-            <section id="about-me">自己PR</section>
+            <section id="pr">自己PR</section>
           </div>
           <div class="card-body ">
             <p class="card-text left">
@@ -170,7 +185,6 @@
                 その結果、弊社のお客様にマスクを販売する事ができ大手企業様を中心に注文が殺到し、1日でマスクを完売させることができました。その結果、お客様はマスク不足を解消でき、会社でも3600万円の売上を上げることができました。
                 また、この功績により京都市と南丹市から災害時における物資供給を優先的に行うことができる協定を結部ことにも至りました。
                 入社後には、さまざまな観点からどのように課題を解決できるか検討し、社内やクライアントの課題解決に貢献したいと思います。
-
             </p>
           </div>
         </div>
@@ -179,7 +193,7 @@
       <div class="row no-gutters">
         <div class="card mt-5 mx-auto  col-md-9 col-md-offset-3">
           <div class="h2 card-header text-left back-color-gradient">
-            <section id="about-me">エンジニアを目指す理由</section>
+            <section id="dream">エンジニアを目指す理由</section>
           </div>
           <div class="card-body ">
             <p class="card-text left">
@@ -195,39 +209,57 @@
       <div class="row no-gutters">
         <div class="card mt-5 mx-auto  col-md-9 col-md-offset-3">
           <div class="h2 card-header text-left back-color-gradient">
-            <section id="about-me">最後に</section>
+            <section id="last">最後に</section>
           </div>
           <div class="card-body ">
             <p class="card-text left">
               ここまで読んでいただきありがとうございます。<br>
               初学者でもありますので新しく勉強したことや理解したことはQiitaにて投稿しています!<br>
-              是非こちらも読んでいただいたらと思います。
-              <a href="https://qiita.com/yutarou">[私のQiitaはこちら]</a>
+              是非こちらも読んで頂いたらと思います。<br>
+              <a href="https://qiita.com/yutarou">
+                私のQiitaはこちら
+              </a>
+
             </p>
-            
+            <!-- <p class ="card-text center">
+              <a href="https://qiita.com/yutarou">
+                <div class="last-Qiita">私のQiitaはこちら</div>
+              </a>
+            </p> -->
           </div>
         </div>
       </div>
 
-      <div class="contact">
-        <img src="{{ url("../images/4358663_s.jpg") }}" alt="お問い合わせ" class="contact-image">
-        <div class="contact-text">
-            <div class="contact-text-box">
-                <a href="{{ url('/contact/index') }}">Contact</a>
-            </div>
+
+      <footer class="row no-gutters">
+        <div class="card mt-5 mx-auto  col-md-9 col-md-offset-3">
+          <div class="h2 card-header text-center back-color-gradient">
+            <section id="contact">お問い合わせ</section>
+          </div>
+          <div class="card-body text-center">
+              <h4>メールまたはツイッターDMでご連絡ください。</h4>
+          </div>
+          <ul class="list-inline mb-5 d-flex ">
+            <li>
+              <a href="{{ url('/contact/index') }}">
+                <div class="navbar-brand-gmail"></div>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/Fisher21663470">
+                <div class="navbar-brand-twitter d-block m-auto"></div>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/Deguta">
+                <div class="navbar-brand-github"></div>
+              </a>
+            </li>
+          </ul>
         </div>
-    </div>
-
-
-
-      
-      
-
-      
+      </footer>
     </div>
 
 
   </body>
 </html>
-
-                
