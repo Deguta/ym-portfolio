@@ -239,7 +239,7 @@
           <div class="card-body text-center">
               <h4>メールまたはツイッターDMでご連絡ください。</h4>
           </div>
-          <ul class="list-inline mb-5 d-flex ">
+          <ul class="list-inline mb-5 d-flex justify-content-center ">
             <li>
               <a href="{{ url('/contact/index') }}">
                 <div class="navbar-brand-gmail"></div>
