@@ -197,19 +197,19 @@ nav ul li.current a{
 
 /* お問い合わせ CSS */
 .navbar-brand-gmail {
-  background: url("../images/gmail--v2.png") no-repeat center center;;
+  background: url("../images/gmail--v2.png") no-repeat center;
   background-size: contain;
   height: 50px;
   width: 250px;
 }
 .navbar-brand-twitter {
-  background: url("../images/2021 Twitter logo - blue.png") no-repeat center center;
+  background: url("../images/2021 Twitter logo - blue.png") no-repeat center;
   background-size: contain;
   height: 50px;
   width: 250px;
 }
 .navbar-brand-github {
-  background: url("../images/github.png") no-repeat center center;
+  background: url("../images/github.png") no-repeat center;
   background-size: contain;
   height: 50px;
   width: 250px;

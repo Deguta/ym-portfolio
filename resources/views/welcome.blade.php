@@ -58,7 +58,7 @@
               <input type="checkbox" id="label1">
               <div class="hidden_show">
                 <div class="col-12 d-flex justify-content-center">
-                  <img class="img-thumbnail col-md-6 d-block mt-1 mx-auto" src="images/4317917_m.jpg" alt="自己紹介写真">
+                  <img class="img-thumbnail col-md-6 d-block mt-1 mx-auto " src="images/5D43DB8B-8CEF-40A6-A7FA-153FFE856B79.jpg" alt="元 大阪市長 橋下徹 さん">
                   <img class="img-thumbnail col-md-6 d-block mt-1 mx-auto" src="images/4317917_m.jpg" alt="自己紹介写真">
                 </div>
                 新聞会部と大学祭実行委員会に入部していました。芸能人やスポーツ選手が多く訪ねて くるのでそれのアポ取りや記事チェック等々の社会人に必要な基礎を学んでいました。

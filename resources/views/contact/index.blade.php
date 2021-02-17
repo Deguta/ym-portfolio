@@ -1,36 +1,70 @@
 @extends('layouts.app')
  
 @section('content')
-<form method="POST" action="{{ route('contact.confirm') }}"> //入力に問題が無かったら次のコントローラーに送る際のルーティングを設定
-    @csrf //入力するフォームにはcrsf対策をする。無ければ419というエラーが出る。
+{{--  入力に問題が無かったら次のコントローラーに送る際のルーティングを設定  --}}
+<form method="POST" action="{{ route('contact.confirm') }}">
+{{--  入力するフォームにはcrsf対策をする。無ければ419というエラーが出る  --}}
+  @csrf
+  
+  <div class="container ">
+    <div class="row no-gutters">
+      <div class="card mt-5 mx-auto  col-md-7 col-md-offset-5">
+        <div class="h2 card-header text-center">
+          <section>お問い合わせフォーム</section>
+        </div>
+      </div>
+    </div>
 
-    <label>メールアドレス</label>　
-    <input // inputは入力ができるフォーム
-        name="email"
-        value="{{ old('email') }}"　//ヘルパーメソッド old バリデーションでエラーが出た場合入力していた項目の初期化を防ぐため。
-        type="text">
-    @if ($errors->has('email')) //hasは入力値の存在チェック
-        <p class="error-message">{{ $errors->first('email') }}</p> //firstはクエリビルダーのことで無ければ空白というエラーを出す?
-    @endif
+    <div class="form-group">
+      <div class="my-3 mx-auto col-md-7 col-md-offset-5">
+        <label for="inputTitle">メールアドレス</label>        
+        <input type="text" class="form-control" name="email" value="{{ old('email') }}">
+          @if ($errors->has('email')) //hasは入力値の存在チェック
+          <p class="error-message">{{ $errors->first('email') }}</p> //firstはクエリビルダーのことで無ければ空白というエラーを出す
+          @endif
+      </div>
+    </div>
 
-    <label>タイトル</label>
-    <input
-        name="title"
-        value="{{ old('title') }}"
-        type="text">
-    @if ($errors->has('title')) //入力値の存在チェック
-        <p class="error-message">{{ $errors->first('title') }}</p>
-    @endif
+    <div class="form-group ">
+      <div class="my-3 mx-auto col-md-7 col-md-offset-5">
+        <label for="inputTitle">タイトル</label>        
+        <input type="text" class="form-control" name="title" value="{{ old('title') }}">
+          @if ($errors->has('title')) //hasは入力値の存在チェック
+          <p class="error-message">{{ $errors->first('title') }}</p> //firstはクエリビルダーのことで無ければ空白というエラーを出す
+          @endif
+      </div>
+    </div>
 
-
-    <label>お問い合わせ内容</label>
-    <textarea name="body">{{ old('body') }}</textarea>
-    @if ($errors->has('body'))
+    <div class="form-group">
+      <div class="my-3 mx-auto col-md-7 col-md-offset-5">
+        <label for="inputTitle">本文入力</label>        
+        <textarea rows="7" name="body" class="form-control">{{ old('body') }}</textarea>
+        @if ($errors->has('body'))
         <p class="error-message">{{ $errors->first('body') }}</p>
-    @endif
+        @endif
+        <button type="submit">入力内容確認</button>
+      </div>
+  </div>
+  
 
-    <button type="submit">
-        入力内容確認
-    </button>
+  </div>
+
+
 </form>
 @endsection
+
+
+<!-- 
+
+
+<div class="form-group">
+    <label class="col-sm-3 control-label">お問い合わせ内容</label>
+  <div class="col-sm-6">
+    <textarea rows="7" name="body" class="form-control">{{ old('body') }}</textarea>
+      @if ($errors->has('body'))
+      <p class="error-message">{{ $errors->first('body') }}</p>
+      @endif
+    <button type="submit">入力内容確認</button>
+  </div>
+</div>
+</div> -->
