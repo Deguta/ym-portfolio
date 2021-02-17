@@ -38,11 +38,14 @@
     <div class="form-group">
       <div class="my-3 mx-auto col-md-7 col-md-offset-5">
         <label for="inputTitle">本文入力</label>        
-        <textarea rows="7" name="body" class="form-control"  placeholder="本文を入力して下さい">{{ old('body') }}</textarea>
+        <textarea rows="7" name="body" class="form-control mb-4"  placeholder="本文を入力して下さい">{{ old('body') }}</textarea>
         @if ($errors->has('body'))
         <p class="error-message">{{ $errors->first('body') }}</p>
         @endif
-        <button type="submit">入力内容確認</button>
+          <div class="form-group row  justify-content-around">
+              <input type="submit" class="btn bg-primary text-white  btn-lg" id="page_back" value="投稿内容を送信" />
+              <input type="reset" class="btn bg-danger text-white" value="リセット" />
+          </div>
       </div>
   </div>
   
