@@ -7,9 +7,9 @@
   @csrf
   
   <div class="container ">
-    <div class="row no-gutters">
-      <div class="card mt-5 mx-auto  col-md-7 col-md-offset-5">
-        <div class="h2 card-header text-center">
+    <div class="row no-gutters ">
+      <div class="card mt-5 mx-auto  col-md-7 col-md-offset-5 ">
+        <div class="h2 card-header text-center bg-primary text-white">
           <section>お問い合わせフォーム</section>
         </div>
       </div>
@@ -18,7 +18,7 @@
     <div class="form-group">
       <div class="my-3 mx-auto col-md-7 col-md-offset-5">
         <label for="inputTitle">メールアドレス</label>        
-        <input type="text" class="form-control" name="email" value="{{ old('email') }}">
+        <input type="text" class="form-control" placeholder="メールアドレスを入力して下さい" name="email" value="{{ old('email') }}">
           @if ($errors->has('email')) //hasは入力値の存在チェック
           <p class="error-message">{{ $errors->first('email') }}</p> //firstはクエリビルダーのことで無ければ空白というエラーを出す
           @endif
@@ -28,7 +28,7 @@
     <div class="form-group ">
       <div class="my-3 mx-auto col-md-7 col-md-offset-5">
         <label for="inputTitle">タイトル</label>        
-        <input type="text" class="form-control" name="title" value="{{ old('title') }}">
+        <input type="text" class="form-control"  placeholder="タイトルを入力して下さい" name="title" value="{{ old('title') }}">
           @if ($errors->has('title')) //hasは入力値の存在チェック
           <p class="error-message">{{ $errors->first('title') }}</p> //firstはクエリビルダーのことで無ければ空白というエラーを出す
           @endif
@@ -38,7 +38,7 @@
     <div class="form-group">
       <div class="my-3 mx-auto col-md-7 col-md-offset-5">
         <label for="inputTitle">本文入力</label>        
-        <textarea rows="7" name="body" class="form-control">{{ old('body') }}</textarea>
+        <textarea rows="7" name="body" class="form-control"  placeholder="本文を入力して下さい">{{ old('body') }}</textarea>
         @if ($errors->has('body'))
         <p class="error-message">{{ $errors->first('body') }}</p>
         @endif
