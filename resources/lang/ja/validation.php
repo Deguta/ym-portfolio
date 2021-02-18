@@ -116,7 +116,7 @@ return [
     |
     */
 
-    'attributes' => ['password'=>'パスワード',
+    'attributes' => ['password'=>'パスワード', 'email'=>'メールアドレス','title'=>'件名','body'=>'本文',
 ],
 
 ];
