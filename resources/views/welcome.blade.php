@@ -25,12 +25,12 @@
       
       <!-- 自己紹介 -->
       <div class="row no-gutters">
-        <div class="card mt-5 mx-auto  col-md-9 col-md-offset-3">
+        <div class="card mt-5 mx-auto  col-md-9 md-offset-3">
           <div class="h2 card-header text-left back-color-gradient">
             <section id="about-me">自己紹介</section>
           </div>
 
-          <img class="img-thumbnail col-md-10 col-md-offset-2 d-block mt-4 mx-auto" src="images/4317917_m.jpg" alt="自己紹介写真">
+          <img class="img-thumbnail col-md-10 md-offset-2 d-block mt-4 mx-auto" src="images/4317917_m.jpg" alt="自己紹介写真">
           <div class="card-body ">
             <p class="card-text text-center">
             採用者の皆様へ。<br>
@@ -43,7 +43,7 @@
       </div>
 
       <div class="row no-gutters">
-        <div class="card mt-5 mx-auto  col-md-9 col-md-offset-3">
+        <div class="card mt-5 mx-auto  col-md-9 md-offset-3">
           <div class="h2 card-header text-left back-color-gradient">
             <section id="career">経歴</section>
           </div>
@@ -122,7 +122,7 @@
         <div class="col-12 col-sm-8 col-md-4">
           <div class="card-body ">
             <a href="#"><h2>制作物1</h2></a>
-            <img class="img-thumbnail col-md-8 col-md-offset-2 d-block mt-4 mx-auto" src="images/4317917_m.jpg" alt="自己紹介写真">
+            <img class="img-thumbnail col-md-8 md-offset-2 d-block mt-4 mx-auto" src="images/4317917_m.jpg" alt="自己紹介写真">
             <p class="card-text text-left ">
               採用者の皆様へ。<br>
               大変お忙しい中、お時間を割いて頂きありがとうございます！<br>
@@ -135,7 +135,7 @@
         <div class="col-12 col-sm-8 col-md-4">
           <div class="card-body ">
             <a href="#"><h2>制作物2</h2></a>
-            <img class="img-thumbnail col-md-8 col-md-offset-2 d-block mt-4 mx-auto" src="images/4317917_m.jpg" alt="自己紹介写真">
+            <img class="img-thumbnail col-md-8 md-offset-2 d-block mt-4 mx-auto" src="images/4317917_m.jpg" alt="自己紹介写真">
             <p class="card-text text-left ">
               採用者の皆様へ。<br>
               大変お忙しい中、お時間を割いて頂きありがとうございます！<br>
@@ -147,7 +147,7 @@
      </div>
 
       <div class="row no-gutters">
-        <div class="card mt-5 mx-auto  col-md-9 col-md-offset-3">
+        <div class="card mt-5 mx-auto  col-md-9 md-offset-3">
           <div class="h2 card-header text-left back-color-gradient">
             <section id="skill">保有資格 特技</section>
           </div>
@@ -173,7 +173,7 @@
       </div>
 
       <div class="row no-gutters">
-        <div class="card mt-5 mx-auto  col-md-9 col-md-offset-3">
+        <div class="card mt-5 mx-auto  col-md-9 md-offset-3">
           <div class="h2 card-header text-left back-color-gradient">
             <section id="pr">自己PR</section>
           </div>
@@ -191,7 +191,7 @@
       </div>
 
       <div class="row no-gutters">
-        <div class="card mt-5 mx-auto  col-md-9 col-md-offset-3">
+        <div class="card mt-5 mx-auto  col-md-9 md-offset-3">
           <div class="h2 card-header text-left back-color-gradient">
             <section id="dream">エンジニアを目指す理由</section>
           </div>
@@ -207,7 +207,7 @@
       </div>
 
       <div class="row no-gutters">
-        <div class="card mt-5 mx-auto  col-md-9 col-md-offset-3">
+        <div class="card mt-5 mx-auto  col-md-9 md-offset-3">
           <div class="h2 card-header text-left back-color-gradient">
             <section id="last">最後に</section>
           </div>
@@ -232,7 +232,7 @@
 
 
       <footer class="row no-gutters">
-        <div class="card mt-5 mx-auto  col-md-9 col-md-offset-3">
+        <div class="card mt-5 mx-auto  col-md-9 md-offset-3">
           <div class="h2 card-header text-center back-color-gradient">
             <section id="contact">お問い合わせ</section>
           </div>

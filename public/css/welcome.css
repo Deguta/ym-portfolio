@@ -1,8 +1,6 @@
 body {
   width: 100%;
   height:auto;
-  border:solid;
-  border-color: red;
 
 }
 
@@ -213,4 +211,11 @@ nav ul li.current a{
   background-size: contain;
   height: 50px;
   width: 250px;
+}
+
+#top-page {
+  text-decoration:none;
+  color: skyblue;
+  font-size: 20px;
+  text-align: center;
 }
