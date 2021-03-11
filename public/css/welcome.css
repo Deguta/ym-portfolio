@@ -6,7 +6,7 @@ body {
 
 nav{
 border-bottom: 1px solid #ccc;
-background: url(../images/white_00053.jpg);
+background: url(../images/nav-board.jpg);
   background-size: cover;
   text-decoration: none;
 
@@ -54,15 +54,49 @@ nav ul li.current a{
 
 /* 経歴 css */
 /* 学歴 css */
-.school-image {
+.hashimoto {
   position: relative;
+}
+
+img.hashimoto-image {
+  height: auto;
 }
 .hashimoto-text {
   font-size: 15px;
   font-weight: bold;
   position: absolute;
-  top: 10%;
-  left: 15%;
+  top: 12%;
+  left: 35%;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+
+}
+
+.owarai {
+  position: relative;
+}
+img.owarai-image {
+  width: 100%;
+  height: 100%;
+}
+.owarai-text1 {
+  font-size: 12px;
+  font-weight: bold;
+  position: absolute;
+  top: 12%;
+  left: 25%;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+
+}
+.owarai-text2 {
+  font-size: 12px;
+  font-weight: bold;
+  position: absolute;
+  top: 18%;
+  left: 36%;
   transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
   -webkit-transform: translate(-50%,-50%);

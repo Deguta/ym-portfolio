@@ -10,7 +10,7 @@
     <div class="container">
       <!-- ナビゲーションバー -->
       <nav>
-        <ul class="">
+        <ul>
           <li><a href="#about-me" class="text-decoration-none" style="font-size:20px;">自己紹介</a></li>
           <li><a href="#carrer" class="text-decoration-none" style="font-size:20px;">経歴</a></li>
           <li><a href="#products" class="text-decoration-none" style="font-size:20px;">製作物</a></li>
@@ -57,19 +57,32 @@
               <label for="label1">学歴の詳細はこちら</label>
               <input type="checkbox" id="label1">
               <div class="hidden_show">
-                <div class="school-image col-12 d-flex justify-content-center">
-                  <img class="img-thumbnail col-md-6 d-block mt-1 mx-auto " src="images/5D43DB8B-8CEF-40A6-A7FA-153FFE856B79.jpg" alt="元 大阪市長 橋下徹 さん">
-                  <p class="hashimoto-text text-dark">元 大阪市長 橋下徹 さん</p>
-                  <img class="img-thumbnail col-md-6 d-block mt-1 mx-auto" src="images/5D43DB8B-8CEF-40A6-A7FA-153FFE856B79.jpg" alt="自己紹介写真">
-                  <p class="hashimoto-text text-dark">元 大阪市長 橋下徹 さん</p>
-                </div>
+                <div class="d-flex col-12 justify-content-center">
+                  <div class="hashimoto col-6">
+                    <img class="hashimoto-image img-thumbnail img-fluid mt-1" src="images/hashimoto.jpg" alt="元 大阪市長 橋下徹 さん">
+                    <p class="hashimoto-text text-dark">元 大阪市長 橋下徹 さん</p>
+                  </div>
 
-                　大学生の頃は新聞部と大学祭実行委員会に入部していました。新聞部では芸能人やスポーツ選手が多く訪ねてくるのでアポ取りや記事チェック、新聞の発行等々の社会人に必要な基礎を学んでいました。
-                また、大学祭実行委員会では、イベント企画を担当しました。特に大学祭では吉本芸人が毎年来られますのでミーティングが多かったです。お客様が安心・安全に楽しめる様に創意工夫したのが何よりの達成感でした。
-                整えてアルバイトは蕎麦菓子と料亭で働いていました。そこで技術を身につけお客様に認めても らえる様になった。 大学ではITビジネスコースに入学しましたので基本的なマークアップ言語は勉強しまし
-                た。当時はIT関係に入社する意欲はありませんでした。なぜ、入学したかというとTV ゲームが大好きでゲーム機本体をプログラム改造するのが好きでした。自分で必要な知識
-                をインターネットで検索しをそれを形にできるから達成感を味わうことが面白かったから
-                です。
+                  <div class="owarai col-6">
+                    <img class="owarai-image img-thumbnail img-fluid mt-1 mx-auto " src="images/owarai.jpg" alt="お笑い芸人 千鳥さん モンスターエンジンさん">
+                    <p class="owarai-text1 text-dark">吉本興業 千鳥さん</p>
+                    <p class="owarai-text2 text-dark">吉本興業 モンスターエンジンさん</p>
+                  </div>
+
+                  
+                </div>
+                <p class="font-weight-bold text-center mt-3">ITの専攻を選び<br>社会人として必要なことを沢山経験した大学時代</p>
+                <p class="mt-3">
+                　専攻ではITビジネスコースに入学しましたので基本的なマークアップ言語は勉強しました。ITビジネスコースに専攻した理由は、高校時代、ホームページを作成しました。
+                インターネットで検索してそれを形にできるという面白みを勉強したので専攻として選択しました。<br>
+                　部活動は新聞部と大学祭実行委員会に所属していました。新聞部では芸能人やスポーツ選手が多く訪ねてくるので
+                所属事務所のアポ取り、記事チェックを行い、最後は新聞の発行の許可を貰うために大学の職員の打ち合わせを行いました。
+                新聞を作るにはこのような工程が多く、その経験を沢山したのでお陰で社会人に必要な経験を学びました。<br>
+                　また、大学祭実行委員会では、イベント企画を担当しました。特に大学祭では毎年、吉本芸人が漫才を披露する大きなイベントがあります。
+                ミーティングでは吉本興業のマネージャーが来られますので必要なことを聞き出すことが大切です。
+                どうしたらイベントがスムーズにできるのか何度も話し合い当日を迎えることができました。
+                そのお陰で、お客様が安心・安全にイベントを楽しめることできたのが何よりの達成感でした。<br>
+                </p>
               </div>
               <dt class="mt-3"><h3>【職歴1】</h3>
                 <dd>2010年4月〜2015年9月 株式会社近商ストア</dd>
@@ -126,7 +139,7 @@
       <div class="row no-gutters justify-content-around bg-white border">
         <div class="col-12 col-sm-8 col-md-4">
           <div class="card-body ">
-            <a href="#"><h2>制作物1</h2></a>
+            <a href="#" class="text-decoration-none"><h2 >Study-Of-PostSite</h2></a>
             <img class="img-thumbnail col-md-8 md-offset-2 d-block mt-4 mx-auto" src="images/4317917_m.jpg" alt="自己紹介写真">
             <p class="card-text text-left ">
               採用者の皆様へ。<br>
