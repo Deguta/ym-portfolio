@@ -25,6 +25,8 @@ nav ul li{
   display: table-cell;
   min-width: 120px;
   border-right: 1px solid #ccc;
+  vertical-align: middle;
+
 
 }
 nav ul li:first-child{
@@ -52,6 +54,22 @@ nav ul li.current a{
 
 /* 経歴 css */
 /* 学歴 css */
+.school-image {
+  position: relative;
+}
+.hashimoto-text {
+  font-size: 15px;
+  font-weight: bold;
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+
+}
+
+
 .hidden_box {
   margin: 1em 0;/*前後の余白*/
   padding: 0;

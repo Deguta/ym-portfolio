@@ -3,31 +3,30 @@
 <head>
   <meta charset="utf-8">
   <title>YM-PortFolio</title>
-  <link rel="stylesheet" href="{{ asset('css/welcome.css') }}">
+  <link href="{{ asset('css/welcome.css') }}" rel="stylesheet">
   <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
   <body>
     <div class="container">
       <!-- ナビゲーションバー -->
       <nav>
-        <ul>
-          <li><a href=”#about-me”>自己紹介</a></li>
-          <li><a href=”#career”>経歴</a></li>
-          <li><a href="#products">製作物</a></li>
-          <li><a href=”#skill”>スキルや学習</a></li>
-          <li><a href=”#pr”></a>自己PR</li>
-          <li><a href=”#dream”>エニジニアを<br>目指す理由</a></li>
-          <li><a href=”#last”>最後に</a></li>
-          <li><a href=”#contact”>お問い合わせ</a></li>
+        <ul class="">
+          <li><a href="#about-me" class="text-decoration-none" style="font-size:20px;">自己紹介</a></li>
+          <li><a href="#carrer" class="text-decoration-none" style="font-size:20px;">経歴</a></li>
+          <li><a href="#products" class="text-decoration-none" style="font-size:20px;">製作物</a></li>
+          <li><a href="#skill" class="text-decoration-none" style="font-size:18px;">スキルや学習</a></li>
+          <li><a href="#pr" class="text-decoration-none" style="font-size:20px;">自己PR</a></li>
+          <li><a href="#dream"class="text-decoration-none">エニジニアを<br>目指す理由</a></li>
+          <li><a href="#last" class="text-decoration-none" style="font-size:20px;">最後に</a></li>
+          <li><a href="#contact" class="text-decoration-none" style="font-size:18px;">お問い合わせ</a></li>
         </ul>
       </nav>
 
-      
       <!-- 自己紹介 -->
       <div class="row no-gutters">
         <div class="card mt-5 mx-auto  col-md-9 md-offset-3">
-          <div class="h2 card-header text-left back-color-gradient">
-            <section id="about-me">自己紹介</section>
+          <div class="h2 card-header text-left back-color-gradient ">
+            <h3 id="about-me" class="mb-0">自己紹介</h3>
           </div>
 
           <img class="img-thumbnail col-md-10 md-offset-2 d-block mt-4 mx-auto" src="images/4317917_m.jpg" alt="自己紹介写真">
@@ -42,10 +41,11 @@
         </div>
       </div>
 
+      <!-- 経歴 -->
       <div class="row no-gutters">
         <div class="card mt-5 mx-auto  col-md-9 md-offset-3">
           <div class="h2 card-header text-left back-color-gradient">
-            <section id="career">経歴</section>
+            <h3 id="carrer" class="mb-0">経歴</h3>
           </div>
 
           <div class="card-body mt-1">
@@ -57,12 +57,16 @@
               <label for="label1">学歴の詳細はこちら</label>
               <input type="checkbox" id="label1">
               <div class="hidden_show">
-                <div class="col-12 d-flex justify-content-center">
+                <div class="school-image col-12 d-flex justify-content-center">
                   <img class="img-thumbnail col-md-6 d-block mt-1 mx-auto " src="images/5D43DB8B-8CEF-40A6-A7FA-153FFE856B79.jpg" alt="元 大阪市長 橋下徹 さん">
-                  <img class="img-thumbnail col-md-6 d-block mt-1 mx-auto" src="images/4317917_m.jpg" alt="自己紹介写真">
+                  <p class="hashimoto-text text-dark">元 大阪市長 橋下徹 さん</p>
+                  <img class="img-thumbnail col-md-6 d-block mt-1 mx-auto" src="images/5D43DB8B-8CEF-40A6-A7FA-153FFE856B79.jpg" alt="自己紹介写真">
+                  <p class="hashimoto-text text-dark">元 大阪市長 橋下徹 さん</p>
                 </div>
-                大学生の頃は新聞会部と大学祭実行委員会に入部していました。新聞部の方では芸能人やスポーツ選手が多く訪ねてくるのでアポ取りや記事チェック、新聞の発行等々の社会人に必要な基礎を学んでいました。
-                また、大学祭実行委員会では、学祭に訪れるお客様に安心して楽しめるようにイベントの企画や アルバイトは蕎麦菓子と料亭で働いていました。そこで技術を身につけお客様に認めても らえる様になった。 大学ではITビジネスコースに入学しましたので基本的なマークアップ言語は勉強しまし
+
+                　大学生の頃は新聞部と大学祭実行委員会に入部していました。新聞部では芸能人やスポーツ選手が多く訪ねてくるのでアポ取りや記事チェック、新聞の発行等々の社会人に必要な基礎を学んでいました。
+                また、大学祭実行委員会では、イベント企画を担当しました。特に大学祭では吉本芸人が毎年来られますのでミーティングが多かったです。お客様が安心・安全に楽しめる様に創意工夫したのが何よりの達成感でした。
+                整えてアルバイトは蕎麦菓子と料亭で働いていました。そこで技術を身につけお客様に認めても らえる様になった。 大学ではITビジネスコースに入学しましたので基本的なマークアップ言語は勉強しまし
                 た。当時はIT関係に入社する意欲はありませんでした。なぜ、入学したかというとTV ゲームが大好きでゲーム機本体をプログラム改造するのが好きでした。自分で必要な知識
                 をインターネットで検索しをそれを形にできるから達成感を味わうことが面白かったから
                 です。
@@ -77,7 +81,7 @@
                   <div class="col-12 d-flex justify-content-center">
                     <img class="img-thumbnail col-md-6 d-block mt-1 mx-auto" src="images/4317917_m.jpg" alt="自己紹介写真">
                     <img class="img-thumbnail col-md-6 d-block mt-1 mx-auto" src="images/4317917_m.jpg" alt="自己紹介写真">
-                  </div>  
+                  </div>
                   [主な担当]
                   近鉄沿線の街の活性化し豊かな暮らしを支えるための食品を中心とした商品を販売。食品の加工・販売・接客を主とした仕事。
                   [成果]
@@ -96,7 +100,7 @@
                     <img class="img-thumbnail col-md-6 d-block mt-1 mx-auto" src="images/4317917_m.jpg" alt="自己紹介写真">
                     <img class="img-thumbnail col-md-6 d-block mt-1 mx-auto" src="images/4317917_m.jpg" alt="自己紹介写真">
                   </div>
-  
+
                   主な担当
                   機械工具のルート営業
                   【成果】
@@ -111,10 +115,11 @@
         </div>
       </div>
 
+      <!-- 製作物 -->
       <div class="row no-gutters">
         <div class="card mt-5 mx-auto  col-md-12">
           <div class="h2 card-header text-center back-color-gradient">
-            <section id="products">制作物</section>
+            <h3 id="products" class="mb-0">製作物</h3>
           </div>
         </div>
       </div>
@@ -149,7 +154,7 @@
       <div class="row no-gutters">
         <div class="card mt-5 mx-auto  col-md-9 md-offset-3">
           <div class="h2 card-header text-left back-color-gradient">
-            <section id="skill">保有資格 特技</section>
+            <h3 id="skill" class="mb-0">保有資格 特技</h3>
           </div>
           <div class="card-body ">
             <p class="card-text left">
@@ -175,7 +180,7 @@
       <div class="row no-gutters">
         <div class="card mt-5 mx-auto  col-md-9 md-offset-3">
           <div class="h2 card-header text-left back-color-gradient">
-            <section id="pr">自己PR</section>
+            <h3 id="pr" class="mb-0">自己PR</h3>
           </div>
           <div class="card-body ">
             <p class="card-text left">
@@ -193,7 +198,7 @@
       <div class="row no-gutters">
         <div class="card mt-5 mx-auto  col-md-9 md-offset-3">
           <div class="h2 card-header text-left back-color-gradient">
-            <section id="dream">エンジニアを目指す理由</section>
+            <h3 id="dream" class="mb-0">エニジニアを目指す理由</h3>
           </div>
           <div class="card-body ">
             <p class="card-text left">
@@ -209,12 +214,12 @@
       <div class="row no-gutters">
         <div class="card mt-5 mx-auto  col-md-9 md-offset-3">
           <div class="h2 card-header text-left back-color-gradient">
-            <section id="last">最後に</section>
+            <h3 id="last" class="mb-0">最後に</h3>
           </div>
           <div class="card-body ">
             <p class="card-text left">
               ここまで読んでいただきありがとうございます。<br>
-              初学者でもありますので新しく勉強したことや理解したことはQiitaにて投稿しています!<br>
+              初学者でもありますので新しく勉強したことや理解したことはこちらの<a href="https://qiita.com/yutarou">Qiita</a>にて投稿しています!<br>
               是非こちらも読んで頂いたらと思います。<br>
               <a href="https://qiita.com/yutarou">
                 私のQiitaはこちら
@@ -234,7 +239,7 @@
       <footer class="row no-gutters">
         <div class="card mt-5 mx-auto  col-md-9 md-offset-3">
           <div class="h2 card-header text-center back-color-gradient">
-            <section id="contact">お問い合わせ</section>
+            <h3 id="contact" class="mb-0">お問い合わせ</h3>
           </div>
           <div class="card-body text-center">
               <h4>メールまたはツイッターDMでご連絡ください。</h4>
