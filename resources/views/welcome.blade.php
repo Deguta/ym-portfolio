@@ -46,11 +46,11 @@
       <div class="row no-gutters">
         <div class="card mt-5 mx-auto  col-md-9 md-offset-3">
           <div class="h2 card-header text-left back-color-gradient">
-            <h3 id="carrer" class="mb-0">経歴</h3>
+            <id id="carrer" class="mb-0">経歴</id>
           </div>
 
           <div class="card-body">
-            <dt class="mt-3 text-center"><h3>【学歴】</h3>
+            <dt class="mt-3 text-center "><div class="p-3 mb-2 bg-primary text-white">【学歴】</div>
               <dd class="text-center">2003年4月〜2006年3月 京都成章高等学校</dd>
               <dd class="text-center">2006年4月〜2010年3月 近畿大学 経営学部 経営学科 ITビジネスコース</dd>
             </dt>
@@ -103,7 +103,7 @@
                 
 
               <!-- 職歴1 -->
-              <dt class="mt-5 text-center"><h3>【職歴1】</h3>
+              <dt class="mt-5 text-center"><div class="p-3 mb-2 bg-primary text-white">【職歴1】</div>
                 <dd class="text-center">2010年4月〜2015年9月 株式会社近商ストア</dd>
               </dt>
                   <p class="text-center font-weight-bold mb-0">[主な仕事]</p>

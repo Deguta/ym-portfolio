@@ -3,10 +3,6 @@ body {
   height:auto;
 }
 
-a {
-  text-decoration:none;
-}
-
 nav{
   border-bottom: 1px solid #ccc;
   background: url(../images/nav-board.jpg);
