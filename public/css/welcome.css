@@ -1,15 +1,16 @@
 body {
   width: 100%;
   height:auto;
+}
 
+a {
+  text-decoration:none;
 }
 
 nav{
-border-bottom: 1px solid #ccc;
-background: url(../images/nav-board.jpg);
+  border-bottom: 1px solid #ccc;
+  background: url(../images/nav-board.jpg);
   background-size: cover;
-  text-decoration: none;
-
 }
 
 nav ul{
@@ -19,6 +20,7 @@ nav ul{
   width: 80%;
   text-align: center;
 
+
 }
 
 nav ul li{
@@ -26,9 +28,8 @@ nav ul li{
   min-width: 120px;
   border-right: 1px solid #ccc;
   vertical-align: middle;
-
-
 }
+
 nav ul li:first-child{
   border-left: 1px solid #ccc;
 }
@@ -54,6 +55,44 @@ nav ul li.current a{
 
 /* 経歴 css */
 /* 学歴 css */
+.campus {
+  position: relative;
+}
+
+img.campus-image {
+  height: auto;
+}
+.campus-text {
+  font-size: 15px;
+  font-weight: bold;
+  position: absolute;
+  top: 12%;
+  left: 40%;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+
+}
+
+.bukatsu {
+  position: relative;
+}
+
+img.bukatsu-image {
+  height: 266px;
+}
+.bukatsu-text {
+  font-size: 15px;
+  font-weight: bold;
+  position: absolute;
+  top: 12%;
+  left: 25%;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+
+}
+
 .hashimoto {
   position: relative;
 }
@@ -103,6 +142,91 @@ img.owarai-image {
 
 }
 
+/* 職歴1 CSS */
+
+.tai {
+  position: relative;
+}
+
+img.tai-image {
+  height: auto;
+}
+.tai-text {
+  font-size: 15px;
+  font-weight: bold;
+  position: absolute;
+  top: 12%;
+  left: 20%;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+}
+
+
+.nabe {
+  position: relative;
+}
+
+img.nabe-image {
+  height: 236px;
+}
+.nabe-text1 {
+  font-size: 15px;
+  font-weight: bold;
+  position: absolute;
+  top: 12%;
+  left: 22%;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+}
+.nabe-text2 {
+  font-size: 15px;
+  font-weight: bold;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+}
+
+.buri {
+  position: relative;
+}
+
+img.buri-image {
+  height: auto;
+}
+.buri-text {
+  font-size: 15px;
+  font-weight: bold;
+  position: absolute;
+  top: 12%;
+  left: 20%;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+}
+
+.sanma {
+  position: relative;
+}
+
+img.sanma-image {
+  width:100%;
+  height: 236px;
+}
+.sanma-text {
+  font-size: 15px;
+  font-weight: bold;
+  position: absolute;
+  top: 12%;
+  left: 20%;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+}
 
 .hidden_box {
   margin: 1em 0;/*前後の余白*/
@@ -230,20 +354,70 @@ img.owarai-image {
 /* 保有資格と特技 */
 #ul-requirement {
   list-style: none;
+  padding: 0;
 }
 
-#ul-skill {
+#ul-special-skill {
   list-style: none;
+  padding: 0;
+
 }
 
 /* 自己PRのCSS */
 img.kyoto-image {
-  height: 264px;
+  height: 326px;
 }
 
 img.nantan-image {
   height: auto;
 }
+
+.grad-btn {
+  width: 140px;
+  margin: auto;
+  border-radius: 2px;
+  background: #15bb55;
+  color: #fff;
+  font-size: 0.9rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.grad-btn::before {
+  content: "自己PRの続きを読む"
+}
+
+.grad-item {
+  position: relative;
+  overflow: hidden;
+  height: 20px; /*隠した状態の高さ*/
+}
+
+.grad-item::before {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40px; /*グラデーションで隠す高さ*/
+  background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.9) 50%, rgba(255,255,255,0.9) 50%, #fff 100%);
+  background: linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.9) 50%, rgba(255,255,255,0.9) 50%, #fff 100%);
+  content: "";
+}
+
+.grad-trigger {
+  display: none; /*チェックボックスは常に非表示*/
+}
+.grad-trigger:checked ~ .grad-btn::before {
+  content: "閉じる" /*チェックされていたら、文言を変更する*/
+}
+.grad-trigger:checked ~ .grad-item {
+  height: auto; /*チェックされていたら、高さを戻す*/
+}
+.grad-trigger:checked ~ .grad-item::before {
+  display: none; /*チェックされていたら、grad-itemのbeforeを非表示にする*/
+}
+
 
 /* 最後にCSS */
 .last-Qiita {
