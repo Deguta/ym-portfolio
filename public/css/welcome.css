@@ -1,8 +1,11 @@
+/* 全体のCSS */
 body {
   width: 100%;
   height:auto;
 }
 
+
+/* ナビゲーションのCSS */
 nav{
   border-bottom: 1px solid #ccc;
   background: url(../images/nav-board.jpg);
@@ -40,7 +43,8 @@ nav ul li.current a{
   color: #00B0F0;
 }
 
-/* タグ css */
+
+/* 全体のタグ css */
 .back-color-gradient {
   background: linear-gradient(
 #fceabb,#f8b500)
@@ -77,8 +81,11 @@ nav ul li.current a{
   left: 0;
   width: 100%;
   height: 40px; /*グラデーションで隠す高さ*/
-  background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.9) 50%, rgba(255,255,255,0.9) 50%, #fff 100%);
-  background: linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.9) 50%, rgba(255,255,255,0.9) 50%, #fff 100%);
+  background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, 
+  rgba(255,255,255,0.9) 50%, rgba(255,255,255,0.9) 50%, 
+  #fff 100%);
+  background: linear-gradient(top, rgba(255,255,255,0) 0%,
+  rgba(255,255,255,0.9) 50%, rgba(255,255,255,0.9) 50%, #fff 100%);
   content: "";
 }
 
@@ -97,6 +104,7 @@ nav ul li.current a{
 
 
 /* 学歴 写真のCSS */
+/* 近畿大学 経営学部 キャンパスの写真  */
 .campus {
   position: relative;
 }
@@ -115,6 +123,8 @@ img.campus-image {
   -webkit-transform: translate(-50%,-50%);
 }
 
+
+/* 部活動の写真 */
 .bukatsu {
   position: relative;
 }
@@ -134,6 +144,8 @@ img.bukatsu-image {
 
 }
 
+
+/* 元 大阪市長 橋下徹さんの写真 */
 .hashimoto {
   position: relative;
 }
@@ -152,6 +164,8 @@ img.hashimoto-image {
   -webkit-transform: translate(-50%,-50%);
 }
 
+
+/* 吉本興業の写真 */
 .owarai {
   position: relative;
 }
@@ -185,7 +199,7 @@ img.owarai-image {
 
 
 /* 職歴1 続きのCSS */
-.work-history-btn {
+.work-history-btn1 {
   width: 150px;
   margin: auto;
   border-radius: 2px;
@@ -196,17 +210,17 @@ img.owarai-image {
   cursor: pointer;
 }
 
-.work-history-btn::before {
+.work-history-btn1::before {
   content: "職歴1の続きを読む"
 }
 
-.work-history-hidden-text {
+.work-history-hidden-text1 {
   position: relative;
   overflow: hidden;
   height: 20px; /*隠した状態の高さ*/
 }
 
-.work-history-hidden-text::before {
+.work-history-hidden-text1::before {
   display: block;
   position: absolute;
   bottom: 0;
@@ -218,21 +232,24 @@ img.owarai-image {
   content: "";
 }
 
-.work-history-top-text {
+.work-history-top-text1 {
   display: none; /*チェックボックスは常に非表示*/
 }
-.work-history-top-text:checked ~ .work-history::before {
+
+.work-history-top-text1:checked ~ .work-history-btn1::before {
   content: "詳細を閉じる" /*チェックされていたら、文言を変更する*/
 }
-.work-history-top-text:checked ~ .work-history-hidden-text {
+
+.work-history-top-text1:checked ~ .work-history-hidden-text1 {
   height: auto; /*チェックされていたら、高さを戻す*/
 }
-.work-history-top-text:checked ~ .work-history-hidden-text::before {
+
+.work-history-top-text1:checked ~ .work-history-hidden-text1::before {
   display: none; /*チェックされていたら、.work-history-itemのbeforeを非表示にする*/
 }
 
-
 /* 職歴1 写真のCSS */
+/* 鯛の写真 */
 .tai {
   position: relative;
 }
@@ -240,6 +257,7 @@ img.owarai-image {
 img.tai-image {
   height: auto;
 }
+
 .tai-text {
   font-size: 15px;
   font-weight: bold;
@@ -251,6 +269,8 @@ img.tai-image {
   -webkit-transform: translate(-50%,-50%);
 }
 
+
+/* 鍋商材の写真 */
 .nabe {
   position: relative;
 }
@@ -270,6 +290,8 @@ img.nabe-image {
   -webkit-transform: translate(-50%,-50%);
 }
 
+
+/* 鰤の写真 */
 .buri {
   position: relative;
 }
@@ -288,6 +310,8 @@ img.buri-image {
   -webkit-transform: translate(-50%,-50%);
 }
 
+
+/* 秋刀魚の写真 */
 .sanma {
   position: relative;
 }
@@ -308,47 +332,58 @@ img.sanma-image {
 }
 
 
-/*職歴2 全体*/
-.hidden_box {
-  margin: 1em 0;/*前後の余白*/
-  padding: 0;
-}
-
-/*ボタン装飾*/
-.hidden_box label[for=label3] {
-  padding: 5px;
+/* 職歴2 続きのCSS */
+.work-history-btn2 {
+  width: 150px;
+  margin: auto;
+  border-radius: 2px;
+  border:solid 2px;
+  font-size: 14px;
   font-weight: bold;
-  border: solid 2px rgb(247, 243, 3);
-  cursor :pointer;
+  text-align: center;
+  cursor: pointer;
 }
 
-/*ボタンホバー時*/
-.hidden_box label:hover {
-  background: #efefef;
+.work-history-btn2::before {
+  content: "職歴1の続きを読む"
 }
 
-/*チェックは見えなくする*/
-.hidden_box input {
-  display: none;
-}
-
-/*中身を非表示にしておく*/
-.hidden_box .hidden_show {
-  height: 0;
-  padding: 0;
+.work-history-hidden-text2 {
+  position: relative;
   overflow: hidden;
-  opacity: 0;
-  transition: 0.5s;
+  height: 20px; /*隠した状態の高さ*/
 }
 
-/*クリックで中身表示*/
-.hidden_box input:checked ~ .hidden_show {
-  padding: 10px 0;
-  height: auto;
-  opacity: 1;
+.work-history-hidden-text2::before {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40px; /*グラデーションで隠す高さ*/
+  background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.9) 50%, rgba(255,255,255,0.9) 50%, #fff 100%);
+  background: linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.9) 50%, rgba(255,255,255,0.9) 50%, #fff 100%);
+  content: "";
 }
 
-/* 保有資格と特技 */
+.work-history-top-text2 {
+  display: none; /*チェックボックスは常に非表示*/
+}
+
+.work-history-top-text2:checked ~ .work-history-btn2::before {
+  content: "詳細を閉じる" /*チェックされていたら、文言を変更する*/
+}
+
+.work-history-top-text2:checked ~ .work-history-hidden-text2 {
+  height: auto; /*チェックされていたら、高さを戻す*/
+}
+
+.work-history-top-text2:checked ~ .work-history-hidden-text2::before {
+  display: none; /*チェックされていたら、.work-history-itemのbeforeを非表示にする*/
+}
+
+
+/* 言語スキルと今後の学習 CSS */
 #ul-requirement {
   list-style: none;
   padding: 0;
@@ -357,10 +392,22 @@ img.sanma-image {
 #ul-special-skill {
   list-style: none;
   padding: 0;
-
 }
 
-/* 自己PRのCSS */
+
+/* 資格 特技 CSS*/
+#ul-requirement {
+  list-style: none;
+  padding: 0;
+}
+
+#ul-special-skill {
+  list-style: none;
+  padding: 0;
+}
+
+
+/* 自己PR CSS */
 img.kyoto-image {
   height: 326px;
 }
@@ -369,7 +416,8 @@ img.nantan-image {
   height: auto;
 }
 
-/* 自己PR続きのボタン */
+
+/* 自己PR 続きのボタン*/
 .pr-btn {
   width: 150px;
   margin: auto;
@@ -413,39 +461,42 @@ img.nantan-image {
   height: auto; /*チェックされていたら、高さを戻す*/
 }
 .pr-top-text:checked ~ .pr-hidden-text::before {
-  display: none; /*チェックされていたら、grad-itemのbeforeを非表示にする*/
+  display: none; /*チェックされていたら、pr-hidden-textのbeforeを非表示にする*/
 }
 
 
-/* 最後にCSS */
-.last-Qiita {
-  background: url("../images/8c88f8f4-9783-d36c-a547-e5c799f1253f.png") no-repeat left center;
-  background-size: contain;
-  height: 50px;
-  width: 250px;
-
-}
-
-/* お問い合わせ CSS */
-.navbar-brand-gmail {
-  background: url("../images/gmail--v2.png") no-repeat center;
+/* 最後に CSS */
+.last-brand-qiita {
+  background: url("../images/qiita.png") no-repeat center;
   background-size: contain;
   height: 50px;
   width: 250px;
 }
-.navbar-brand-twitter {
-  background: url("../images/2021 Twitter logo - blue.png") no-repeat center;
-  background-size: contain;
-  height: 50px;
-  width: 250px;
-}
-.navbar-brand-github {
+
+.last-brand-github {
   background: url("../images/github.png") no-repeat center;
   background-size: contain;
   height: 50px;
   width: 250px;
 }
 
+
+/* お問い合わせ CSS */
+.navbar-brand-gmail {
+  background: url("../images/gmail.png") no-repeat center;
+  background-size: contain;
+  height: 50px;
+  width: 250px;
+}
+.navbar-brand-twitter {
+  background: url("../images/png") no-repeat center;
+  background-size: contain;
+  height: 50px;
+  width: 250px;
+}
+
+
+/* メール送信完了 CSS */
 #top-page {
   text-decoration:none;
   color: skyblue;

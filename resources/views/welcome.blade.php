@@ -125,12 +125,12 @@
               全店舗 水産の売上高&粗利 No1
             </p>
 
-            <div class="work-history-box">
-              <input id="hidden2" class="work-history-top-text" type="checkbox">
+            <div class="work-history-box1">
+              <input id="hidden2" class="work-history-top-text1" type="checkbox">
               2013年度の売上と粗利があまりにも酷く、どの様にしたら少しでも改善できるか相談をしました。
               その結果、魚の食べ辛さを解消しようという決断に至りました。
-              <label class="work-history-btn border-warning" for="hidden2"></label>
-              <div class = "work-history-hidden-text">
+              <label class="work-history-btn1 border-warning" for="hidden2"></label>
+              <div class = "work-history-hidden-text1">
                 実際にお客様にアンケートを実施した結果、骨に刺さるのがダントツ1位でした。
                 そこで私は魚の骨取りをして、なるべく食べやすい様に加工をして商品アピールをしました。
                 また、切り身にタレ漬けをしてそのままフライパンで焼くことができるように
@@ -186,13 +186,19 @@
                 また、弊社の当月売上ランキング1位獲得
             </p>
 
-            <div class="work-history-box">
-              <input id="hidden2" class="work-history-top-text" type="checkbox">
+            <div class="work-history-box2">
+              <input id="hidden3" class="work-history-top-text2" type="checkbox">
               テキスト1
-              <label class="work-history-btn border-warning" for="hidden2"></label>
-                <div class = "work-history-hidden-text">
-                  qqqqqqqqqqqq
-                </div>
+              <label class="work-history-btn2 border-warning" for="hidden3"></label>
+                <div class = "work-history-hidden-text2">
+                  実際にお客様にアンケートを実施した結果、骨に刺さるのがダントツ1位でした。
+                  そこで私は魚の骨取りをして、なるべく食べやすい様に加工をして商品アピールをしました。
+                  また、切り身にタレ漬けをしてそのままフライパンで焼くことができるように
+                  食品メーカーにお願いしてタレを作ってもらうように依頼しました。その結果、お客様から好評を頂き見事売上をV字回復しました。<br>
+                  　売上としては伸びましたがその反面粗利があまりありませんでした。そこで、そのまま食べれて尚且つ粗利がしっかり取れるお造りに注目し
+                  夕方にお造りを大量に売ることを実施しました。他の競合店を差別化するために、ボリューム感を出すようにしました。
+                  その結果こちらも粗利が伸びこの二つの実績を出したことにより2014年度の売上と粗利は全店舗　　　No1になることができました。
+                  </div>
             </div>
 
 
@@ -294,7 +300,7 @@
       </div>
 
 
-        <!--特技 スキル-->
+        <!--資格 特技-->
         <div class="row no-gutters">
           <div class="card mt-5 mx-auto col-md-9 md-offset-3">
             <div class="h2 card-header text-left back-color-gradient">
@@ -402,23 +408,28 @@
             <div class="h2 card-header text-left back-color-gradient">
               <h3 id="last" class="mb-0">最後に</h3>
             </div>
-            <div class="card-body ">
+            <div class="card-body">
               <p class="card-text left">
                 ここまで読んでいただきありがとうございます。<br>
                 初学者でもありますので新しく勉強したことや理解したことは
-                こちらの<a href="https://qiita.com/yutarou">Qiita</a>
+                <a href="https://qiita.com/yutarou">Qiita</a>
                 にて投稿しています!<br>
-                是非こちらも読んで頂いたらと思います。<br>
-                <a href="https://qiita.com/yutarou">
-                  私のQiitaはこちら
-                </a>
-
+                また、草を生やす為にGitHubで履歴を残すように毎日頑張っています。<br>
+                是非<a href="https://github.com/Deguta">GitHub</a>も読んで頂いたらと思います。<br>
               </p>
-              <!-- <p class ="card-text center">
-                <a href="https://qiita.com/yutarou">
-                  <div class="last-Qiita">私のQiitaはこちら</div>
-                </a>
-              </p> -->
+              <ul class="list-inline mb-5 d-flex justify-content-center">
+                <li>
+                  <a href="https://qiita.com/yutarou">
+                    <div class="last-brand-qiita d-block"></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/Deguta">
+                    <div class="last-brand-github d-block"></div>
+                  </a>
+                </li>
+              </ul>
+
             </div>
           </div>
         </div>
@@ -426,15 +437,15 @@
 
         <footer class="row no-gutters">
           <div class="card mt-5 mx-auto  col-md-9 md-offset-3">
-            <div class="h2 card-header text-center back-color-gradient">
-              <h3 id="contact" class="mb-0">お問い合わせ</h3>
+            <div class="h2 card-header text-center bg-dark">
+              <h3 id="contact" class="mb-0 text-white">お問い合わせ</h3>
             </div>
 
             <div class="card-body text-center">
                 <h4>メールまたはツイッターDMでご連絡ください。</h4>
             </div>
 
-            <ul class="list-inline mb-5 d-flex justify-content-center ">
+            <ul class="list-inline mb-5 d-flex justify-content-center">
               <li>
                 <a href="{{ url('/contact/index') }}">
                   <div class="navbar-brand-gmail"></div>
@@ -443,11 +454,6 @@
               <li>
                 <a href="https://twitter.com/Fisher21663470">
                   <div class="navbar-brand-twitter d-block m-auto"></div>
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/Deguta">
-                  <div class="navbar-brand-github"></div>
                 </a>
               </li>
             </ul>
