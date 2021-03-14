@@ -300,168 +300,169 @@
       </div>
 
 
-        <!--資格 特技-->
-        <div class="row no-gutters">
-          <div class="card mt-5 mx-auto col-md-9 md-offset-3">
-            <div class="h2 card-header text-left back-color-gradient">
-              <h3 id="requirement" class="mb-0 text-center">資格 特技</h3>
-            </div>
-            <div class="card-body d-flex justify-content-around p-0 mt-3">
-              <div class="col-sm-6">
-                <ul id="ul-requirement" class="text-center">
-                  <h3>資格一覧</h3>
-                  <li>販売士検定3級</li>
-                  <li>ファイナンシャルプランニング技能士3級</li>
-                  <li>マイクロソフト認定資格 Word スペシャリスト</li>
-                  <li>マイクロソフト認定資格 Excelスペシャリスト</li>
-                  <li>普通自動車免許第一種</li>
-                </ul>
-              </div>
-
-              <div class="col-sm-4">
-                <ul id="ul-special-skill" class="text-left">
-                  <h3 class="text-left">特技一覧</h3>
-                  <li>ピアノ</li>
-                  <li>合気道</li>
-                  <li>魚裁き&魚料理</li>
-                </ul>
-              </div>
-            </div>
+      <!--資格 特技-->
+      <div class="row no-gutters">
+        <div class="card mt-5 mx-auto col-md-9 md-offset-3">
+          <div class="h2 card-header text-left back-color-gradient">
+            <h3 id="requirement" class="mb-0 text-center">資格 特技</h3>
           </div>
-        </div>
-
-
-        <!-- 自己PR -->
-        <div class="row no-gutters">
-          <div class="card mt-5 mx-auto  col-md-9 md-offset-3">
-            <div class="h2 card-header text-left back-color-gradient">
-              <h3 id="pr" class="mb-0">自己PR</h3>
-            </div>
-
-            <div class="card-body">
-              <p class="card-text left mt-3">
-                <p class="font-weight-bold text-center mt-3">
-                    柔軟な発想で課題を解決<br>
-                  コロナ不況による売上低迷を打破
-                </p>
-              </p>
-
-              <div class="pr-box">
-                <input id="hidden4" class="pr-top-text" type="checkbox">
-                　前職では機械工具のルート営業をしています。新型コロナにより設備投資がなくなり売上が低迷しました。
-                  そこで当時マスク無しで仕事ができず、生産活動を止めざる負えないお客様が多くいらっしゃいましたので、
-                  さっそく上司へ提案をしました。
-                <label class="pr-btn" for="hidden4"></label>
-                <div class="pr-hidden-text">
-                  提案として中国でマスクの生産が急ピッチという情報を捉えたので中国にある営業所の所長に連絡しました。
-                  すると、1社がその案件に乗り出しマスクを生産することになりました。
-                  私が中心となって中国の営業所と連携し、価格・製造量・輸入のタイミングなど細かく調整を行い、
-                  企画から約1ヶ月でマスクを2万枚を日本に輸入することができました。<br>
-                  　その結果、弊社のお客様にマスクを販売する事ができ大手企業様を中心に注文が殺到し、1日でマスクを完売させることができました。
-                  更に、お客様のマスク不足を解消でき、会社でも3600万円の売上を上げることができました。<br>
-                  　この功績により京都市と南丹市から災害時における物資供給を優先的に行うことができる協定を結部ことにも至りました。
-                  入社後には、さまざまな観点からどのように課題を解決できるか検討し、社内やクライアントの課題解決に貢献したいと思います。
-                </div>
-              </div>
-
-
-              <!-- 自己PR 写真 -->
-              <div class="d-flex col-12  mt-3 justify-content-center">
-                <div class="kyoto-box col-6">
-                  <p class="mb-0 text-center font-weight-bold">京都市のホームページより</p>
-                  <img src="{{ asset('/images/kyoto-city.jpg') }}" class="kyoto-image img-thumbnail img-fluid mt-1"  alt="京都市のHP">
-                </div>
-
-                <div class="nantan-box col-6">
-                  <p class="mb-0 text-center font-weight-bold">南丹市のホームページより</p>
-                  <img src="{{ asset('/images/nantan-city.jpg') }}" class="nantan-image img-thumbnail img-fluid mt-1 mx-auto "  alt="南丹市からの表彰">
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-
-        <!-- エンジニアを目指す理由 -->
-        <div class="row no-gutters">
-          <div class="card mt-5 mx-auto  col-md-9 md-offset-3">
-            <div class="h2 card-header text-left back-color-gradient">
-              <h3 id="dream" class="mb-0">エニジニアを目指す理由</h3>
-            </div>
-
-            <div class="card-body">
-              <p class="font-weight-bold text-center">
-                不妊治療専門のアプリを作って欲しいという妻の一言から
-              </p>
-
-            <p>
-              　2020年8月に誕生した私の子供は不妊治療により産まれました。
-            </p>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="row no-gutters">
-          <div class="card mt-5 mx-auto  col-md-9 md-offset-3">
-            <div class="h2 card-header text-left back-color-gradient">
-              <h3 id="last" class="mb-0">最後に</h3>
-            </div>
-            <div class="card-body">
-              <p class="card-text left">
-                ここまで読んでいただきありがとうございます。<br>
-                初学者でもありますので新しく勉強したことや理解したことは
-                <a href="https://qiita.com/yutarou" class="text-decoration-none">Qiita</a>
-                にて投稿しています!<br>
-                また、草を生やす為にGitHubで履歴を残すように毎日頑張っています。<br>
-                是非<a href="https://github.com/Deguta" class="text-decoration-none">GitHub</a>も読んで頂いたらと思います。<br>
-              </p>
-              <ul class="list-inline mb-5 d-flex justify-content-center">
-                <li>
-                  <a href="https://qiita.com/yutarou">
-                    <div class="last-brand-qiita d-block"></div>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://github.com/Deguta">
-                    <div class="last-brand-github d-block"></div>
-                  </a>
-                </li>
+          <div class="card-body d-flex justify-content-around p-0 mt-3">
+            <div class="col-sm-6">
+              <ul id="ul-requirement" class="text-center">
+                <h3>資格一覧</h3>
+                <li>販売士検定3級</li>
+                <li>ファイナンシャルプランニング技能士3級</li>
+                <li>マイクロソフト認定資格 Word スペシャリスト</li>
+                <li>マイクロソフト認定資格 Excelスペシャリスト</li>
+                <li>普通自動車免許第一種</li>
               </ul>
+            </div>
 
+            <div class="col-sm-4">
+              <ul id="ul-special-skill" class="text-left">
+                <h3 class="text-left">特技一覧</h3>
+                <li>ピアノ</li>
+                <li>合気道</li>
+                <li>魚裁き&魚料理</li>
+              </ul>
             </div>
           </div>
         </div>
+      </div>
 
 
-        <footer class="row no-gutters">
-          <div class="card mt-5 mx-auto  col-md-9 md-offset-3">
-            <div class="h2 card-header text-center bg-dark">
-              <h3 id="contact" class="mb-0 text-white">お問い合わせ</h3>
+      <!-- 自己PR -->
+      <div class="row no-gutters">
+        <div class="card mt-5 mx-auto  col-md-9 md-offset-3">
+          <div class="h2 card-header text-left back-color-gradient">
+            <h3 id="pr" class="mb-0">自己PR</h3>
+          </div>
+
+          <div class="card-body">
+            <p class="card-text left mt-3">
+              <p class="font-weight-bold text-center mt-3">
+                  柔軟な発想で課題を解決<br>
+                コロナ不況による売上低迷を打破
+              </p>
+            </p>
+
+            <div class="pr-box">
+              <input id="hidden4" class="pr-top-text" type="checkbox">
+              　前職では機械工具のルート営業をしています。新型コロナにより設備投資がなくなり売上が低迷しました。
+                そこで当時マスク無しで仕事ができず、生産活動を止めざる負えないお客様が多くいらっしゃいましたので、
+                さっそく上司へ提案をしました。
+              <label class="pr-btn" for="hidden4"></label>
+              <div class="pr-hidden-text">
+                提案として中国でマスクの生産が急ピッチという情報を捉えたので中国にある営業所の所長に連絡しました。
+                すると、1社がその案件に乗り出しマスクを生産することになりました。
+                私が中心となって中国の営業所と連携し、価格・製造量・輸入のタイミングなど細かく調整を行い、
+                企画から約1ヶ月でマスクを2万枚を日本に輸入することができました。<br>
+                　その結果、弊社のお客様にマスクを販売する事ができ大手企業様を中心に注文が殺到し、1日でマスクを完売させることができました。
+                更に、お客様のマスク不足を解消でき、会社でも3600万円の売上を上げることができました。<br>
+                　この功績により京都市と南丹市から災害時における物資供給を優先的に行うことができる協定を結部ことにも至りました。
+                入社後には、さまざまな観点からどのように課題を解決できるか検討し、社内やクライアントの課題解決に貢献したいと思います。
+              </div>
             </div>
 
-            <div class="card-body text-center">
-                <h4>メールまたはツイッターDMでご連絡ください。</h4>
+
+            <!-- 自己PR 写真 -->
+            <div class="d-flex col-12  mt-3 justify-content-center">
+              <div class="kyoto-box col-6">
+                <p class="mb-0 text-center font-weight-bold">京都市のホームページより</p>
+                <img src="{{ asset('/images/kyoto-city.jpg') }}" class="kyoto-image img-thumbnail img-fluid mt-1"  alt="京都市のHP">
+              </div>
+
+              <div class="nantan-box col-6">
+                <p class="mb-0 text-center font-weight-bold">南丹市のホームページより</p>
+                <img src="{{ asset('/images/nantan-city.jpg') }}" class="nantan-image img-thumbnail img-fluid mt-1 mx-auto "  alt="南丹市からの表彰">
+              </div>
             </div>
 
+          </div>
+        </div>
+      </div>
+
+
+      <!-- エンジニアを目指す理由 -->
+      <div class="row no-gutters">
+        <div class="card mt-5 mx-auto  col-md-9 md-offset-3">
+          <div class="h2 card-header text-left back-color-gradient">
+            <h3 id="dream" class="mb-0">エニジニアを目指す理由</h3>
+          </div>
+
+          <div class="card-body">
+            <p class="font-weight-bold text-center">
+              不妊治療専門のアプリを作って欲しいという妻の一言から
+            </p>
+
+          <p>
+            　2020年8月に誕生した私の子供は不妊治療により産まれました。
+          </p>
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- 最後に -->
+      <div class="row no-gutters">
+        <div class="card mt-5 mx-auto  col-md-9 md-offset-3">
+          <div class="h2 card-header text-left back-color-gradient">
+            <h3 id="last" class="mb-0">最後に</h3>
+          </div>
+          <div class="card-body">
+            <p class="card-text left">
+              ここまで読んでいただきありがとうございます。<br>
+              初学者でもありますので新しく勉強したことや理解したことは
+              <a href="https://qiita.com/yutarou" class="text-decoration-none">Qiita</a>
+              にて投稿しています!<br>
+              また、草を生やす為にGitHubで履歴を残すように毎日頑張っています。<br>
+              是非<a href="https://github.com/Deguta" class="text-decoration-none">GitHub</a>も読んで頂いたらと思います。<br>
+            </p>
             <ul class="list-inline mb-5 d-flex justify-content-center">
               <li>
-                <a href="{{ url('/contact/index') }}">
-                  <div class="navbar-brand-gmail"></div>
+                <a href="https://qiita.com/yutarou">
+                  <div class="last-brand-qiita d-block"></div>
                 </a>
               </li>
               <li>
-                <a href="https://twitter.com/Fisher21663470">
-                  <div class="navbar-brand-twitter d-block m-auto"></div>
+                <a href="https://github.com/Deguta">
+                  <div class="last-brand-github d-block"></div>
                 </a>
               </li>
             </ul>
 
           </div>
-        </footer>
-
+        </div>
       </div>
+
+      <!-- お問い合わせ -->
+      <footer class="row no-gutters">
+        <div class="card mt-5 mx-auto  col-md-9 md-offset-3">
+          <div class="h2 card-header text-center bg-dark">
+            <h3 id="contact" class="mb-0 text-white">お問い合わせ</h3>
+          </div>
+
+          <div class="card-body text-center">
+              <h4>メールまたはツイッターDMでご連絡ください。</h4>
+          </div>
+
+          <ul class="list-inline mb-5 d-flex justify-content-center">
+            <li>
+              <a href="{{ url('/contact/index') }}">
+                <div class="navbar-brand-gmail"></div>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/Fisher21663470">
+                <div class="navbar-brand-twitter d-block m-auto"></div>
+              </a>
+            </li>
+          </ul>
+
+        </div>
+      </footer>
+
     </div>
   </body>
 </html>
