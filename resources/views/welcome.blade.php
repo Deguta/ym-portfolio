@@ -79,7 +79,7 @@
             </div>
 
             <!-- 学歴 写真-->
-            <div class="d-flex col-12 justify-content-center">
+            <div class="mt-3 d-flex col-12 justify-content-center">
               <div class="campus col-6">
                 <img src="{{ asset('/images/campus.jpg') }}" class="campus-image img-thumbnail img-fluid mt-1"  alt="近畿大学 経営学部 キャンパス">
                 <p class="campus-text text-dark">近畿大学 経営学部 キャンパス</p>
@@ -143,7 +143,7 @@
 
 
             <!--職歴1 写真-->
-            <div class="d-flex col-12 justify-content-center">
+            <div class="mt-3 d-flex col-12 justify-content-center">
               <div class="tai col-6">
                 <img src="{{ asset('/images/tai.jpg') }}" class="tai-image img-thumbnail img-fluid mt-1"  alt="お造り写真1">
                 <p class="tai-text text-white">鯛姿造り</p>
@@ -412,10 +412,10 @@
               <p class="card-text left">
                 ここまで読んでいただきありがとうございます。<br>
                 初学者でもありますので新しく勉強したことや理解したことは
-                <a href="https://qiita.com/yutarou">Qiita</a>
+                <a href="https://qiita.com/yutarou" class="text-decoration-none">Qiita</a>
                 にて投稿しています!<br>
                 また、草を生やす為にGitHubで履歴を残すように毎日頑張っています。<br>
-                是非<a href="https://github.com/Deguta">GitHub</a>も読んで頂いたらと思います。<br>
+                是非<a href="https://github.com/Deguta" class="text-decoration-none">GitHub</a>も読んで頂いたらと思います。<br>
               </p>
               <ul class="list-inline mb-5 d-flex justify-content-center">
                 <li>
