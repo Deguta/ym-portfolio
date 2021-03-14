@@ -15,8 +15,6 @@ nav ul{
   padding: 0;
   width: 80%;
   text-align: center;
-
-
 }
 
 nav ul li{
@@ -42,15 +40,63 @@ nav ul li.current a{
   color: #00B0F0;
 }
 
-
 /* タグ css */
 .back-color-gradient {
   background: linear-gradient(
 #fceabb,#f8b500)
 }
 
+
 /* 経歴 css */
-/* 学歴 css */
+/* 学歴 続きのボタン */
+.school-career-btn {
+  width: 150px;
+  margin: auto;
+  border-radius: 2px;
+  border:solid 2px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+}
+
+.school-career-btn::before {
+  content: "学歴の続きを読む"
+}
+
+.school-career-hidden-text {
+  position: relative;
+  overflow: hidden;
+  height: 20px; /*隠した状態の高さ*/
+}
+
+.school-career-hidden-text::before {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40px; /*グラデーションで隠す高さ*/
+  background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.9) 50%, rgba(255,255,255,0.9) 50%, #fff 100%);
+  background: linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.9) 50%, rgba(255,255,255,0.9) 50%, #fff 100%);
+  content: "";
+}
+
+.school-career-top-text {
+  display: none; /*チェックボックスは常に非表示*/
+}
+.school-career-top-text:checked ~ .school-career-btn::before {
+  content: "詳細を閉じる" /*チェックされていたら、文言を変更する*/
+}
+.school-career-top-text:checked ~ .school-career-hidden-text {
+  height: auto; /*チェックされていたら、高さを戻す*/
+}
+.school-career-top-text:checked ~ .school-career-hidden-text::before {
+  display: none; /*チェックされていたら、.school-career-itemのbeforeを非表示にする*/
+}
+
+
+/* 学歴 写真のCSS */
 .campus {
   position: relative;
 }
@@ -67,7 +113,6 @@ img.campus-image {
   transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
   -webkit-transform: translate(-50%,-50%);
-
 }
 
 .bukatsu {
@@ -105,16 +150,17 @@ img.hashimoto-image {
   transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
   -webkit-transform: translate(-50%,-50%);
-
 }
 
 .owarai {
   position: relative;
 }
+
 img.owarai-image {
   width: 100%;
   height: 100%;
 }
+
 .owarai-text1 {
   font-size: 12px;
   font-weight: bold;
@@ -124,8 +170,8 @@ img.owarai-image {
   transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
   -webkit-transform: translate(-50%,-50%);
-
 }
+
 .owarai-text2 {
   font-size: 12px;
   font-weight: bold;
@@ -135,11 +181,58 @@ img.owarai-image {
   transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
   -webkit-transform: translate(-50%,-50%);
-
 }
 
-/* 職歴1 CSS */
 
+/* 職歴1 続きのCSS */
+.work-history-btn {
+  width: 150px;
+  margin: auto;
+  border-radius: 2px;
+  border:solid 2px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+}
+
+.work-history-btn::before {
+  content: "職歴1の続きを読む"
+}
+
+.work-history-hidden-text {
+  position: relative;
+  overflow: hidden;
+  height: 20px; /*隠した状態の高さ*/
+}
+
+.work-history-hidden-text::before {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40px; /*グラデーションで隠す高さ*/
+  background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.9) 50%, rgba(255,255,255,0.9) 50%, #fff 100%);
+  background: linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.9) 50%, rgba(255,255,255,0.9) 50%, #fff 100%);
+  content: "";
+}
+
+.work-history-top-text {
+  display: none; /*チェックボックスは常に非表示*/
+}
+.work-history-top-text:checked ~ .work-history::before {
+  content: "詳細を閉じる" /*チェックされていたら、文言を変更する*/
+}
+.work-history-top-text:checked ~ .work-history-hidden-text {
+  height: auto; /*チェックされていたら、高さを戻す*/
+}
+.work-history-top-text:checked ~ .work-history-hidden-text::before {
+  display: none; /*チェックされていたら、.work-history-itemのbeforeを非表示にする*/
+}
+
+
+/* 職歴1 写真のCSS */
 .tai {
   position: relative;
 }
@@ -158,7 +251,6 @@ img.tai-image {
   -webkit-transform: translate(-50%,-50%);
 }
 
-
 .nabe {
   position: relative;
 }
@@ -166,22 +258,13 @@ img.tai-image {
 img.nabe-image {
   height: 236px;
 }
-.nabe-text1 {
+
+.nabe-text {
   font-size: 15px;
   font-weight: bold;
   position: absolute;
   top: 12%;
-  left: 22%;
-  transform: translate(-50%,-50%);
-  -ms-transform: translate(-50%,-50%);
-  -webkit-transform: translate(-50%,-50%);
-}
-.nabe-text2 {
-  font-size: 15px;
-  font-weight: bold;
-  position: absolute;
-  top: 20%;
-  left: 20%;
+  left: 32%;
   transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
   -webkit-transform: translate(-50%,-50%);
@@ -222,88 +305,6 @@ img.sanma-image {
   transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
   -webkit-transform: translate(-50%,-50%);
-}
-
-.hidden_box {
-  margin: 1em 0;/*前後の余白*/
-  padding: 0;
-}
-
-/*ボタン装飾*/
-.hidden_box label[for=label1] {
-  padding: 5px;
-  font-weight: bold;
-  border: solid 2px red;
-  cursor :pointer;
-}
-
-/*ボタンホバー時*/
-.hidden_box label:hover {
-  background: #efefef;
-}
-
-/*チェックは見えなくする*/
-.hidden_box input {
-  display: none;
-}
-
-/*中身を非表示にしておく*/
-.hidden_box .hidden_show {
-  height: 0;
-  padding: 0;
-  overflow: hidden;
-  opacity: 0;
-  transition: 0.8s;
-}
-
-/*クリックで中身表示*/
-.hidden_box input:checked ~ .hidden_show {
-  padding: 10px 0;
-  height: auto;
-  opacity: 1;
-}
-
-
-
-
-/*職歴1 全体*/
-.hidden_box {
-  margin: 1em 0;/*前後の余白*/
-  padding: 0;
-}
-
-/*ボタン装飾*/
-.hidden_box label[for=label2] {
-  padding: 5px;
-  font-weight: bold;
-  border: solid 2px blue;
-  cursor :pointer;
-}
-
-/*ボタンホバー時*/
-.hidden_box label:hover {
-  background: #efefef;
-}
-
-/*チェックは見えなくする*/
-.hidden_box input {
-  display: none;
-}
-
-/*中身を非表示にしておく*/
-.hidden_box .hidden_show {
-  height: 0;
-  padding: 0;
-  overflow: hidden;
-  opacity: 0;
-  transition: 0.5s;
-}
-
-/*クリックで中身表示*/
-.hidden_box input:checked ~ .hidden_show {
-  padding: 10px 0;
-  height: auto;
-  opacity: 1;
 }
 
 
@@ -368,28 +369,29 @@ img.nantan-image {
   height: auto;
 }
 
-.grad-btn {
-  width: 140px;
+/* 自己PR続きのボタン */
+.pr-btn {
+  width: 150px;
   margin: auto;
   border-radius: 2px;
-  background: #15bb55;
-  color: #fff;
-  font-size: 0.9rem;
+  border:solid blue;
+  font-size: 14px;
+  font-weight: bold;
   text-align: center;
   cursor: pointer;
 }
 
-.grad-btn::before {
+.pr-btn::before {
   content: "自己PRの続きを読む"
 }
 
-.grad-item {
+.pr-hidden-text {
   position: relative;
   overflow: hidden;
   height: 20px; /*隠した状態の高さ*/
 }
 
-.grad-item::before {
+.pr-hidden-text::before {
   display: block;
   position: absolute;
   bottom: 0;
@@ -401,16 +403,16 @@ img.nantan-image {
   content: "";
 }
 
-.grad-trigger {
+.pr-top-text {
   display: none; /*チェックボックスは常に非表示*/
 }
-.grad-trigger:checked ~ .grad-btn::before {
-  content: "閉じる" /*チェックされていたら、文言を変更する*/
+.pr-top-text:checked ~ .pr-btn::before {
+  content: "詳細を閉じる" /*チェックされていたら、文言を変更する*/
 }
-.grad-trigger:checked ~ .grad-item {
+.pr-top-text:checked ~ .pr-hidden-text {
   height: auto; /*チェックされていたら、高さを戻す*/
 }
-.grad-trigger:checked ~ .grad-item::before {
+.pr-top-text:checked ~ .pr-hidden-text::before {
   display: none; /*チェックされていたら、grad-itemのbeforeを非表示にする*/
 }
 
