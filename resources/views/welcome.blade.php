@@ -320,7 +320,7 @@
 
 
           <!-- MYSQL AWS -->
-          <div class="card-body d-flex justify-content-around">
+          <div class="card-body d-flex justify-content-around p-0">
             <div class="col-sm-5 p-0 mt-3">
               <ul id="skill-list" class="text-center">
                 <img src="{{ asset('/images/mysql.png') }}" class="mysql-icon d-block mx-auto">
@@ -340,7 +340,7 @@
 
 
           <!--今後の学習-->
-          <div class="p-2 mb-2 h4 text-center bg-primary text-white mx-auto" style="width:200px;">【今後の学習】</div>
+          <div class="mt-3 p-2 mb-2 h4 text-center bg-primary text-white mx-auto" style="width:200px;">【今後の学習】</div>
 
           <ul id="it-pass" class="h4 mt-2">ITパスポート
             <li class="h6 mt-1">網羅的に勉強しているので、基礎的なところが抜けていると思います。エンジニアとして必要な知識を勉強したいのでITパスポートも勉強をします。</li>
