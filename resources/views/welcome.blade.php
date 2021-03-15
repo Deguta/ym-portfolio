@@ -15,9 +15,9 @@
           <li><a href="#carrer" class="text-decoration-none" style="font-size:20px;">経歴</a></li>
           <li><a href="#products" class="text-decoration-none" style="font-size:20px;">製作物</a></li>
           <li><a href="#skill" class="text-decoration-none font-weight-bold" style="font-size:11px;">プログラミングスキル <br>今後の学習</a></li>
-          <li><a href="#requirement" class="text-decoration-none" style="font-size:18px;">資格・特技</a></li>
-          <li><a href="#pr" class="text-decoration-none" style="font-size:20px;">自己PR</a></li>
           <li><a href="#dream"class="text-decoration-none">エニジニアを<br>目指す理由</a></li>
+          <li><a href="#pr" class="text-decoration-none" style="font-size:20px;">自己PR</a></li>
+          <li><a href="#requirement" class="text-decoration-none" style="font-size:18px;">資格・特技</a></li>
           <li><a href="#last" class="text-decoration-none" style="font-size:20px;">最後に</a></li>
           <li><a href="#contact" class="text-decoration-none" style="font-size:18px;">お問い合わせ</a></li>
         </ul>
@@ -232,37 +232,67 @@
 
       <!-- 製作物 -->
       <div class="row no-gutters">
-        <div class="card mt-5 mx-auto  col-10">
+        <div class="card mt-5 mx-auto col-10">
           <div class="h2 card-header text-center back-color-gradient">
             <h3 id="products" class="mb-0">製作物</h3>
           </div>
         </div>
 
         <div class="row no-gutters justify-content-around bg-white border col-10 mx-auto">
-          <div class=" col-sm-5">
-            <div class="card-body ">
-              <a href="#" class="text-decoration-none"><h2 class="text-center">Study-Of-PostSite</h2></a>
-              <img src="{{ asset('/images/.jpg') }}" class="img-thumbnail col-md-5  d-block mt-4 mx-auto"  alt="自己紹介写真">
-              <p class="card-text text-left ">
-                採用者の皆様へ。<br>
-                大変お忙しい中、お時間を割いて頂きありがとうございます！<br>
-                兵庫県在住の南川 裕一(ミナミカワ ユウイチ)と申します。<br>
-                サーバーサイドエンジニアを目指して大阪府 兵庫県 京都府を中心に転職活動をしております。<br>
-              </p>
-            </div>
-          </div>
+          <div class="card-body p-0 d-flex justify-content-around">
 
-          <div class="col-sm-5">
-            <div class="card-body ">
-              <a href="#" class="text-decoration-none"><h2 class="text-center">制作物2</h2></a>
-              <img src="{{ asset('/images/.jpg') }}" class="img-thumbnail col-md-5  d-block mt-4 mx-auto" alt="自己紹介写真">
+            <!-- Study-Of-PostSiteの紹介文-->
+            <div class="col-sm-5 p-0 mt-3">
+              <ul id="skill-list" class="text-center">
+                <li>
+                  <a href="#" class="text-decoration-none">
+                    <h2 class="text-center">Study-Of-PostSite</h2>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="text-decoration-none">
+                    <img src="{{ asset('/images/study-of-postsite.jpg') }}" class="study-of-postsite d-block mx-auto">
+                  </a>
+                </li>
+              </ul>
+
               <p class="card-text text-left ">
-                採用者の皆様へ。<br>
-                大変お忙しい中、お時間を割いて頂きありがとうございます！<br>
-                兵庫県在住の南川 裕一(ミナミカワ ユウイチ)と申します。<br>
-                サーバーサイドエンジニアを目指して大阪府 兵庫県 京都府を中心に転職活動をしております。<br>
+                CRUD機能が実装されている投稿サイトになります。
+                バリデーションのエラーも出るようになっております。
+                しかし、編集の画面で「選択して下さい」というところのバリデーションが未実装になります。現在、修正中にです。
+                今後はお問い合わせフォーム、管理者ログイン等々を実装する予定です。
+                将来として、自分が作成したい投稿サイトがありますのでこの製作物から応用して作成する予定になります。
+                SEO対策としてレスポンシブサイズに対応しております。(iPhoneで閲覧可能です。)
+                <br>
+                <p class="text-left font-weight-bold">※ログイン機能はわざと省いております。</p>
               </p>
             </div>
+
+            <!-- Online Reviewsの紹介文-->
+            <div class="col-sm-5 p-0 mt-3">
+              <ul id="skill-list" class="text-center">
+                <li>
+                  <a href="#" class="text-decoration-none">
+                    <h2 class="text-center">Hospital Reviews</h2>
+                  </a>
+                </li>
+
+                <li><a href="#" class="text-decoration-none">
+                  <img src="{{ asset('/images/hospital-reviews.jpg') }}" class="hospital-reviews d-block mx-auto">
+                  </a>
+                </li>
+              </ul>
+
+              <p class="card-text text-left ">
+                病院の口コミが投稿、閲覧ができる様に作成したのがHospital Reviewsになります。
+                実は、こちらを最初に作成していましたが初めての実装だったので中々実装ができていないところが多々あります。
+                その失敗とエラーを解決したことにより、Study-Of-PostSiteがすんなりと実装ができました。
+                現在、詳細ページを見るために実装していますが、Undefined variable: reviewsという変数が渡せていないというエラーが出ています。
+                これが現状、解決できない状態で製作が止まっています。HTMLとCSSはまだ、整っていない状態です。
+              </p>
+            </div>
+
           </div>
         </div>
       </div>
@@ -284,7 +314,8 @@
                 <img src="{{ asset('/images/html-css.png') }}" class="html-css-icon d-block mx-auto">
                 <img src="{{ asset('/images/star4.jpg') }}" class="star-4 d-block mx-auto" alt="星４">
               </ul>
-              <p>基本的なコーディングには問題はないと思います。レスポンシブサイズにも対応できる様に学習中です。</p>
+              <p>基本的なコーディングには問題はないと思います。
+                また、SEO対策に必要なレスポンシブサイズにも対応できます。製作物Study-Of-PostSiteで実装済です。</p>
             </div>
 
             <div class="col-sm-5 p-0 mt-3">
@@ -326,7 +357,7 @@
                 <img src="{{ asset('/images/mysql.png') }}" class="mysql-icon d-block mx-auto">
                 <img src="{{ asset('/images/star3.jpg') }}" class="star-3 d-block mx-auto" alt="星3">
               </ul>
-              <p>簡単なデータの抽出はできます。また、インターネットで問題集がありますので複雑な条件を使ってできる様に勉強中です。</p>
+              <p>簡単なデータの抽出はできます。また、インターネットで問題集がありますので複雑な条件を使ってできる様に勉強しています。</p>
             </div>
 
             <div class="col-sm-5 p-0 mt-3">
@@ -334,7 +365,7 @@
                 <img src="{{ asset('/images/aws.png') }}" class="aws-icon d-block mx-auto">
                 <img src="{{ asset('/images/star3.jpg') }}" class="star-3 d-block mx-auto" alt="星3">
               </ul>
-              <p>現在デプロイをしている環境はAWSになります。herokuよりも実用的でタイムラグが少ないのでAWSを使うことにしました。現在、Udemyにて勉強中です。</p>
+              <p>現在デプロイをしている環境はAWSになります。herokuよりも実用的でタイムラグが少ないのでAWSを使うことにしました。現在、Udemyにて勉強しています。</p>
             </div>
           </div>
 
@@ -343,11 +374,11 @@
           <div class="mt-3 p-2 mb-2 h4 text-center bg-primary text-white mx-auto" style="width:200px;">【今後の学習】</div>
 
           <ul id="it-pass" class="h4 mt-2">ITパスポート
-            <li class="h6 mt-1">網羅的に勉強しているので、基礎的なところが抜けていると思います。エンジニアとして必要な知識を勉強したいのでITパスポートも勉強をします。</li>
+            <li class="h6 mt-1">エンジニアとして必要な知識を勉強したいのでITパスポートも勉強をします。</li>
           </ul>
 
           <ul id="aws" class="h4 mt-2">AWS認定資格
-            <li class="h6 mt-1">基礎中の基礎である AWS 認定クラウドプラクティショナーを受験する予定です。</li>
+            <li class="h6 mt-1">デプロイはAWSを使用していますので先ずは基礎中の基礎である AWS 認定クラウドプラクティショナーを受験する予定です。</li>
           </ul>
 
           <ul id="basic-information" class="h4 mt-2">基本情報技術者試験
@@ -359,33 +390,38 @@
       </div>
 
 
-      <!--資格 特技-->
+      <!-- エンジニアを目指す理由 -->
       <div class="row no-gutters">
-        <div class="card mt-5 mx-auto col-md-9 md-offset-3">
+        <div class="card mt-5 mx-auto  col-md-9 md-offset-3">
           <div class="h2 card-header text-left back-color-gradient">
-            <h3 id="requirement" class="mb-0 text-center ">資格 特技</h3>
+            <h3 id="dream" class="mb-0">エニジニアを目指す理由</h3>
           </div>
-          <div class="card-body d-flex justify-content-around p-0 mt-3">
-            <div class="col-sm-6">
-              <ul id="ul-requirement" class="text-center">
-                <h3 class="font-weight-bold">資格一覧</h3>
-                <li>販売士検定3級</li>
-                <li>ファイナンシャルプランニング技能士3級</li>
-                <li>マイクロソフト認定資格 Word スペシャリスト</li>
-                <li>マイクロソフト認定資格 Excelスペシャリスト</li>
-                <li>普通自動車免許第一種</li>
-              </ul>
-            </div>
 
-            <div class="col-sm-4">
-              <ul id="ul-special-skill" class="text-left">
-                <h3 class="text-left font-weight-bold">特技一覧</h3>
-                <li>ピアノ</li>
-                <li>合気道</li>
-                <li>魚裁き&魚料理</li>
-              </ul>
-            </div>
+          <div class="card-body">
+            <p class="font-weight-bold text-center h4">
+              不妊治療で悩む夫婦を少しでも減らすSNSを作りたい
+            </p>
+
+          <p>
+            2020年度の日本の出生数は、昨年に続き過去最低の87万2683人と右肩下りです。
+            また、晩婚化が進み、不妊になる可能性が飛躍的に上がるので
+            子供が欲しくても産めない夫婦が沢山増えています。実は、私の子供は2020年8月、不妊治療により誕生しました。
+            偶然、妻の上司から勧められた不妊治療の医者を紹介して貰ったお陰で、僅か3ヶ月で妊娠しました。
+            もし、紹介がなかったら負のスパイラルに陥るところでした。
+            私達夫婦は不妊で2年ほど悩みました。この経験を活かして少しでも多くの夫婦に1日でも早く自分に合ったクリニックを探して欲しいという思いがあります。
+            その理由は情報が少ないからです。インターネットで調べても医者の研究発表や不妊治療によって誕生した出生数しか掲載されていません。
+            また医者によって、不妊治療は異なります。その治療方法が自分に合っているのかどうか分からないので妊娠するのに時間がかかります。
+            時には不妊治療に失敗して別のクリニックに変えることもあります。
+            不妊治療は現在、保険適用外で医療費が桁違いに高くて、経済的に厳しいのが現状です。
+            そこで私は、不妊治療専門のSNSを作成してクリニックの情報を共有できたらいいのでは?と思いつきました。
+            調べた結果、エンジニアになってプログラミングを勉強したらSNSが作れる様になることが分かったのでエンジニアになることを決意しました。
+
+            今後、日本の課題として人口減少を防ぐ政策が増えていく可能性は高いです。現に日本国政府では、不妊治療を保険適用にする動きが出ています。
+            その法案が可決したら、自分が作成したSNSが普及すると思います。
+            1日でも早く子供の笑顔が見れる夫婦が増えるようにプログラミング勉強を続けています。
+          </p>
           </div>
+
         </div>
       </div>
 
@@ -442,23 +478,33 @@
       </div>
 
 
-      <!-- エンジニアを目指す理由 -->
+      <!--資格 特技-->
       <div class="row no-gutters">
-        <div class="card mt-5 mx-auto  col-md-9 md-offset-3">
+        <div class="card mt-5 mx-auto col-md-9 md-offset-3">
           <div class="h2 card-header text-left back-color-gradient">
-            <h3 id="dream" class="mb-0">エニジニアを目指す理由</h3>
+            <h3 id="requirement" class="mb-0 text-center ">資格 特技</h3>
           </div>
+          <div class="card-body d-flex justify-content-around p-0 mt-3">
+            <div class="col-sm-5">
+              <ul id="ul-requirement" class="text-center">
+                <h3 class="font-weight-bold">資格一覧</h3>
+                <li>販売士検定3級</li>
+                <li>ファイナンシャルプランニング技能士3級</li>
+                <li>マイクロソフト認定資格 Word スペシャリスト</li>
+                <li>マイクロソフト認定資格 Excelスペシャリスト</li>
+                <li>普通自動車免許第一種</li>
+              </ul>
+            </div>
 
-          <div class="card-body">
-            <p class="font-weight-bold text-center h4">
-              不妊治療専門のアプリを作って欲しいという妻の一言から
-            </p>
-
-          <p>
-            　2020年8月に誕生した私の子供は不妊治療により産まれました。
-          </p>
+            <div class="col-sm-5">
+              <ul id="ul-special-skill" class="text-center">
+                <h3 class="text-center font-weight-bold">特技一覧</h3>
+                <li>ピアノ</li>
+                <li>合気道</li>
+                <li>魚裁き&魚料理</li>
+              </ul>
+            </div>
           </div>
-
         </div>
       </div>
 

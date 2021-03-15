@@ -436,7 +436,7 @@ img.sanma-image {
 }
 
 
-/* 今後の学習 */
+/* 今後の学習 CSS */
 #it-pass {
   list-style: none;
 }
@@ -448,6 +448,19 @@ img.sanma-image {
 #basic-information {
   list-style: none;
 }
+
+
+/* 製作物 CSS */
+img.study-of-postsite {
+  width:auto;
+  height: 200px;
+}
+
+img.hospital-reviews {
+  width:auto;
+  height: 200px;
+}
+
 
 
 /* 資格 特技 CSS*/
