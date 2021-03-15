@@ -275,25 +275,39 @@
           <div class="h2 card-header text-left back-color-gradient">
             <h3 id="skill" class="mb-0 text-center">言語スキルと今後の学習</h3>
           </div>
-          <div class="card-body d-flex justify-content-around p-0 mt-3">
-            <div class="col-sm-5">
-              <ul id="ul-requirement" class="text-center">
-                <h3>資格一覧</h3>
-                <li>販売士検定3級</li>
-                <li>ファイナンシャルプランニング技能士3級</li>
-                <li>マイクロソフト認定資格 Word スペシャリスト</li>
-                <li>マイクロソフト認定資格 Excelスペシャリスト</li>
-                <li>普通自動車免許第一種</li>
+
+          <div class="card-body d-flex justify-content-around">
+            <div class="col-sm-5 p-0 mt-3">
+              <ul id="skill-list" class="text-center">
+                <img src="{{ asset('/images/html-css.png') }}" class="html-css-icon d-block mx-auto">
+                <img src="{{ asset('/images/star4.jpg') }}" class="star-4 d-block mx-auto" alt="星４">
               </ul>
+              <p>基本的なコーディングには問題はないと思います。レスポンシブサイズにも対応できる様に学習中です。</p>
             </div>
 
-            <div class="col-sm-5">
-              <ul id="ul-special-skill" class="text-center">
-                <h3 class="text-center">特技一覧</h3>
-                <li>ピアノ</li>
-                <li>合気道</li>
-                <li>魚裁き&魚料理</li>
+            <div class="col-sm-5 p-0 mt-3">
+              <ul id="skill-list" class="text-center">
+                <img src="{{ asset('/images/js.png') }}" class="html-css-icon d-block mx-auto">
+                <img src="{{ asset('/images/star2.jpg') }}" class="star-4 d-block mx-auto" alt="星４">
               </ul>
+              <p>簡単なアニメーションは作成できますががまだまだ勉強中不足です。非同期通信はまだ、よく分かっていないのが現状です。</p>
+            </div>
+          </div>
+          <div class="card-body d-flex justify-content-around p-0">
+            <div class="col-sm-5 p-0 mt-3">
+              <ul id="skill-list" class="text-center">
+                <img src="{{ asset('/images/php.png') }}" class="php-icon d-block mx-auto">
+                <img src="{{ asset('/images/star3.jpg') }}" class="star-3 d-block mx-auto" alt="星3">
+              </ul>
+              <p>CRUD機能を使用した投稿サイトは作成できます。現在、オブジェクト思考で作成する機能を実装する為勉強中です。</p>
+            </div>
+
+            <div class="col-sm-5 p-0 mt-3">
+              <ul id="skill-list" class="text-center">
+                <img src="{{ asset('/images/ruby.png') }}" class="ruby-icon d-block mx-auto">
+                <img src="{{ asset('/images/star3.jpg') }}" class="star-4 d-block mx-auto" alt="星４">
+              </ul>
+              <p>こちらも簡単なCRUD機能を使用した投稿サイトは作成できます。</p>
             </div>
           </div>
         </div>
@@ -304,12 +318,12 @@
       <div class="row no-gutters">
         <div class="card mt-5 mx-auto col-md-9 md-offset-3">
           <div class="h2 card-header text-left back-color-gradient">
-            <h3 id="requirement" class="mb-0 text-center">資格 特技</h3>
+            <h3 id="requirement" class="mb-0 text-center ">資格 特技</h3>
           </div>
           <div class="card-body d-flex justify-content-around p-0 mt-3">
             <div class="col-sm-6">
               <ul id="ul-requirement" class="text-center">
-                <h3>資格一覧</h3>
+                <h3 class="font-weight-bold">資格一覧</h3>
                 <li>販売士検定3級</li>
                 <li>ファイナンシャルプランニング技能士3級</li>
                 <li>マイクロソフト認定資格 Word スペシャリスト</li>
@@ -320,7 +334,7 @@
 
             <div class="col-sm-4">
               <ul id="ul-special-skill" class="text-left">
-                <h3 class="text-left">特技一覧</h3>
+                <h3 class="text-left font-weight-bold">特技一覧</h3>
                 <li>ピアノ</li>
                 <li>合気道</li>
                 <li>魚裁き&魚料理</li>
@@ -340,7 +354,7 @@
 
           <div class="card-body">
             <p class="card-text left mt-3">
-              <p class="font-weight-bold text-center mt-3">
+              <p class="font-weight-bold text-center mt-3 h4">
                   柔軟な発想で課題を解決<br>
                 コロナ不況による売上低迷を打破
               </p>
@@ -391,7 +405,7 @@
           </div>
 
           <div class="card-body">
-            <p class="font-weight-bold text-center">
+            <p class="font-weight-bold text-center h4">
               不妊治療専門のアプリを作って欲しいという妻の一言から
             </p>
 

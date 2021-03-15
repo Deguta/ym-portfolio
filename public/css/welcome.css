@@ -384,14 +384,44 @@ img.sanma-image {
 
 
 /* 言語スキルと今後の学習 CSS */
-#ul-requirement {
+.star-2 {
+  width: 80px;
+  height: 30px;
+}
+
+.star-3 {
+  width: 80px;
+  height: 30px;
+}
+
+.star-4 {
+  width: 80px;
+  height: 30px;
+}
+
+#skill-list {
   list-style: none;
   padding: 0;
 }
 
-#ul-special-skill {
-  list-style: none;
-  padding: 0;
+.html-css-icon {
+  width: 100px;
+  height: 30px;
+}
+
+.js-icon {
+  width: 100px;
+  height: 30px;
+}
+
+.php-icon {
+  width: 100px;
+  height: 30px;
+}
+
+.ruby-icon {
+  width: 100px;
+  height: 30px;
 }
 
 
