@@ -57,8 +57,7 @@ nav ul li.current a{
   width: 150px;
   margin: auto;
   border-radius: 2px;
-  border:solid 2px;
-  font-size: 14px;
+  border:solid 2px blue;
   font-weight: bold;
   text-align: center;
   cursor: pointer;
@@ -203,7 +202,7 @@ img.owarai-image {
   width: 150px;
   margin: auto;
   border-radius: 2px;
-  border:solid 2px;
+  border:solid 2px blue;
   font-size: 14px;
   font-weight: bold;
   text-align: center;
@@ -337,7 +336,7 @@ img.sanma-image {
   width: 150px;
   margin: auto;
   border-radius: 2px;
-  border:solid 2px;
+  border:solid 2px blue;
   font-size: 14px;
   font-weight: bold;
   text-align: center;
@@ -384,6 +383,7 @@ img.sanma-image {
 
 
 /* 言語スキルと今後の学習 CSS */
+/* 言語スキル */
 .star-2 {
   width: 80px;
   height: 30px;
@@ -405,8 +405,8 @@ img.sanma-image {
 }
 
 .html-css-icon {
-  width: 100px;
-  height: 30px;
+  width: 150px;
+  height: 50px;
 }
 
 .js-icon {
@@ -415,13 +415,38 @@ img.sanma-image {
 }
 
 .php-icon {
-  width: 100px;
-  height: 30px;
+  width: 150px;
+  height: 50px;
 }
 
 .ruby-icon {
-  width: 100px;
-  height: 30px;
+  width: 150px;
+  height: 50px;
+}
+
+.mysql-icon {
+  width: 150px;
+  height: 100px;
+
+}
+
+.aws-icon {
+  width: 150px;
+  height: 100px;
+}
+
+
+/* 今後の学習 */
+#it-pass {
+  list-style: none;
+}
+
+#aws {
+  list-style: none;
+}
+
+#basic-information {
+  list-style: none;
 }
 
 

@@ -14,7 +14,7 @@
           <li><a href="#about-me" class="text-decoration-none" style="font-size:20px;">自己紹介</a></li>
           <li><a href="#carrer" class="text-decoration-none" style="font-size:20px;">経歴</a></li>
           <li><a href="#products" class="text-decoration-none" style="font-size:20px;">製作物</a></li>
-          <li><a href="#skill" class="text-decoration-none" style="font-size:16px;">言語スキル <br>今後の学習</a></li>
+          <li><a href="#skill" class="text-decoration-none font-weight-bold" style="font-size:11px;">プログラミングスキル <br>今後の学習</a></li>
           <li><a href="#requirement" class="text-decoration-none" style="font-size:18px;">資格・特技</a></li>
           <li><a href="#pr" class="text-decoration-none" style="font-size:20px;">自己PR</a></li>
           <li><a href="#dream"class="text-decoration-none">エニジニアを<br>目指す理由</a></li>
@@ -31,7 +31,7 @@
           </div>
 
           <img src="{{ asset('/images/top-image.jpg') }}" class="img-thumbnail col-md-10 md-offset-2 d-block mt-4 mx-auto"  alt="自己紹介写真">
-          <div class="card-body ">
+          <div class="card-body">
             <p class="card-text text-center">
             採用者の皆様へ。<br>
             大変お忙しい中、お時間を割いて頂きありがとうございます！<br>
@@ -51,10 +51,9 @@
           <div class="card-body">
 
             <!-- 学歴 -->
-            <dt class="text-center"><div class="p-2 mb-2 h4 bg-primary text-white mx-auto" style="width: 200px;">【学歴】</div>
+            <div class="p-2 mb-2 h4 text-center bg-primary text-white mx-auto" style="width: 200px;">【学歴】</div>
               <dd class="text-center font-weight-bold">2003年4月〜2006年3月 京都成章高等学校</dd>
               <dd class="text-center font-weight-bold">2006年4月〜2010年3月 近畿大学 経営学部 経営学科 ITビジネスコース</dd>
-            </dt>
 
             <p class="font-weight-bold text-center mt-3 h4">
               ITの専攻を選び
@@ -66,7 +65,7 @@
                 　専攻ではITビジネスコースに入学しましたので基本的なマークアップ言語は勉強しました。
                 ITビジネスコースに専攻した理由は、高校時代、ホームページを作成しました。
                 インターネットで検索してそれを形にできるという面白みを勉強したので専攻として選択しました。
-                <label class="school-career-btn border-primary" for="hidden1"></label>
+                <label class="school-career-btn" for="hidden1"></label>
               <div class="school-career-hidden-text">
                 当時、私が実際担当したのが元 大阪市長 橋下徹さんにインタビューをさせて頂きました。
                 所属事務所のアポ取り、記事チェックを行い、最後は新聞の発行の許可を貰うために大学の職員の打ち合わせを行いました。
@@ -106,7 +105,7 @@
 
 
             <!-- 職歴1 -->
-            <dt class="mt-5 text-center"><div class="p-2 mb-2 h4 bg-warning text-primary mx-auto" style="width: 200px;">【職歴1】</div>
+            <dt class="mt-5 text-center"><div class="p-2 mb-2 h4 bg-primary text-white mx-auto" style="width: 200px;">【職歴1】</div>
               <dd class="text-center font-weight-bold">2010年4月〜2015年9月 株式会社近商ストア</dd>
             </dt>
 
@@ -129,7 +128,7 @@
               <input id="hidden2" class="work-history-top-text1" type="checkbox">
               2013年度の売上と粗利があまりにも酷く、どの様にしたら少しでも改善できるか相談をしました。
               その結果、魚の食べ辛さを解消しようという決断に至りました。
-              <label class="work-history-btn1 border-warning" for="hidden2"></label>
+              <label class="work-history-btn1" for="hidden2"></label>
               <div class = "work-history-hidden-text1">
                 実際にお客様にアンケートを実施した結果、骨に刺さるのがダントツ1位でした。
                 そこで私は魚の骨取りをして、なるべく食べやすい様に加工をして商品アピールをしました。
@@ -168,7 +167,7 @@
 
 
             <!-- 職歴2 -->
-            <dt class="mt-5 text-center"><div class="p-2 mb-2 h4 bg-success text-primary mx-auto" style="width: 200px;">【職歴2】</div>
+            <dt class="mt-5 text-center"><div class="p-2 mb-2 h4 bg-primary text-white mx-auto" style="width: 200px;">【職歴2】</div>
               <dd class="text-center font-weight-bold">2015年10月〜2020年12月 株式会社サカノシタ</dd>
             </dt>
             <p class="text-center font-weight-bold mb-0">[主な仕事]</p>
@@ -189,7 +188,7 @@
             <div class="work-history-box2">
               <input id="hidden3" class="work-history-top-text2" type="checkbox">
               テキスト1
-              <label class="work-history-btn2 border-warning" for="hidden3"></label>
+              <label class="work-history-btn2" for="hidden3"></label>
                 <div class = "work-history-hidden-text2">
                   実際にお客様にアンケートを実施した結果、骨に刺さるのがダントツ1位でした。
                   そこで私は魚の骨取りをして、なるべく食べやすい様に加工をして商品アピールをしました。
@@ -269,14 +268,17 @@
       </div>
 
 
-      <!--言語スキルと今後の学習-->
+      <!-- プログラミングスキルと今後の学習-->
       <div class="row no-gutters">
         <div class="card mt-5 mx-auto col-md-10 md-offset-2">
           <div class="h2 card-header text-left back-color-gradient">
-            <h3 id="skill" class="mb-0 text-center">言語スキルと今後の学習</h3>
+            <h3 id="skill" class="mb-0 text-center">プログラミングスキルと今後の学習</h3>
           </div>
+          <div class="mt-3 p-2 mb-2 h4 bg-primary text-center text-white mx-auto" style="width: 290px;">【プログラミングスキル】</div>
 
-          <div class="card-body d-flex justify-content-around">
+
+          <!-- HTML CSS JS -->
+          <div class="card-body p-0 d-flex justify-content-around">
             <div class="col-sm-5 p-0 mt-3">
               <ul id="skill-list" class="text-center">
                 <img src="{{ asset('/images/html-css.png') }}" class="html-css-icon d-block mx-auto">
@@ -288,11 +290,14 @@
             <div class="col-sm-5 p-0 mt-3">
               <ul id="skill-list" class="text-center">
                 <img src="{{ asset('/images/js.png') }}" class="html-css-icon d-block mx-auto">
-                <img src="{{ asset('/images/star2.jpg') }}" class="star-4 d-block mx-auto" alt="星４">
+                <img src="{{ asset('/images/star2.jpg') }}" class="star-2 d-block mx-auto" alt="星2">
               </ul>
               <p>簡単なアニメーションは作成できますががまだまだ勉強中不足です。非同期通信はまだ、よく分かっていないのが現状です。</p>
             </div>
           </div>
+
+
+          <!-- PHP RUBY -->
           <div class="card-body d-flex justify-content-around p-0">
             <div class="col-sm-5 p-0 mt-3">
               <ul id="skill-list" class="text-center">
@@ -307,9 +312,49 @@
                 <img src="{{ asset('/images/ruby.png') }}" class="ruby-icon d-block mx-auto">
                 <img src="{{ asset('/images/star3.jpg') }}" class="star-4 d-block mx-auto" alt="星４">
               </ul>
-              <p>こちらも簡単なCRUD機能を使用した投稿サイトは作成できます。</p>
+              <p>こちらも簡単なCRUD機能を使用した投稿サイトは作成できます。
+                現在、転職活動にて関西にて転職したい為PHPを中心に勉強中です。
+              </p>
             </div>
           </div>
+
+
+          <!-- MYSQL AWS -->
+          <div class="card-body d-flex justify-content-around">
+            <div class="col-sm-5 p-0 mt-3">
+              <ul id="skill-list" class="text-center">
+                <img src="{{ asset('/images/mysql.png') }}" class="mysql-icon d-block mx-auto">
+                <img src="{{ asset('/images/star3.jpg') }}" class="star-3 d-block mx-auto" alt="星3">
+              </ul>
+              <p>簡単なデータの抽出はできます。また、インターネットで問題集がありますので複雑な条件を使ってできる様に勉強中です。</p>
+            </div>
+
+            <div class="col-sm-5 p-0 mt-3">
+              <ul id="skill-list" class="text-center">
+                <img src="{{ asset('/images/aws.png') }}" class="aws-icon d-block mx-auto">
+                <img src="{{ asset('/images/star3.jpg') }}" class="star-3 d-block mx-auto" alt="星3">
+              </ul>
+              <p>現在デプロイをしている環境はAWSになります。herokuよりも実用的でタイムラグが少ないのでAWSを使うことにしました。現在、Udemyにて勉強中です。</p>
+            </div>
+          </div>
+
+
+          <!--今後の学習-->
+          <div class="p-2 mb-2 h4 text-center bg-primary text-white mx-auto" style="width:200px;">【今後の学習】</div>
+
+          <ul id="it-pass" class="h4 mt-2">ITパスポート
+            <li class="h6 mt-1">網羅的に勉強しているので、基礎的なところが抜けていると思います。エンジニアとして必要な知識を勉強したいのでITパスポートも勉強をします。</li>
+          </ul>
+
+          <ul id="aws" class="h4 mt-2">AWS認定資格
+            <li class="h6 mt-1">基礎中の基礎である AWS 認定クラウドプラクティショナーを受験する予定です。</li>
+          </ul>
+
+          <ul id="basic-information" class="h4 mt-2">基本情報技術者試験
+            <li class="h6 mt-1">上記の二つの資格を取得したら基本情報技術者試験に挑戦してみたいです。</li>
+          </ul>
+
+
         </div>
       </div>
 
@@ -362,7 +407,7 @@
 
             <div class="pr-box">
               <input id="hidden4" class="pr-top-text" type="checkbox">
-              　前職では機械工具のルート営業をしています。新型コロナにより設備投資がなくなり売上が低迷しました。
+              　前職の株式会社サカノシタでは機械工具のルート営業をしています。新型コロナにより設備投資がなくなり売上が低迷しました。
                 そこで当時マスク無しで仕事ができず、生産活動を止めざる負えないお客様が多くいらっしゃいましたので、
                 さっそく上司へ提案をしました。
               <label class="pr-btn" for="hidden4"></label>
@@ -371,8 +416,8 @@
                 すると、1社がその案件に乗り出しマスクを生産することになりました。
                 私が中心となって中国の営業所と連携し、価格・製造量・輸入のタイミングなど細かく調整を行い、
                 企画から約1ヶ月でマスクを2万枚を日本に輸入することができました。<br>
-                　その結果、弊社のお客様にマスクを販売する事ができ大手企業様を中心に注文が殺到し、1日でマスクを完売させることができました。
-                更に、お客様のマスク不足を解消でき、会社でも3600万円の売上を上げることができました。<br>
+                　その結果、お客様にマスクを販売する事ができ大手企業様を中心に注文が殺到し、1日でマスクを完売させることができました。
+                更に、マスク不足を解消でき、会社でも3600万円の売上を上げることができました。<br>
                 　この功績により京都市と南丹市から災害時における物資供給を優先的に行うことができる協定を結部ことにも至りました。
                 入社後には、さまざまな観点からどのように課題を解決できるか検討し、社内やクライアントの課題解決に貢献したいと思います。
               </div>
@@ -433,7 +478,7 @@
               また、草を生やす為にGitHubで履歴を残すように毎日頑張っています。<br>
               是非<a href="https://github.com/Deguta" class="text-decoration-none">GitHub</a>も読んで頂いたらと思います。<br>
             </p>
-            <ul class="list-inline mb-5 d-flex justify-content-center">
+            <ul class="list-inline mb-0 d-flex justify-content-center">
               <li>
                 <a href="https://qiita.com/yutarou">
                   <div class="last-brand-qiita d-block"></div>
