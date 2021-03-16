@@ -344,7 +344,7 @@ img.sanma-image {
 }
 
 .work-history-btn2::before {
-  content: "職歴1の続きを読む"
+  content: "職歴2の続きを読む"
 }
 
 .work-history-hidden-text2 {
@@ -382,8 +382,76 @@ img.sanma-image {
 }
 
 
-/* 言語スキルと今後の学習 CSS */
-/* 言語スキル */
+/* 職歴2 写真のCSS */
+/* 日本ホイスト 写真 */
+.hoisuto {
+  position: relative;
+}
+
+img.hoisuto-image {
+  width:100%;
+  height: 236px;
+}
+.hoisuto-text1 {
+  font-size: 15px;
+  font-weight: bold;
+  position: absolute;
+  top: 12%;
+  left: 30%;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+}
+
+.hoisuto-text2 {
+  font-size: 15px;
+  font-weight: bold;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+}
+
+/* アネスト岩田 写真 */
+.compressor {
+  position: relative;
+}
+
+img.compressor-image {
+  width:100%;
+  height: 236px;
+}
+.compressor-text {
+  font-size: 15px;
+  font-weight: bold;
+  position: absolute;
+  top: 15%;
+  left: 40%;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+}
+
+
+/* 製作物 CSS */
+#products-list {
+  list-style: none;
+  padding: 0;
+}
+img.study-of-postsite {
+  width:auto;
+  height: 200px;
+}
+
+img.hospital-reviews {
+  width:auto;
+  height: 200px;
+}
+
+/* プログラミングスキルと今後の学習 CSS */
+/* プログラミングスキル */
 .star-2 {
   width: 80px;
   height: 30px;
@@ -450,28 +518,54 @@ img.sanma-image {
 }
 
 
-/* 製作物 CSS */
-img.study-of-postsite {
-  width:auto;
-  height: 200px;
+/* エンジニアを目指す理由 CSS */
+
+
+/* エンジニアを目指す理由 続きのボタン CSS */
+.dream-btn {
+  width: 150px;
+  margin: auto;
+  border-radius: 2px;
+  border:solid blue;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
 }
 
-img.hospital-reviews {
-  width:auto;
-  height: 200px;
+.dream-btn::before {
+  content: "続きを読む"
 }
 
-
-
-/* 資格 特技 CSS*/
-#ul-requirement {
-  list-style: none;
-  padding: 0;
+.dream-hidden-text {
+  position: relative;
+  overflow: hidden;
+  height: 20px; /*隠した状態の高さ*/
 }
 
-#ul-special-skill {
-  list-style: none;
-  padding: 0;
+.dream-hidden-text::before {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40px; /*グラデーションで隠す高さ*/
+  background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.9) 50%, rgba(255,255,255,0.9) 50%, #fff 100%);
+  background: linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.9) 50%, rgba(255,255,255,0.9) 50%, #fff 100%);
+  content: "";
+}
+
+.dream-top-text {
+  display: none; /*チェックボックスは常に非表示*/
+}
+.dream-top-text:checked ~ .dream-btn::before {
+  content: "詳細を閉じる" /*チェックされていたら、文言を変更する*/
+}
+.dream-top-text:checked ~ .dream-hidden-text {
+  height: auto; /*チェックされていたら、高さを戻す*/
+}
+.dream-top-text:checked ~ .dream-hidden-text::before {
+  display: none; /*チェックされていたら、dream-hidden-textのbeforeを非表示にする*/
 }
 
 
@@ -530,6 +624,18 @@ img.nantan-image {
 }
 .pr-top-text:checked ~ .pr-hidden-text::before {
   display: none; /*チェックされていたら、pr-hidden-textのbeforeを非表示にする*/
+}
+
+
+/* 資格 特技 CSS*/
+#ul-requirement {
+  list-style: none;
+  padding: 0;
+}
+
+#ul-special-skill {
+  list-style: none;
+  padding: 0;
 }
 
 

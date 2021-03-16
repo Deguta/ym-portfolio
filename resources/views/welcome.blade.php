@@ -15,7 +15,7 @@
           <li><a href="#carrer" class="text-decoration-none" style="font-size:20px;">経歴</a></li>
           <li><a href="#products" class="text-decoration-none" style="font-size:20px;">製作物</a></li>
           <li><a href="#skill" class="text-decoration-none font-weight-bold" style="font-size:11px;">プログラミングスキル <br>今後の学習</a></li>
-          <li><a href="#dream"class="text-decoration-none">エニジニアを<br>目指す理由</a></li>
+          <li><a href="#dream"class="text-decoration-none font-weight-bold">エニジニアを<br>目指す理由</a></li>
           <li><a href="#pr" class="text-decoration-none" style="font-size:20px;">自己PR</a></li>
           <li><a href="#requirement" class="text-decoration-none" style="font-size:18px;">資格・特技</a></li>
           <li><a href="#last" class="text-decoration-none" style="font-size:20px;">最後に</a></li>
@@ -63,14 +63,14 @@
             <div class="school-career-box">
               <input id="hidden1" class="school-career-top-text" type="checkbox">
                 　専攻ではITビジネスコースに入学しましたので基本的なマークアップ言語は勉強しました。
-                ITビジネスコースに専攻した理由は、高校時代、ホームページを作成しました。
-                インターネットで検索してそれを形にできるという面白みを勉強したので専攻として選択しました。
+                ITビジネスコースに専攻した理由は、高校時代、簡単なホームページを作成しました。
+                インターネットで検索してそれを形にできるという面白みを勉強したので専攻として選びました。
                 <label class="school-career-btn" for="hidden1"></label>
               <div class="school-career-hidden-text">
-                当時、私が実際担当したのが元 大阪市長 橋下徹さんにインタビューをさせて頂きました。
+                　部活動の新聞部で一番印象に残ったインタビューが元 大阪市長 橋下徹さんです。
                 所属事務所のアポ取り、記事チェックを行い、最後は新聞の発行の許可を貰うために大学の職員の打ち合わせを行いました。
-                新聞を作るにはこのような工程が多く、その経験を沢山したのでお陰で社会人に必要な経験を学びました。<br>
-                　また、大学祭実行委員会では、イベント企画を担当しました。特に大学祭では毎年、吉本芸人が漫才を披露する大きなイベントがあります。
+                新聞を作るにはこのような工程が多く、その経験を沢山積むことができたので、社会人に必要な経験を学びました。<br>
+                　また、大学祭実行委員会では、イベント企画を担当しました。大学祭では毎年、吉本芸人が漫才を披露する大きなイベントがあります。
                 ミーティングでは吉本興業のマネージャーが来られますので必要なことを聞き出すことが大切です。
                 どうしたらイベントがスムーズにできるのか何度も話し合い当日を迎えることができました。
                 そのお陰で、お客様が安心・安全にイベントを楽しめることできたのが何よりの達成感でした。<br>
@@ -126,17 +126,17 @@
 
             <div class="work-history-box1">
               <input id="hidden2" class="work-history-top-text1" type="checkbox">
-              2013年度の売上と粗利があまりにも酷く、どの様にしたら少しでも改善できるか相談をしました。
-              その結果、魚の食べ辛さを解消しようという決断に至りました。
+              　2013年度の売上と粗利があまりにも酷く、どの様にしたら少しでも改善できるか悩んでいる時期がありました。
+              実際にお客様にアンケートを実施した結果、魚の骨に刺さるのがダントツ1位でした。
+              その結果を聞いて魚の食べ辛さを解消しようという決断に至りました。
               <label class="work-history-btn1" for="hidden2"></label>
               <div class = "work-history-hidden-text1">
-                実際にお客様にアンケートを実施した結果、骨に刺さるのがダントツ1位でした。
                 そこで私は魚の骨取りをして、なるべく食べやすい様に加工をして商品アピールをしました。
                 また、切り身にタレ漬けをしてそのままフライパンで焼くことができるように
                 食品メーカーにお願いしてタレを作ってもらうように依頼しました。その結果、お客様から好評を頂き見事売上をV字回復しました。<br>
-                　売上としては伸びましたがその反面粗利があまりありませんでした。そこで、そのまま食べれて尚且つ粗利がしっかり取れるお造りに注目し
-                夕方にお造りを大量に売ることを実施しました。他の競合店を差別化するために、ボリューム感を出すようにしました。
-                その結果こちらも粗利が伸びこの二つの実績を出したことにより2014年度の売上と粗利は全店舗　　　No1になることができました。
+                　売上としては伸びましたがその反面粗利があまりありませんでした。そこで、粗利がしっかり取れるお造りに注目しました。
+                夕方にお造りを大量に売ることを実施し、他の競合店を差別化するためにボリューム感を出すようにしました。
+                その結果こちらも粗利が伸びこの二つの実績を出したことにより2014年度の売上と粗利は全店舗No1になることができました。
               </div>
             </div>
 
@@ -181,49 +181,38 @@
 
             <p class="class = text-center font-weight-bold mb-0">[実績]</p>
               <p class="font-weight-bold text-center mt-1 h4">
-                昨年の12月には大型機械の受注を頂き１億円の売上達成<br>
-                また、弊社の当月売上ランキング1位獲得
+                取引先をリスト化して効率化を捗り大型案件を受注
             </p>
 
             <div class="work-history-box2">
               <input id="hidden3" class="work-history-top-text2" type="checkbox">
-              テキスト1
+              　前職では機械工具のルート営業をしていました。
+              弊社の取引先で特注の商品を作ってもらいましたが後継者不足により倒産が相次いでいます。
+              そのため、どの取引先に相談すればいいのか分からない事が多々あり得意先に迷惑をかける事がありました。
               <label class="work-history-btn2" for="hidden3"></label>
                 <div class = "work-history-hidden-text2">
-                  実際にお客様にアンケートを実施した結果、骨に刺さるのがダントツ1位でした。
-                  そこで私は魚の骨取りをして、なるべく食べやすい様に加工をして商品アピールをしました。
-                  また、切り身にタレ漬けをしてそのままフライパンで焼くことができるように
-                  食品メーカーにお願いしてタレを作ってもらうように依頼しました。その結果、お客様から好評を頂き見事売上をV字回復しました。<br>
-                  　売上としては伸びましたがその反面粗利があまりありませんでした。そこで、そのまま食べれて尚且つ粗利がしっかり取れるお造りに注目し
-                  夕方にお造りを大量に売ることを実施しました。他の競合店を差別化するために、ボリューム感を出すようにしました。
-                  その結果こちらも粗利が伸びこの二つの実績を出したことにより2014年度の売上と粗利は全店舗　　　No1になることができました。
-                  </div>
+                  　そこで、一目瞭然分かるようににリスト化して集約しました。
+                  その結果、仕事を効率よくこなす事ができるようになり納期を短縮する事ができました。
+                  その功績により得意先より大型コンプレッサの受注や大型機械の受注にも繋げることができ、
+                  合計約1億円の売上を計上することができました。
+                </div>
             </div>
 
 
             <!--職歴2 写真-->
-            <div class="d-flex col-12 justify-content-center">
-              <div class="tai col-6">
-                <img src="{{ asset('/images/tai.jpg') }}" class="tai-image img-thumbnail img-fluid mt-1"  alt="お造り写真1">
-                <p class="tai-text text-white">鯛姿造り</p>
-              </div>
-
-              <div class="nabe col-6">
-                <img src="{{ asset('/images/nabe.jpg') }}" class="nabe-image img-thumbnail img-fluid mt-1 mx-auto "  alt="お造り写真2">
-                <p class="nabe-text text-white">骨抜き済 鍋盛り合わせ</p>
-              </div>
-            </div>
-
             <div class="d-flex col-12 mt-3 justify-content-center">
-              <div class="buri col-6">
-                <img src="{{ asset('/images/buri.jpg') }}" class="buri-image img-thumbnail img-fluid mt-1"  alt="お造り写真1">
-                <p class="buri-text text-white">鰤お造り</p>
+              <div class="hoisuto col-6">
+                <img src="{{ asset('/images/hoisuto.jpg') }}" class="hoisuto-image img-thumbnail img-fluid mt-1"  alt="日本ホイスト">
+                <p class="hoisuto-text1 text-black">合計13台の注文を頂いた</p>
+                <p class="hoisuto-text2 text-black">天井クレーン</p>
               </div>
-              <div class="sanma col-6">
-                <img src="{{ asset('/images/sanma.jpg') }}" class="sanma-image img-thumbnail img-fluid mt-1 mx-auto "  alt="お造り写真2">
-                <p class="sanma-text text-dark">秋刀魚お造り</p>
+
+              <div class="compressor col-6">
+                <img src="{{ asset('/images/compressor.jpg') }}" class="compressor-image img-thumbnail img-fluid mt-1 mx-auto "  alt="アネスト岩田">
+                <p class="compressor-text text-black">1台 約200万円する コンプレッサ</p>
               </div>
             </div>
+
 
           </div>
         </div>
@@ -243,7 +232,7 @@
 
             <!-- Study-Of-PostSiteの紹介文-->
             <div class="col-sm-5 p-0 mt-3">
-              <ul id="skill-list" class="text-center">
+              <ul id="products-list" class="text-center">
                 <li>
                   <a href="#" class="text-decoration-none">
                     <h2 class="text-center">Study-Of-PostSite</h2>
@@ -258,12 +247,12 @@
               </ul>
 
               <p class="card-text text-left ">
-                CRUD機能が実装されている投稿サイトになります。
+                　PHPとフレームワーク laravelを使用して作成しました。CRUD機能が実装されている投稿サイトになります。
                 バリデーションのエラーも出るようになっております。
-                しかし、編集の画面で「選択して下さい」というところのバリデーションが未実装になります。現在、修正中にです。
+                しかし、編集の画面で「選択して下さい」というところのバリデーションが未実装になります。現在、修正中です。
                 今後はお問い合わせフォーム、管理者ログイン等々を実装する予定です。
-                将来として、自分が作成したい投稿サイトがありますのでこの製作物から応用して作成する予定になります。
-                SEO対策としてレスポンシブサイズに対応しております。(iPhoneで閲覧可能です。)
+                将来として、自分が作成したい投稿サイトがありますのでこの製作物から応用して作成することになります。
+                SEO対策としてレスポンシブサイズに対応しております。(iPhoneでの閲覧も可能です。)
                 <br>
                 <p class="text-left font-weight-bold">※ログイン機能はわざと省いております。</p>
               </p>
@@ -271,7 +260,7 @@
 
             <!-- Online Reviewsの紹介文-->
             <div class="col-sm-5 p-0 mt-3">
-              <ul id="skill-list" class="text-center">
+              <ul id="products-list" class="text-center">
                 <li>
                   <a href="#" class="text-decoration-none">
                     <h2 class="text-center">Hospital Reviews</h2>
@@ -285,11 +274,12 @@
               </ul>
 
               <p class="card-text text-left ">
-                病院の口コミが投稿、閲覧ができる様に作成したのがHospital Reviewsになります。
-                実は、こちらを最初に作成していましたが初めての実装だったので中々実装ができていないところが多々あります。
-                その失敗とエラーを解決したことにより、Study-Of-PostSiteがすんなりと実装ができました。
+                　病院の口コミが投稿、閲覧ができる様に作成したのがHospital Reviewsになります。
+                こちらもPHPとフレームワーク laravelを使用しています。
+                実は、こちらを最初に作成していましたが初めてのPHPの製作物だったので中々実装ができていないところが多々あります。<br>
+                　その失敗とエラーを解決したことにより、Study-Of-PostSiteがすんなりと実装ができました。
                 現在、詳細ページを見るために実装していますが、Undefined variable: reviewsという変数が渡せていないというエラーが出ています。
-                これが現状、解決できない状態で製作が止まっています。HTMLとCSSはまだ、整っていない状態です。
+                これが現状、解決できない状態で製作が止まっています。Study-Of-PostSiteの作成に専念している為、HTMLとCSSは整っていない状態です。
               </p>
             </div>
 
@@ -314,8 +304,11 @@
                 <img src="{{ asset('/images/html-css.png') }}" class="html-css-icon d-block mx-auto">
                 <img src="{{ asset('/images/star4.jpg') }}" class="star-4 d-block mx-auto" alt="星４">
               </ul>
-              <p>基本的なコーディングには問題はないと思います。
-                また、SEO対策に必要なレスポンシブサイズにも対応できます。製作物Study-Of-PostSiteで実装済です。</p>
+              <p>
+                　基本的なコーディングには問題はないと思います。
+                また、SEO対策に必要なレスポンシブサイズにも対応できます。
+                製作物 Study-Of-PostSiteで実装済です。
+              </p>
             </div>
 
             <div class="col-sm-5 p-0 mt-3">
@@ -323,7 +316,11 @@
                 <img src="{{ asset('/images/js.png') }}" class="html-css-icon d-block mx-auto">
                 <img src="{{ asset('/images/star2.jpg') }}" class="star-2 d-block mx-auto" alt="星2">
               </ul>
-              <p>簡単なアニメーションは作成できますががまだまだ勉強中不足です。非同期通信はまだ、よく分かっていないのが現状です。</p>
+              <p>
+                　簡単なアニメーションは作成できますががまだまだ勉強不足です。
+                特に非同期通信はまだよく分かっていないのが現状です。
+                Udemyにて他のアニメーションにも勉強しています。
+              </p>
             </div>
           </div>
 
@@ -335,7 +332,10 @@
                 <img src="{{ asset('/images/php.png') }}" class="php-icon d-block mx-auto">
                 <img src="{{ asset('/images/star3.jpg') }}" class="star-3 d-block mx-auto" alt="星3">
               </ul>
-              <p>CRUD機能を使用した投稿サイトは作成できます。現在、オブジェクト思考で作成する機能を実装する為勉強中です。</p>
+              <p>
+              　CRUD機能を使用した投稿サイトは作成できます。
+              現在、オブジェクト思考で作成する機能を実装する為勉強しています。
+              </p>
             </div>
 
             <div class="col-sm-5 p-0 mt-3">
@@ -343,8 +343,9 @@
                 <img src="{{ asset('/images/ruby.png') }}" class="ruby-icon d-block mx-auto">
                 <img src="{{ asset('/images/star3.jpg') }}" class="star-4 d-block mx-auto" alt="星４">
               </ul>
-              <p>こちらも簡単なCRUD機能を使用した投稿サイトは作成できます。
-                現在、転職活動にて関西にて転職したい為PHPを中心に勉強中です。
+              <p>
+                　こちらも簡単なCRUD機能を使用した投稿サイトは作成できます。
+                現在、関西に転職したい為PHPを中心に勉強をしています。
               </p>
             </div>
           </div>
@@ -357,7 +358,9 @@
                 <img src="{{ asset('/images/mysql.png') }}" class="mysql-icon d-block mx-auto">
                 <img src="{{ asset('/images/star3.jpg') }}" class="star-3 d-block mx-auto" alt="星3">
               </ul>
-              <p>簡単なデータの抽出はできます。また、インターネットで問題集がありますので複雑な条件を使ってできる様に勉強しています。</p>
+              <p>　簡単なデータの抽出はできます。
+                また、インターネットで問題集がありますので複雑な条件を使ってできる様に勉強しています。
+              </p>
             </div>
 
             <div class="col-sm-5 p-0 mt-3">
@@ -365,7 +368,11 @@
                 <img src="{{ asset('/images/aws.png') }}" class="aws-icon d-block mx-auto">
                 <img src="{{ asset('/images/star3.jpg') }}" class="star-3 d-block mx-auto" alt="星3">
               </ul>
-              <p>現在デプロイをしている環境はAWSになります。herokuよりも実用的でタイムラグが少ないのでAWSを使うことにしました。現在、Udemyにて勉強しています。</p>
+              <p>
+                　現在デプロイをしている環境はAWSになります。
+                herokuよりも実用的でタイムラグが少ないのでAWSを使うことにしました。
+                現在、Udemyにて概念を勉強しています。
+              </p>
             </div>
           </div>
 
@@ -373,15 +380,15 @@
           <!--今後の学習-->
           <div class="mt-3 p-2 mb-2 h4 text-center bg-primary text-white mx-auto" style="width:200px;">【今後の学習】</div>
 
-          <ul id="it-pass" class="h4 mt-2">ITパスポート
-            <li class="h6 mt-1">エンジニアとして必要な知識を勉強したいのでITパスポートも勉強をします。</li>
+          <ul id="it-pass" class="h4 font-weight-bold mt-2">ITパスポート
+            <li class="h6 mt-1">エンジニアとして必要な知識を勉強したいのでITパスポートを今年中に受験します。</li>
           </ul>
 
-          <ul id="aws" class="h4 mt-2">AWS認定資格
-            <li class="h6 mt-1">デプロイはAWSを使用していますので先ずは基礎中の基礎である AWS 認定クラウドプラクティショナーを受験する予定です。</li>
+          <ul id="aws" class="h4 font-weight-bold mt-2">AWS認定資格
+            <li class="h6 mt-1">デプロイはAWSを使用していますので先ずは基礎中の基礎である AWS 認定クラウドプラクティショナーを受験します。</li>
           </ul>
 
-          <ul id="basic-information" class="h4 mt-2">基本情報技術者試験
+          <ul id="basic-information" class="h4 font-weight-bold mt-2">基本情報技術者試験
             <li class="h6 mt-1">上記の二つの資格を取得したら基本情報技術者試験に挑戦してみたいです。</li>
           </ul>
 
@@ -402,24 +409,30 @@
               不妊治療で悩む夫婦を少しでも減らすSNSを作りたい
             </p>
 
-          <p>
-            2020年度の日本の出生数は、昨年に続き過去最低の87万2683人と右肩下りです。
-            また、晩婚化が進み、不妊になる可能性が飛躍的に上がるので
-            子供が欲しくても産めない夫婦が沢山増えています。実は、私の子供は2020年8月、不妊治療により誕生しました。
-            偶然、妻の上司から勧められた不妊治療の医者を紹介して貰ったお陰で、僅か3ヶ月で妊娠しました。
-            もし、紹介がなかったら負のスパイラルに陥るところでした。
-            私達夫婦は不妊で2年ほど悩みました。この経験を活かして少しでも多くの夫婦に1日でも早く自分に合ったクリニックを探して欲しいという思いがあります。
-            その理由は情報が少ないからです。インターネットで調べても医者の研究発表や不妊治療によって誕生した出生数しか掲載されていません。
-            また医者によって、不妊治療は異なります。その治療方法が自分に合っているのかどうか分からないので妊娠するのに時間がかかります。
-            時には不妊治療に失敗して別のクリニックに変えることもあります。
-            不妊治療は現在、保険適用外で医療費が桁違いに高くて、経済的に厳しいのが現状です。
-            そこで私は、不妊治療専門のSNSを作成してクリニックの情報を共有できたらいいのでは?と思いつきました。
-            調べた結果、エンジニアになってプログラミングを勉強したらSNSが作れる様になることが分かったのでエンジニアになることを決意しました。
+            <div class="dream-box">
+              <input id="hidden5" class="dream-top-text" type="checkbox">
+                　2020年度の日本の出生数は、昨年に続き過去最低の87万2683人と右肩下りです。
+                また、晩婚化が進み、不妊になる可能性が飛躍的に上がるので
+                子供が欲しくても産めない夫婦が沢山増えています。実は、私の子供は2020年8月、不妊治療により誕生しました。
+                偶然、妻の上司から勧められた不妊治療の医者を紹介して貰ったお陰で、僅か3ヶ月で妊娠しました。
+                もし、紹介がなかったら負のスパイラルに陥るところでした。<br>
+                　私達夫婦は不妊で2年ほど悩みました。
 
-            今後、日本の課題として人口減少を防ぐ政策が増えていく可能性は高いです。現に日本国政府では、不妊治療を保険適用にする動きが出ています。
-            その法案が可決したら、自分が作成したSNSが普及すると思います。
-            1日でも早く子供の笑顔が見れる夫婦が増えるようにプログラミング勉強を続けています。
-          </p>
+              <label class="dream-btn" for="hidden5"></label>
+              <div class="dream-hidden-text">
+                この経験を活かして少しでも多くの夫婦に1日でも早く自分に合ったクリニックを探して欲しいという思いがあります。
+                その理由は情報が少ないからです。インターネットで調べても医者の研究発表や不妊治療によって誕生した出生数しか掲載されていません。
+                また医者によって、不妊治療は異なります。その治療方法が自分に合っているのかどうか分からないので妊娠するのに時間がかかります。
+                時には不妊治療に失敗して別のクリニックに変えることもあります。
+                不妊治療は現在、保険適用外で医療費が桁違いに高くて、経済的に厳しいのが現状です。
+                そこで私は、不妊治療専門のSNSを作成してクリニックの情報を共有できたらいいのでは?と思いつきました。
+                調べた結果、エンジニアになってプログラミングを勉強したらSNSが作れる様になることが分かったのでエンジニアになることを決意しました。
+                今後、日本の課題として人口減少を防ぐ政策が増えていく可能性は高いです。現に日本国政府では、不妊治療を保険適用にする動きが出ています。
+                その法案が可決したら、自分が作成したSNSが普及すると思います。
+                1日でも早く子供の笑顔が見れる夫婦が増えるようにプログラミング勉強を続けています。
+              </div>
+            </div>
+
           </div>
 
         </div>
@@ -445,10 +458,10 @@
               <input id="hidden4" class="pr-top-text" type="checkbox">
               　前職の株式会社サカノシタでは機械工具のルート営業をしています。新型コロナにより設備投資がなくなり売上が低迷しました。
                 そこで当時マスク無しで仕事ができず、生産活動を止めざる負えないお客様が多くいらっしゃいましたので、
-                さっそく上司へ提案をしました。
+                さっそく上司に相談しました。
               <label class="pr-btn" for="hidden4"></label>
               <div class="pr-hidden-text">
-                提案として中国でマスクの生産が急ピッチという情報を捉えたので中国にある営業所の所長に連絡しました。
+                提案として中国でマスクの生産が急ピッチという情報を捉えたので中国にある営業所に連絡しました。
                 すると、1社がその案件に乗り出しマスクを生産することになりました。
                 私が中心となって中国の営業所と連携し、価格・製造量・輸入のタイミングなど細かく調整を行い、
                 企画から約1ヶ月でマスクを2万枚を日本に輸入することができました。<br>
@@ -517,7 +530,7 @@
           </div>
           <div class="card-body">
             <p class="card-text left">
-              ここまで読んでいただきありがとうございます。<br>
+              　ここまで読んでいただきありがとうございます。<br>
               初学者でもありますので新しく勉強したことや理解したことは
               <a href="https://qiita.com/yutarou" class="text-decoration-none">Qiita</a>
               にて投稿しています!<br>
