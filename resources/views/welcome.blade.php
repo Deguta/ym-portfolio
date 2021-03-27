@@ -30,7 +30,10 @@
             <h3 id="about-me" class="mb-0">自己紹介</h3>
           </div>
 
-          <img src="{{ asset('/images/top-image.jpg') }}" class="img-thumbnail col-md-10 md-offset-2 d-block mt-4 mx-auto"  alt="自己紹介写真">
+          <p class="top-image">
+            <img src="{{ asset('/images/top-image.jpg') }}" class="img-thumbnail col-md-10 md-offset-2 d-block mt-4 mx-auto"  alt="自己紹介写真">
+          </p>
+
           <div class="card-body">
             <p class="card-text text-center">
             採用者の皆様へ。<br>

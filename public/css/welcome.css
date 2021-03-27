@@ -51,6 +51,13 @@ nav ul li.current a{
 }
 
 
+/* 自己紹介 */
+.top-image img {
+  width:250px;
+  height: auto;
+}
+
+
 /* 経歴 css */
 /* 学歴 続きのボタン */
 .school-career-btn {
