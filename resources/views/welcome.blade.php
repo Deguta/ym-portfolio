@@ -5,6 +5,7 @@
   <title>YM-PortFolio</title>
   <link href="{{ asset('css/welcome.css') }}" rel="stylesheet">
   <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js">
 </head>
   <body>
     <div class="container">
