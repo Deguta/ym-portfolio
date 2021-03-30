@@ -594,7 +594,7 @@
 
           <ul class="list-inline mb-5 d-flex justify-content-center">
             <li>
-              <a href="{{ url('/contact/index') }}">
+              <a href="{{ route('contact.index') }}">
                 <div class="navbar-brand-gmail"></div>
               </a>
             </li>
