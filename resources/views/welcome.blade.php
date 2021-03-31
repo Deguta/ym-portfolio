@@ -2,13 +2,20 @@
 <html lang="ja">
 <head>
   <meta charset="utf-8">
+  <!-- SEO対策 レスポンシブデザイン -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>YM-PortFolio</title>
   <link href="{{ asset('css/welcome.css') }}" rel="stylesheet">
   <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+  <!-- レスポンシブデザイン CSS  750px以下になると反映 -->
+  <link href="{{ asset('css/welcome.css') }}" rel="stylesheet" media="screen and (max-width:750px)" >
+
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
   <body>
     <div class="container">
+
       <!-- ナビゲーションバー -->
       <nav>
         <ul>
