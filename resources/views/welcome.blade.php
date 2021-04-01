@@ -10,26 +10,47 @@
   <link href="{{ asset('css/app.css') }}" rel="stylesheet">
   <!-- レスポンシブデザイン CSS  750px以下になると反映 -->
   <link href="{{ asset('css/welcome.css') }}" rel="stylesheet" media="screen and (max-width:750px)" >
-
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </head>
   <body>
     <div class="container">
 
-      <!-- ナビゲーションバー -->
-      <nav>
+      <nav class="navbar navbar-expand-md navbar-light">
+        <a class="navbar-brand" href="#">YM-PortFolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav9" aria-controls="navbarNav9" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <ul class="collapse navbar-collapse justify-content-around pl-0 mb-0 text-decoration-none" id="navbarNav9">
+          <li><a href="#about-me">自己紹介</a></li>
+          <li><a href="#carrer" >経歴</a></li>
+          <li><a href="#products" >製作物</a></li>
+          <li><a href="#skill" class="skill">プログラミングスキル<br>今後の学習</a></li>
+          <li><a href="#dream" class="dream"> エニジニアを<br>目指す理由</a></li>
+          <li><a href="#pr" >自己PR</a></li>
+          <li><a href="#requirement">資格・特技</a></li>
+          <li><a href="#last">最後に</a></li>
+          <li><a href="#contact">お問い合わせ</a></li>
+        </ul>
+      </nav>
+
+
+      <!-- <nav>
         <ul>
           <li><a href="#about-me" class="text-decoration-none" style="font-size:20px;">自己紹介</a></li>
           <li><a href="#carrer" class="text-decoration-none" style="font-size:20px;">経歴</a></li>
           <li><a href="#products" class="text-decoration-none" style="font-size:20px;">製作物</a></li>
           <li><a href="#skill" class="text-decoration-none font-weight-bold" style="font-size:11px;">プログラミングスキル <br>今後の学習</a></li>
-          <li><a href="#dream"class="text-decoration-none font-weight-bold">エニジニアを<br>目指す理由</a></li>
+          <li><a href="#dream"class="dream text-decoration-none font-weight-bold">エニジニアを<br>目指す理由</a></li>
           <li><a href="#pr" class="text-decoration-none" style="font-size:20px;">自己PR</a></li>
           <li><a href="#requirement" class="text-decoration-none" style="font-size:18px;">資格・特技</a></li>
           <li><a href="#last" class="text-decoration-none" style="font-size:20px;">最後に</a></li>
           <li><a href="#contact" class="text-decoration-none" style="font-size:18px;">お問い合わせ</a></li>
         </ul>
-      </nav>
+      </nav> -->
 
       <!-- 自己紹介 -->
       <div class="row no-gutters">
@@ -265,7 +286,7 @@
                 将来として、自分が作成したい投稿サイトがありますのでこの製作物から応用して作成することになります。
                 SEO対策としてレスポンシブサイズに対応しております。(iPhoneでの閲覧も可能です。)
                 <br>
-                <p class="text-left font-weight-bold">※ログイン機能はわざと省いております。</p>
+                <p class="text-left font-weight-bold">※採用担当者様に現在はすぐにアクセスし利用いただけるようにログイン機能の実行を解除しています</p>
               </p>
             </div>
 
