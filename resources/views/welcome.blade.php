@@ -216,7 +216,7 @@
 
             <p class="class = text-center font-weight-bold mb-0">[実績]</p>
               <p class="font-weight-bold text-center mt-1 h4">
-                取引先をリスト化して<br class="carrer-new-line">効率化を捗り大型案件を受注
+                取引先をリスト化して効率化を捗り大型案件を受注
             </p>
 
             <div class="work-history-box2">
@@ -327,7 +327,7 @@
       <div class="row no-gutters">
         <div class="card mt-5 mx-auto col-md-10 md-offset-2">
           <div class="h2 card-header text-left back-color-gradient">
-            <h3 id="skill" class="mb-0 text-center">プログラミングスキルと今後の学習</h3>
+            <h3 id="skill" class="mb-0 text-center">プログラミングスキルと<br class="skill-new-line">今後の学習</h3>
           </div>
           <div class="mt-3 p-2 mb-2 h4 bg-primary text-center text-white mx-auto" style="width: 290px;">【プログラミングスキル】</div>
 
@@ -507,7 +507,7 @@
             <p class="card-text left mt-3">
               <p class="font-weight-bold text-center mt-3 h4">
                   柔軟な発想で課題を解決<br>
-                コロナ不況による売上低迷を打破
+                コロナ不況による<br class="pr-new-line">売上低迷を打破
               </p>
             </p>
 
