@@ -130,6 +130,18 @@ nav ul li.current a{
 
 
 /* 経歴 css */
+.carrer-new-line {
+  display: none;
+}
+
+/* 経歴 750px以下のcss */
+@media screen and (max-width: 750px) {
+  .carrer-new-line {
+    display: block;
+  }
+}
+
+
 /* 学歴 続きのボタン */
 .school-career-btn {
   width: 150px;
