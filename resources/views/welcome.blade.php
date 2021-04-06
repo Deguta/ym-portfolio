@@ -74,7 +74,7 @@
             <!-- 学歴 -->
             <div class="p-2 mb-2 h4 text-center bg-primary text-white mx-auto" style="width: 200px;">【学歴】</div>
               <dd class="text-center font-weight-bold">2003年4月〜2006年3月 京都成章高等学校</dd>
-              <dd class="text-center font-weight-bold">2006年4月〜2010年3月 近畿大学 経営学部 <br class="carrer-new-line">経営学科 ITビジネスコース</dd>
+              <dd class="text-center font-weight-bold">2006年4月〜2010年3月 近畿大学 経営学部 経営学科 ITビジネスコース</dd>
 
             <p class="font-weight-bold text-center mt-3 h4">
               ITの専攻を選び
@@ -134,10 +134,10 @@
             <p class="text-center">近鉄沿線の街の活性化し豊かな暮らしを支えるため食品を中心とした商品を販売。</p>
 
             <p class="text-center font-weight-bold mb-0">[主な担当]</p>
-            <p class="text-center" >水産の課長として任命され魚の加工・販売・<br class="carrer-new-line">接客を主とした仕事を6年半続けてきました。</p>
+            <p class="text-center" >水産の課長として任命され魚の加工・販売・接客を主とした仕事を6年半続けてきました。</p>
 
             <p class="text-center font-weight-bold mb-0">[成果]</p>
-            <p class="text-center">2014年度 売上3億7800万円 <br class="carrer-new-line">予算達成率 105%　粗利 1800万</p>
+            <p class="text-center">2014年度 売上3億7800万円 予算達成率 105%　粗利 1800万</p>
 
             <p class="class = text-center font-weight-bold mb-0">[実績]</p>
             <p class="font-weight-bold text-center mt-1 h4">
@@ -189,13 +189,13 @@
 
             <!-- 職歴2 -->
             <dt class="mt-5 text-center"><div class="p-2 mb-2 h4 bg-primary text-white mx-auto" style="width: 200px;">【職歴2】</div>
-              <dd class="text-center font-weight-bold">2015年10月〜2020年12月 <br class="carrer-new-line">株式会社サカノシタ</dd>
+              <dd class="text-center font-weight-bold">2015年10月〜2020年12月 株式会社サカノシタ</dd>
             </dt>
             <p class="text-center font-weight-bold mb-0">[主な仕事]</p>
-            <p class="text-center">モノづくりサポートをモットーに<br class="carrer-new-line">機械工具のルート営業。</p>
+            <p class="text-center">モノづくりサポートをモットーに機械工具のルート営業。</p>
 
             <p class="text-center font-weight-bold mb-0">[主な担当]</p>
-            <p class="text-center" >大阪府 枚方市エリアを中心にメーカーを<br class="carrer-new-line">メインに営業活動をしました。</p>
+            <p class="text-center" >大阪府 枚方市エリアを中心にメーカーをメインに営業活動をしました。</p>
 
             <p class="text-center font-weight-bold mb-0">[成果]</p>
             <p class="text-center">2019年度 売上1億4000万円 粗利2100万円</p>
@@ -313,7 +313,7 @@
       <div class="row no-gutters">
         <div class="card mt-5 mx-auto col-md-10 md-offset-2">
           <div class="h2 card-header text-left back-color-gradient">
-            <h3 id="skill" class="mb-0 text-center">プログラミングスキルと<br class="skill-new-line">今後の学習</h3>
+            <h3 id="skill" class="mb-0 text-center">プログラミングスキルと今後の学習</h3>
           </div>
           <div class="mt-3 p-2 mb-2 h4 bg-primary text-center text-white mx-auto" style="width: 290px;">【プログラミングスキル】</div>
 
