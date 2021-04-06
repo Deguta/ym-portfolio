@@ -66,11 +66,12 @@
           </p>
 
           <div class="card-body">
-            <p class="card-text text-center">
+            <p class="text-center" id="about-me-text">
             採用者の皆様へ。<br>
-            大変お忙しい中、お時間を割いて頂きありがとうございます！<br>
+            大変お忙しい中、お時間を割いて頂き<br class="about-me-new-line">ありがとうございます！<br>
             兵庫県在住の南川 裕一(ミナミカワ ユウイチ)と申します。<br>
-            サーバーサイドエンジニアを目指して大阪府 兵庫県 京都府を中心に転職活動をしております。<br>
+            サーバーサイドエンジニアを目指して<br class="about-me-new-line">大阪府 兵庫県 京都府を中心に
+            <br class="about-me-new-line">転職活動をしております。<br>
             </p>
           </div>
         </div>
@@ -87,11 +88,11 @@
             <!-- 学歴 -->
             <div class="p-2 mb-2 h4 text-center bg-primary text-white mx-auto" style="width: 200px;">【学歴】</div>
               <dd class="text-center font-weight-bold">2003年4月〜2006年3月 京都成章高等学校</dd>
-              <dd class="text-center font-weight-bold">2006年4月〜2010年3月 近畿大学 経営学部 経営学科 ITビジネスコース</dd>
+              <dd class="text-center font-weight-bold">2006年4月〜2010年3月 近畿大学 経営学部 <br class="carrer-new-line">経営学科 ITビジネスコース</dd>
 
             <p class="font-weight-bold text-center mt-3 h4">
               ITの専攻を選び
-              <br>部活動を通じて社会人に必要なことをたくさん経験した大学時代
+              <br>部活動を通じて社会人に<br class="carrer-new-line">必要なことをたくさん経験した<br class="carrer-new-line">大学時代
             </p>
 
             <div class="school-career-box">
@@ -147,10 +148,10 @@
             <p class="text-center">近鉄沿線の街の活性化し豊かな暮らしを支えるため食品を中心とした商品を販売。</p>
 
             <p class="text-center font-weight-bold mb-0">[主な担当]</p>
-            <p class="text-center" >水産の課長として任命され魚の加工・販売・接客を主とした仕事を6年半続けてきました。</p>
+            <p class="text-center" >水産の課長として任命され魚の加工・販売・<br class="carrer-new-line">接客を主とした仕事を6年半続けてきました。</p>
 
             <p class="text-center font-weight-bold mb-0">[成果]</p>
-            <p class="text-center">2014年度 売上3億7800万円 予算達成率 105%　粗利 1800万</p>
+            <p class="text-center">2014年度 売上3億7800万円 <br class="carrer-new-line">予算達成率 105%　粗利 1800万</p>
 
             <p class="class = text-center font-weight-bold mb-0">[実績]</p>
             <p class="font-weight-bold text-center mt-1 h4">
@@ -202,13 +203,13 @@
 
             <!-- 職歴2 -->
             <dt class="mt-5 text-center"><div class="p-2 mb-2 h4 bg-primary text-white mx-auto" style="width: 200px;">【職歴2】</div>
-              <dd class="text-center font-weight-bold">2015年10月〜2020年12月 株式会社サカノシタ</dd>
+              <dd class="text-center font-weight-bold">2015年10月〜2020年12月 <br class="carrer-new-line">株式会社サカノシタ</dd>
             </dt>
             <p class="text-center font-weight-bold mb-0">[主な仕事]</p>
-            <p class="text-center">モノづくりサポートをモットーに機械工具のルート営業。</p>
+            <p class="text-center">モノづくりサポートをモットーに<br class="carrer-new-line">機械工具のルート営業。</p>
 
             <p class="text-center font-weight-bold mb-0">[主な担当]</p>
-            <p class="text-center" >大阪府 枚方市エリアを中心にメーカーをメインに営業活動をしました。</p>
+            <p class="text-center" >大阪府 枚方市エリアを中心にメーカーを<br class="carrer-new-line">メインに営業活動をしました。</p>
 
             <p class="text-center font-weight-bold mb-0">[成果]</p>
             <p class="text-center">2019年度 売上1億4000万円 粗利2100万円</p>
@@ -326,7 +327,7 @@
       <div class="row no-gutters">
         <div class="card mt-5 mx-auto col-md-10 md-offset-2">
           <div class="h2 card-header text-left back-color-gradient">
-            <h3 id="skill" class="mb-0 text-center">プログラミングスキルと今後の学習</h3>
+            <h3 id="skill" class="mb-0 text-center">プログラミングスキルと<br class="skill-new-line">今後の学習</h3>
           </div>
           <div class="mt-3 p-2 mb-2 h4 bg-primary text-center text-white mx-auto" style="width: 290px;">【プログラミングスキル】</div>
 
@@ -459,7 +460,6 @@
                 偶然、前職でも注文履歴の管理や見積書作成を作成するwebアプリケーションが「JAVA」という言語で組み込まれていることが分かりました。
                 詳しく調べていくうちに、こうした世の中の不便を解消していけると考えるようになりました。
                 プログラミング言語を学ぶことにより効率よく作業ができる様になるにはエンジニアしかないと思いました。
-                webアプリケーションを介して世の中の不便を解消できるエンジニアになろうと決意しました。
               </div>
             </div>
 
@@ -507,7 +507,7 @@
             <p class="card-text left mt-3">
               <p class="font-weight-bold text-center mt-3 h4">
                   柔軟な発想で課題を解決<br>
-                コロナ不況による売上低迷を打破
+                コロナ不況による<br class="pr-new-line">売上低迷を打破
               </p>
             </p>
 
@@ -524,7 +524,7 @@
                 企画から約1ヶ月でマスクを2万枚を日本に輸入することができました。<br>
                 　その結果、お客様にマスクを販売する事ができ大手企業様を中心に注文が殺到し、1日でマスクを完売させることができました。
                 更に、マスク不足を解消でき、会社でも3600万円の売上を上げることができました。<br>
-                　この功績により京都市と南丹市から災害時における物資供給を優先的に行うことができる協定を結部ことにも至りました。
+                　この功績により京都市と南丹市から災害時における物資供給を優先的に行うことができる協定を結ぶことにも至りました。
                 入社後には、さまざまな観点からどのように課題を解決できるか検討し、社内やクライアントの課題解決に貢献したいと思います。
               </div>
             </div>
