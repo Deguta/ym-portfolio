@@ -32,43 +32,6 @@ nav ul li a:hover {
 
 }
 
-.about-me-new-line {
-  display: none;
-}
-
-
-
-/* nav ul{
-  display: table;
-  margin: 0 auto;
-  padding: 0;
-  width: 80%;
-  text-align: center;
-}
-
-nav ul li{
-  display: table-cell;
-  min-width: 120px;
-  border-right: 1px solid #ccc;
-  vertical-align: middle;
-}
-
-nav ul li:first-child{
-  border-left: 1px solid #ccc;
-}
-
-nav ul li a{
-  display: block;
-  width: 100%;
-  padding: 20px 0;
-  color: #000000;
-}
-
-nav ul li.current a{
-  border-bottom: 5px solid #00B0F0;
-  color: #00B0F0;
-} */
-
 
 /* ナビゲーション 750px以下のcss */
 @media screen and (max-width: 750px) {
@@ -108,10 +71,6 @@ nav ul li.current a{
     font-size: 14px;
     padding: 0px;
   }
-
-  .about-me-new-line {
-    display: block;
-  }
 }
 
 
@@ -130,18 +89,6 @@ nav ul li.current a{
 
 
 /* 経歴 css */
-.carrer-new-line {
-  display: none;
-}
-
-/* 経歴 750px以下のcss */
-@media screen and (max-width: 750px) {
-  .carrer-new-line {
-    display: block;
-  }
-}
-
-
 /* 学歴 続きのボタン */
 .school-career-btn {
   width: 150px;
@@ -542,9 +489,6 @@ img.hospital-reviews {
 
 /* プログラミングスキルと今後の学習 CSS */
 /* プログラミングスキル */
-.skill-new-line {
-  display: none;
-}
 
 .star-2 {
   width: 80px;
