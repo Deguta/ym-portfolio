@@ -78,7 +78,7 @@
 
             <p class="font-weight-bold text-center mt-3 h4">
               ITの専攻を選び
-              <br>部活動を通じて社会人に<br class="carrer-new-line">必要なことをたくさん経験した<br class="carrer-new-line">大学時代
+              <br>部活動を通じて社会人に必要なことをたくさん経験した大学時代
             </p>
 
             <div class="school-career-box">
