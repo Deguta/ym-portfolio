@@ -40,20 +40,6 @@
       </nav>
 
 
-      <!-- <nav>
-        <ul>
-          <li><a href="#about-me" class="text-decoration-none" style="font-size:20px;">自己紹介</a></li>
-          <li><a href="#carrer" class="text-decoration-none" style="font-size:20px;">経歴</a></li>
-          <li><a href="#products" class="text-decoration-none" style="font-size:20px;">製作物</a></li>
-          <li><a href="#skill" class="text-decoration-none font-weight-bold" style="font-size:11px;">プログラミングスキル <br>今後の学習</a></li>
-          <li><a href="#dream"class="dream text-decoration-none font-weight-bold">エニジニアを<br>目指す理由</a></li>
-          <li><a href="#pr" class="text-decoration-none" style="font-size:20px;">自己PR</a></li>
-          <li><a href="#requirement" class="text-decoration-none" style="font-size:18px;">資格・特技</a></li>
-          <li><a href="#last" class="text-decoration-none" style="font-size:20px;">最後に</a></li>
-          <li><a href="#contact" class="text-decoration-none" style="font-size:18px;">お問い合わせ</a></li>
-        </ul>
-      </nav> -->
-
       <!-- 自己紹介 -->
       <div class="row no-gutters">
         <div class="card mt-5 mx-auto  col-md-9 md-offset-3">
@@ -462,33 +448,6 @@
                 プログラミング言語を学ぶことにより効率よく作業ができる様になるにはエンジニアしかないと思いました。
               </div>
             </div>
-
-            <!--前回提出した内容 <div class="dream-box">
-              <input id="hidden5" class="dream-top-text" type="checkbox">
-              　2020年度の日本の出生数は、87万2683人と、昨年に続き過去最低となっています。
-              女性は高齢になるにつれ不妊になる可能性が上がるため、昨今の晩婚化により、子どもを望んでもすぐに授かることができず、
-              不妊治療をする夫婦が増えています。<br>
-              　実は、私たち夫婦も２年の不妊治療の末、子どもを授かりました。近くのクリニックに通いながら不妊治療を続けていましたが、
-              偶然、妻の上司から勧められたクリニックに転院したおかげで、転院後わずか３か月で妊娠することができました。
-              もし紹介がなければ、今でも苦しい毎日を過ごしていたのではないかと思います。
-              この経験から、私は少しでも多くの夫婦に、1日でも早く自分に合ったクリニックに出会ってほしいという思いを持っています。
-
-              <label class="dream-btn" for="hidden5"></label>
-              <div class="dream-hidden-text">
-                　前述の通り女性は高齢になるほど妊娠しにくくなるため、少しでも早く適切な不妊治療を受けなければ、
-                さらに妊娠できる可能性が下がってしまいます。しかし、現在、不妊治療のクリニックに関する情報はとても少なく、
-                インターネットにも医者の研究発表、治療による出生数しか掲載されていないため、
-                どのクリニックがよいのか判断することが難しくなっています。<br>
-                　そのため、自分が通っているクリニックの治療が自分に合っているのかどうか分からず、
-                合わない治療を何年も続けてしまうこともあります。また、不妊治療は現在、保険適用外のため医療費が桁違いに高いため、
-                治療を続けることで経済的に苦しい思いをしている夫婦も少なくありません。<br>
-                　そこで私は、不妊治療専門のSNSを作成してクリニックの情報を共有できれば、子どもの笑顔が見られる夫婦が少しでも増えるのでは?
-                と思うようになりました。そして、そのようなSNSを作れるようになるために、プログラミングを勉強して、エンジニアになろうと決意しました。
-                今後、日本の課題として人口減少を防ぐ政策が増えていく可能性は高いです。現に日本国政府では、不妊治療を保険適用にする動きが出ています。
-                その法案が可決したら、私が作成したSNSが普及すると思います。少しでも多く、
-                子どもの笑顔が見られる夫婦が増えるようにプログラミング勉強を続けています。
-              </div>
-            </div> -->
 
           </div>
 
