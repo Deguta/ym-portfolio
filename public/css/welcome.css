@@ -598,12 +598,7 @@ img.hospital-reviews {
 }
 
 
-/* 自己PR 750px以下のcss */
-@media screen and (max-width: 750px) {
-  .skill-new-line {
-    display: block;
 
-  }
 
 
 /* 今後の学習 CSS */
@@ -680,16 +675,6 @@ img.nantan-image {
   height: auto;
 }
 
-.pr-new-line {
-  display: none;
-}
-
-/* 自己PR 750px以下のcss */
-@media screen and (max-width: 750px) {
-  .pr-new-line {
-    display: block;
-
-  }
 
 /* 自己PR 続きのボタン*/
 .pr-btn {

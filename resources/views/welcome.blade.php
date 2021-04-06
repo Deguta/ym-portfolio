@@ -68,10 +68,10 @@
           <div class="card-body">
             <p class="text-center" id="about-me-text">
             採用者の皆様へ。<br>
-            大変お忙しい中、お時間を割いて頂き<br class="about-me-new-line">ありがとうございます！<br>
+            大変お忙しい中、お時間を割いて頂きありがとうございます！<br>
             兵庫県在住の南川 裕一(ミナミカワ ユウイチ)と申します。<br>
-            サーバーサイドエンジニアを目指して<br class="about-me-new-line">大阪府 兵庫県 京都府を中心に
-            <br class="about-me-new-line">転職活動をしております。<br>
+            サーバーサイドエンジニアを目指して大阪府 兵庫県 京都府を中心に
+            転職活動をしております。
             </p>
           </div>
         </div>
@@ -507,7 +507,7 @@
             <p class="card-text left mt-3">
               <p class="font-weight-bold text-center mt-3 h4">
                   柔軟な発想で課題を解決<br>
-                コロナ不況による<br class="pr-new-line">売上低迷を打破
+                コロナ不況による売上低迷を打破
               </p>
             </p>
 
