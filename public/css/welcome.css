@@ -32,6 +32,10 @@ nav ul li a:hover {
 
 }
 
+.about-me-new-line {
+  display: none;
+}
+
 
 
 /* nav ul{
@@ -70,7 +74,7 @@ nav ul li.current a{
 @media screen and (max-width: 750px) {
   nav {
     width: 100%;
-    height: 150px;
+    height: 200px;
 
   }
 
@@ -80,11 +84,10 @@ nav ul li.current a{
     text-decoration:none;
     display: flex;
     flex-wrap: wrap;
-
   }
 
   nav ul li {
-    text-align: center;
+    margin-top: 15px
 
   }
 
@@ -104,13 +107,11 @@ nav ul li.current a{
   .dream {
     font-size: 14px;
     padding: 0px;
-
-
   }
 
-
-
-
+  .about-me-new-line {
+    display: block;
+  }
 }
 
 
@@ -129,6 +130,18 @@ nav ul li.current a{
 
 
 /* 経歴 css */
+.carrer-new-line {
+  display: none;
+}
+
+/* 経歴 750px以下のcss */
+@media screen and (max-width: 750px) {
+  .carrer-new-line {
+    display: block;
+  }
+}
+
+
 /* 学歴 続きのボタン */
 .school-career-btn {
   width: 150px;
@@ -529,6 +542,10 @@ img.hospital-reviews {
 
 /* プログラミングスキルと今後の学習 CSS */
 /* プログラミングスキル */
+.skill-new-line {
+  display: none;
+}
+
 .star-2 {
   width: 80px;
   height: 30px;
@@ -579,6 +596,14 @@ img.hospital-reviews {
   width: 150px;
   height: 100px;
 }
+
+
+/* 自己PR 750px以下のcss */
+@media screen and (max-width: 750px) {
+  .skill-new-line {
+    display: block;
+
+  }
 
 
 /* 今後の学習 CSS */
@@ -655,6 +680,16 @@ img.nantan-image {
   height: auto;
 }
 
+.pr-new-line {
+  display: none;
+}
+
+/* 自己PR 750px以下のcss */
+@media screen and (max-width: 750px) {
+  .pr-new-line {
+    display: block;
+
+  }
 
 /* 自己PR 続きのボタン*/
 .pr-btn {
