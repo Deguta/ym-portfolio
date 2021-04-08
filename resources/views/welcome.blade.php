@@ -300,7 +300,7 @@
                 実は、こちらを最初に作成していましたが初めてのPHPの製作物だったので中々実装ができていないところが多々あります。<br>
                 　その失敗とエラーを解決したことにより、Study-Of-PostSiteがすんなりと実装ができました。
                 現在、詳細ページを見るために実装していますが、Undefined variable: reviewsという変数が渡せていないというエラーが出ているため修正中です。
-                GitHubにてDBのER図を添付しています。
+                <p class="text-left font-weight-bold">※GitHubにてDBのER図を添付しています。</p>
               </p>
             </div>
 
