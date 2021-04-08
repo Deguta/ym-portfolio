@@ -288,7 +288,7 @@
                   </a>
                 </li>
 
-                <li><a href="#" class="text-decoration-none">
+                <li><a href="https://github.com/Deguta/Online-Reviews" class="text-decoration-none">
                   <img src="{{ asset('/images/hospital-reviews.jpg') }}" class="hospital-reviews d-block mx-auto">
                   </a>
                 </li>
@@ -299,8 +299,8 @@
                 こちらもPHPとフレームワーク laravelを使用しています。
                 実は、こちらを最初に作成していましたが初めてのPHPの製作物だったので中々実装ができていないところが多々あります。<br>
                 　その失敗とエラーを解決したことにより、Study-Of-PostSiteがすんなりと実装ができました。
-                現在、詳細ページを見るために実装していますが、Undefined variable: reviewsという変数が渡せていないというエラーが出ています。
-                これが現状、解決できない状態で製作が止まっています。Study-Of-PostSiteの作成に専念している為、HTMLとCSSは整っていない状態です。
+                現在、詳細ページを見るために実装していますが、Undefined variable: reviewsという変数が渡せていないというエラーが出ているため修正中です。
+                GitHubにてDBのER図を添付しています。
               </p>
             </div>
 
