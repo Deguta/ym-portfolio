@@ -261,7 +261,7 @@
                 </li>
 
                 <li>
-                  <a href="#" class="text-decoration-none">
+                  <a href="http://study-of-postsite.com/" class="text-decoration-none">
                     <img src="{{ asset('/images/study-of-postsite.jpg') }}" class="study-of-postsite d-block mx-auto">
                   </a>
                 </li>
@@ -283,7 +283,7 @@
             <div class="col-sm-5 p-0 mt-3">
               <ul id="products-list" class="text-center">
                 <li>
-                  <a href="#" class="text-decoration-none">
+                  <a href="https://github.com/Deguta/Online-Reviews" class="text-decoration-none">
                     <h2 class="text-center">Hospital Reviews</h2>
                   </a>
                 </li>
