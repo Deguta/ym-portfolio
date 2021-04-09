@@ -400,6 +400,10 @@
           <!--今後の学習-->
           <div class="mt-3 p-2 mb-2 h4 text-center bg-primary text-white mx-auto" style="width:200px;">【今後の学習】</div>
 
+          <ul id="it-pass" class="h4 font-weight-bold mt-2">PHP技術者認定試験
+            <li class="h6 mt-1">制作物はPHPで作成されています。基本的な文法やロジックをしっかり押さえたいので今年中に受験します。</li>
+          </ul>
+
           <ul id="it-pass" class="h4 font-weight-bold mt-2">ITパスポート
             <li class="h6 mt-1">エンジニアとして必要な知識を勉強したいのでITパスポートを今年中に受験します。</li>
           </ul>
