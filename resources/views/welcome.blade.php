@@ -413,7 +413,7 @@
           </ul>
 
           <ul id="basic-information" class="h4 font-weight-bold mt-2">基本情報技術者試験
-            <li class="h6 mt-1">上記の二つの資格を取得したら基本情報技術者試験に挑戦してみたいです。</li>
+            <li class="h6 mt-1">上記の3つの資格を取得したら基本情報技術者試験に挑戦してみたいです。</li>
           </ul>
 
 
