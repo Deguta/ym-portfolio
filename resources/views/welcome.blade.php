@@ -582,15 +582,11 @@
           </div>
 
           <div class="card-body text-center">
-              <h4>メールまたはツイッターDMでご連絡ください。</h4>
+              <h4>ツイッターDMでご連絡ください。</h4>
           </div>
 
           <ul class="list-inline mb-5 d-flex justify-content-center">
-            <li>
-              <a href="{{ route('contact.index') }}">
-                <div class="navbar-brand-gmail"></div>
-              </a>
-            </li>
+
             <li>
               <a href="https://twitter.com/Fisher21663470">
                 <div class="navbar-brand-twitter d-block m-auto"></div>
