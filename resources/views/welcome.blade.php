@@ -30,7 +30,7 @@
           <li><a href="#about-me">自己紹介</a></li>
           <li><a href="#carrer" >経歴</a></li>
           <li><a href="#products" >製作物</a></li>
-          <li><a href="#skill" class="skill">プログラミングスキル<br>今後の学習</a></li>
+          <li><a href="#skill" class="skill">プログラミングスキル<br>学習に関して</a></li>
           <li><a href="#dream" class="dream"> エニジニアを<br>目指す理由</a></li>
           <li><a href="#pr" >自己PR</a></li>
           <li><a href="#requirement">資格・特技</a></li>
@@ -200,22 +200,24 @@
             <p class="text-center font-weight-bold mb-0">[成果]</p>
             <p class="text-center">2019年度 売上1億4000万円 粗利2100万円</p>
 
-            <p class="class = text-center font-weight-bold mb-0">[実績]</p>
-              <p class="font-weight-bold text-center mt-1 h4">
-                取引先をリスト化して効率化を捗り大型案件を受注
-            </p>
+            <p class="font-weight-bold text-center mt-1 h4">転職して4年で約１億円の案件を受注できたワケ</p>
 
             <div class="work-history-box2">
               <input id="hidden3" class="work-history-top-text2" type="checkbox">
-              　前職では機械工具のルート営業をしていました。
-              弊社の取引先で特注の商品を作ってもらいそれを得意先に納品をしていましたが後継者不足により倒産が相次いでいました。
-              そのため、どの取引先に相談すればいいのか分からない事が多々あり得意先に迷惑をかける事がありました。
+              <p class="font-weight-bold text-center h5">結論 それは小さな知識と信頼の積み重ねだと思います。</p>
+              　前職の株式会社サカノシタでは自分を売り込みをモットーに営業をしていました。メーカーを対象に仕事をしていた為、
+              お客様の課題はバラバラです。そのため、商品知識も沢山覚える必要がありました。
+              勿論、私は機械や工具の知識は一才ありませんでした。そのため、大変苦労はしました。<br>
+              しかし、少しずつではありますが工具や機械の知識が増えていきお客様との会話も徐々にスムーズに伝わるようになり
               <label class="work-history-btn2" for="hidden3"></label>
                 <div class = "work-history-hidden-text2">
-                  　そこで、一目瞭然分かるようににリスト化して集約しました。
-                  結果、仕事を効率よくこなす事ができるようになり納期を短縮する事ができました。
-                  その功績により得意先より大型コンプレッサの受注や大型機械の受注にも繋げることができ、
-                  合計約1億円の売上を計上することができました。
+              　課題を難なくクリアできる様になりました。やがて、それは小さな知識と信頼の積み重ねが大きくなり売上に反映されるようになりました。
+              その結果、転職して4年で約１億円の案件を受注ができました。<br>
+              　今度はエンジニアの仕事でもクライアントの問題点を解決するのは非常に大切だと思います。
+              勿論、私は未経験のエンジニアなので、プログラミング言語やその知識、アウトプット等々沢山やることがあります。
+              職種は違いますがこれも前職と同様に知識を蓄えそれをコードに表現できる様に努力しています。
+              やがて、大きな課題を解決できるように日々努力をしています。
+
                 </div>
             </div>
 
@@ -313,7 +315,7 @@
       <div class="row no-gutters">
         <div class="card mt-5 mx-auto col-md-10 md-offset-2">
           <div class="h2 card-header text-left back-color-gradient">
-            <h3 id="skill" class="mb-0 text-center">プログラミングスキルと今後の学習</h3>
+            <h3 id="skill" class="mb-0 text-center">プログラミングスキルと学習に関して</h3>
           </div>
           <div class="mt-3 p-2 mb-2 h4 bg-primary text-center text-white mx-auto" style="width: 290px;">【プログラミングスキル】</div>
 
@@ -397,28 +399,65 @@
           </div>
 
 
+          <div class="card-body">
+            <div class="mt-3 p-2 mb-2 h4 bg-primary text-center text-white mx-auto" style="width: 430px;">【私のエンジニアに向けての学習方法】</div>
+
+            <div class="how-box">
+              <input id="hidden4" class="how-top-text" type="checkbox">
+                　未経験で開発する際にエラーや分からないことが多々あると思います。少しでも、周りの現役エンジニアに追いつく為に、意識しながら学習していることが3つあります。<br>
+
+                　<p class="font-weight-bold">①アウトプットを強化</p>
+                インプットだけでは分からないことが多くありました。そこで、アウトプットを重視して学習する様に心掛けています。
+                このコードは何を意味しているのか何故このような書き方をしているのかをなるべく言葉で説明できる様にしています。
+                それらを私はQiitaで投稿しアウトプットしています。Qiitaで投稿することにより自分自身の学習意欲を高めることが非常に重要だと思います。
+                また、投稿することにより沢山の方々からLGTMを貰う楽しさを実感しております。
+                これらのお陰でQiitaで投稿する習慣を身につきその結果、現在16のLGTMを頂いております。
+
+              <label class="how-btn" for="hidden4"></label>
+              <div class="how-hidden-text">
+                　<p class="font-weight-bold">②開発に当たってのエラーや分からないことがあった場合</p>
+                開発途中で分からないことがあれば先ず、公式サイトを参考にしています。他の方の記事も参考にすることはありますが各々の開発環境が異なりますので公式サイトを参考にしています。<br>
+                　<p class="font-weight-bold">③質問内容の整理</p>
+                どうしても分からなく開発が進まない日々は沢山ありました。その際に、分からないことを丸投げするのではなく以下を心掛けて質問をする様にしています。<br>
+                　1.『現状の問題点と状況説明』<br>
+                　2.『問題に対して立てた仮説』<br>
+                　3.『仮設検証結果』<br>
+                これら3つを実行した上で投稿をしています。理由は、回答者から答えやすい様にする為と開発効率向上、挫折率を大幅に下げることが目的です。
+                そのお陰で、回答者から「投稿してもらうとこちらも答えやすいと」お褒めの言葉を頂きまいた。
+
+                以上を心がけることで、webアプリケーションを公開することができました。基本的なCRUD機能ではありますが似た様な開発をする際、
+                素早く開発ができると思います。また、デプロイはAWSを使用しています。
+                採用した理由はクラウドインフラではシェア率No1で2020年に日本国政府でも採用になったからです。
+                現在、デプロイしたwebアプリケーションは私の友人や親戚を通じて使ってみて改善するところがを聞いているところです。
+                そして、本当に開発をしたいwebアプリケーションの第一歩になっていますので引き続き開発を続けます。
+              </div>
+            </div>
+
+          </div>
+
+
+
           <!--今後の学習-->
           <div class="mt-3 p-2 mb-2 h4 text-center bg-primary text-white mx-auto" style="width:200px;">【今後の学習】</div>
 
-          <ul id="it-pass" class="h4 font-weight-bold mt-2">PHP技術者認定試験
-            <li class="h6 mt-1">制作物はPHPで作成されています。基本的な文法やロジックをしっかり押さえたいので今年中に受験します。</li>
-          </ul>
+            <ul id="it-pass" class="h4 font-weight-bold mt-2">PHP技術者認定試験
+              <li class="h6 mt-1">制作物はPHPで作成されています。基本的な文法やロジックをしっかり押さえたいので今年中に受験します。</li>
+            </ul>
 
-          <ul id="it-pass" class="h4 font-weight-bold mt-2">ITパスポート
-            <li class="h6 mt-1">エンジニアとして必要な知識を勉強したいのでITパスポートを今年中に受験します。</li>
-          </ul>
+            <ul id="it-pass" class="h4 font-weight-bold mt-2">ITパスポート
+              <li class="h6 mt-1">エンジニアとして必要な知識を勉強したいのでITパスポートを今年中に受験します。</li>
+            </ul>
 
-          <ul id="aws" class="h4 font-weight-bold mt-2">AWS認定資格
-            <li class="h6 mt-1">デプロイはAWSを使用していますので先ずは基礎中の基礎である AWS 認定クラウドプラクティショナーを受験します。</li>
-          </ul>
+            <ul id="aws" class="h4 font-weight-bold mt-2">AWS認定資格
+              <li class="h6 mt-1">デプロイはAWSを使用していますので先ずは基礎中の基礎である AWS 認定クラウドプラクティショナーを受験します。</li>
+            </ul>
 
-          <ul id="basic-information" class="h4 font-weight-bold mt-2">基本情報技術者試験
-            <li class="h6 mt-1">上記の3つの資格を取得したら基本情報技術者試験に挑戦してみたいです。</li>
-          </ul>
-
+            <ul id="basic-information" class="h4 font-weight-bold mt-2">基本情報技術者試験
+              <li class="h6 mt-1">上記の3つの資格を取得したら基本情報技術者試験に挑戦してみたいです。</li>
+            </ul>
+          </div>
 
         </div>
-      </div>
 
 
       <!-- エンジニアを目指す理由 -->
@@ -475,11 +514,11 @@
             </p>
 
             <div class="pr-box">
-              <input id="hidden4" class="pr-top-text" type="checkbox">
+              <input id="hidden6" class="pr-top-text" type="checkbox">
               　前職の株式会社サカノシタでは機械工具のルート営業をしています。新型コロナにより設備投資がなくなり売上が低迷しました。
                 そこで当時マスク無しで仕事ができず、生産活動を止めざる負えないお客様が多くいらっしゃいましたので、
                 さっそく上司に相談しました。
-              <label class="pr-btn" for="hidden4"></label>
+              <label class="pr-btn" for="hidden6"></label>
               <div class="pr-hidden-text">
                 提案として中国でマスクの生産が急ピッチという情報を捉えたので中国にある営業所に連絡しました。
                 すると、1社がその案件に乗り出しマスクを生産することになりました。
